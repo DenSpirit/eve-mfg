@@ -7,13 +7,8 @@
  <dependencies>
   <dependency>
    <groupId>org.apache.tinkerpop</groupId>
-   <artifactId>neo4j-gremlin</artifactId>
+   <artifactId>tinkergraph-gremlin</artifactId>
    <version>3.2.3</version>
-  </dependency>
-  <dependency>
-   <groupId>org.neo4j</groupId>
-   <artifactId>neo4j-tinkerpop-api-impl</artifactId>
-   <version>0.1-2.2</version>
   </dependency>
   <dependency>
    <groupId>org.yaml</groupId>
