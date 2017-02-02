@@ -36,6 +36,7 @@ public class Importer {
                 }
             }
             graph.createIndex(TYPE_ID, Vertex.class);
+            log.info("connecting blueprints");
             try (BufferedReader blueprints = new BufferedReader(new InputStreamReader(Importer.class.getResourceAsStream("/blueprint_graph.csv")))) {
                 String line = blueprints.readLine(); // headers
                 line = blueprints.readLine();
@@ -61,8 +62,9 @@ public class Importer {
                     
                 }
             }
-            
+            log.info("serializing graph");
             graph.io(GryoIo.build()).writeGraph("/tmp/graph.kryo");
+            log.info("finished");
         } catch (Exception e) {
             log.error("Failed to close graph", e);
         }
@@ -81,10 +83,12 @@ public class Importer {
         Vertex activity;
         Iterator<Edge> toActivity = blueprint.edges(Direction.OUT, "blueprint");
         if(toActivity.hasNext()) {
+        	log.info("found activity for {}", blueprint.property(NAME_PROP).value());
             activity = toActivity.next().inVertex();
         } else {
             activity = graph.addVertex(T.id, blueprint.id() + "_" + activityLabel + "_" + productId, T.label, "activity", "type", activityLabel);
             blueprint.addEdge("blueprint", activity);
+            log.info("created activity for {}", blueprint.property(NAME_PROP).value());
         }
         return activity;
     }
