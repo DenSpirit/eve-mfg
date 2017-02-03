@@ -2,12 +2,17 @@
  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
  <modelVersion>4.0.0</modelVersion>
 
- <groupId>eve.apol</groupId>
+ <groupId>eve.apol.eve-mfg</groupId>
  <artifactId>eveblueprints-maven-plugin</artifactId>
  <version>0.0.1-SNAPSHOT</version>
+ <parent>
+  <groupId>eve.apol</groupId>
+  <artifactId>eve-mfg</artifactId>
+  <version>1.0-SNAPSHOT</version>
+ </parent>
  <packaging>maven-plugin</packaging>
 
- <name>eveblueprints-maven-plugin Maven Plugin</name>
+ <name>Ad-hoc graph generation plugin</name>
 
  <!-- FIXME change it to the project's website -->
  <url>http://eveonline.com</url>
@@ -40,7 +45,7 @@
    <artifactId>plexus-build-api</artifactId>
    <version>0.0.7</version>
   </dependency>
- <dependency>
+  <dependency>
    <groupId>org.apache.tinkerpop</groupId>
    <artifactId>tinkergraph-gremlin</artifactId>
    <version>3.2.3</version>
