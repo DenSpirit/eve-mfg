@@ -1,7 +1,8 @@
-package eve.apol.main;
+package eve.apol.eveblueprints;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Iterator;
 
 import org.apache.tinkerpop.gremlin.structure.Direction;
@@ -14,15 +15,25 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Importer {
-    
     private static final String QUANTITY_PROP = "quantity";
     private static final String NAME_PROP = "name";
     private static final String TYPE_ID = "typeID";
     private static final Logger log = LoggerFactory.getLogger(Importer.class);
     
-    public static void main(String[] args) {
+    public Importer(File typeidsFile, File blueprintsFile, File outputFile) {
+        super();
+        this.typeidsFile = typeidsFile;
+        this.blueprintsFile = blueprintsFile;
+        this.outputFile = outputFile;
+    }
+
+    private File typeidsFile;
+    private File blueprintsFile;
+    private File outputFile;
+    
+    public void importBlueprints() {
         try (TinkerGraph graph = TinkerGraph.open()) {
-            try (BufferedReader typeIDs = new BufferedReader(new InputStreamReader(Importer.class.getResourceAsStream("/typeids.csv")))) {
+            try (BufferedReader typeIDs = new BufferedReader(new FileReader(typeidsFile))) {
                 String line = typeIDs.readLine();
                 while (line != null) {
                     int sep = line.indexOf(';');
@@ -31,13 +42,13 @@ public class Importer {
                     Vertex v = graph.addVertex(T.id, typeID, T.label, "item", 
                     		TYPE_ID, typeID, NAME_PROP, name.trim());
                     v.property(TYPE_ID, typeID, NAME_PROP, name.trim());
-                    log.info("added {}, {}", typeID, name);
+                    log.debug("added {}, {}", typeID, name);
                     line = typeIDs.readLine();
                 }
             }
             graph.createIndex(TYPE_ID, Vertex.class);
-            log.info("connecting blueprints");
-            try (BufferedReader blueprints = new BufferedReader(new InputStreamReader(Importer.class.getResourceAsStream("/blueprint_graph.csv")))) {
+            log.debug("connecting blueprints");
+            try (BufferedReader blueprints = new BufferedReader(new FileReader(blueprintsFile))) {
                 String line = blueprints.readLine(); // headers
                 line = blueprints.readLine();
                 while (line != null) {
@@ -63,7 +74,7 @@ public class Importer {
                 }
             }
             log.info("serializing graph");
-            graph.io(GryoIo.build()).writeGraph("/tmp/graph.kryo");
+            graph.io(GryoIo.build()).writeGraph(outputFile.getPath());
             log.info("finished");
         } catch (Exception e) {
             log.error("Failed to close graph", e);
@@ -83,12 +94,12 @@ public class Importer {
         Vertex activity;
         Iterator<Edge> toActivity = blueprint.edges(Direction.OUT, "blueprint");
         if(toActivity.hasNext()) {
-        	log.info("found activity for {}", blueprint.property(NAME_PROP).value());
+        	log.debug("found activity for {}", blueprint.property(NAME_PROP).value());
             activity = toActivity.next().inVertex();
         } else {
             activity = graph.addVertex(T.id, blueprint.id() + "_" + activityLabel + "_" + productId, T.label, "activity", "type", activityLabel);
             blueprint.addEdge("blueprint", activity);
-            log.info("created activity for {}", blueprint.property(NAME_PROP).value());
+            log.debug("created activity for {}", blueprint.property(NAME_PROP).value());
         }
         return activity;
     }

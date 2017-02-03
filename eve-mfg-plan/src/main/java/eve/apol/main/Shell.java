@@ -8,7 +8,6 @@ public class Shell {
     private static final Logger log = LoggerFactory.getLogger(Shell.class);
 
     public static void main(String[] args) {
-
         
     }
 
