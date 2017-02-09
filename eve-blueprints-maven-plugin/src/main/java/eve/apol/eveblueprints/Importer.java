@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Iterator;
 
 import org.apache.tinkerpop.gremlin.structure.Direction;
@@ -21,45 +23,37 @@ public class Importer {
     private static final String TYPE_ID = "typeID";
     private static final Logger log = LoggerFactory.getLogger(Importer.class);
 
-    public Importer(File typeidsFile, File blueprintsFile) {
+    public Importer(InputStream typeids, InputStream blueprints, File outputFile) {
         super();
-        this.typeidsFile = typeidsFile;
-        this.blueprintsFile = blueprintsFile;
+        this.typeidsStream = typeids;
+        this.blueprintsStream = blueprints;
+        this.outputFile = outputFile;
     }
 
-    private File typeidsFile;
-    private File blueprintsFile;
-
-    public Graph importBlueprints() {
-        TinkerGraph graph = TinkerGraph.open();
-        try (BufferedReader typeIDs = new BufferedReader(new FileReader(typeidsFile))) {
-            String line = typeIDs.readLine();
-            while (line != null) {
-                int sep = line.indexOf(';');
-                long typeID = Long.parseLong(line.substring(0, sep));
-                String name = line.substring(sep + 1);
-                Vertex v = graph.addVertex(T.id, typeID, T.label, "item", TYPE_ID, typeID, NAME_PROP, name.trim());
-                v.property(TYPE_ID, typeID, NAME_PROP, name.trim());
-                log.debug("added {}, {}", typeID, name);
-                line = typeIDs.readLine();
+    private InputStream typeidsStream;
+    private InputStream blueprintsStream;
+    private File outputFile;
+    
+    public void importBlueprints() {
+    	log.info("Opening graph");
+        try (TinkerGraph graph = TinkerGraph.open()) {
+            try (BufferedReader typeIDs = new BufferedReader(new InputStreamReader(typeidsStream))) {
+                String line = typeIDs.readLine();
+                while (line != null) {
+                    int sep = line.indexOf(';');
+                    long typeID = Long.parseLong(line.substring(0, sep));
+                    String name = line.substring(sep + 1);
+                    Vertex v = graph.addVertex(T.id, typeID, T.label, "item", 
+                    		TYPE_ID, typeID, NAME_PROP, name.trim());
+                    v.property(TYPE_ID, typeID, NAME_PROP, name.trim());
+                    log.debug("added {}, {}", typeID, name);
+                    line = typeIDs.readLine();
+                }
             }
-        } catch (IOException e) {
-            log.error("Could not read typeIDs", e);
-            return null;
-        }
-        graph.createIndex(TYPE_ID, Vertex.class);
-        log.debug("connecting blueprints");
-        try (BufferedReader blueprints = new BufferedReader(new FileReader(blueprintsFile))) {
-            String line = blueprints.readLine(); // headers
-            line = blueprints.readLine();
-            while (line != null) {
-                String[] edgeInformation = line.split(" ");
-                long blueprintId = Long.parseLong(edgeInformation[0]);
-                String activityLabel = edgeInformation[1];
-                long materialId = Long.parseLong(edgeInformation[2]);
-                int materialCount = Integer.parseInt(edgeInformation[3]);
-                long productId = Long.parseLong(edgeInformation[4]);
-                int productQuantity = Integer.parseInt(edgeInformation[5]);
+            graph.createIndex(TYPE_ID, Vertex.class);
+            log.debug("connecting blueprints");
+            try (BufferedReader blueprints = new BufferedReader(new InputStreamReader(blueprintsStream))) {
+                String line = blueprints.readLine(); // headers
                 line = blueprints.readLine();
                 Vertex blueprint = graph.vertices(blueprintId).next();
                 Vertex product = graph.vertices(productId).next();
@@ -90,13 +84,14 @@ public class Importer {
     }
 
     private static Vertex getActivity(TinkerGraph graph, String activityLabel, Vertex blueprint, long productId) {
+    	String activityID = blueprint.id() + "_" + activityLabel + "_" + productId;
+		Iterator<Vertex> activities = graph.vertices(activityID);
         Vertex activity;
-        Iterator<Edge> toActivity = blueprint.edges(Direction.OUT, "blueprint");
-        if (toActivity.hasNext()) {
-            log.debug("found activity for {}", blueprint.property(NAME_PROP).value());
-            activity = toActivity.next().inVertex();
+        if(activities.hasNext()) {
+        	log.debug("found activity for {}", blueprint.property(NAME_PROP).value());
+            activity = activities.next();
         } else {
-            activity = graph.addVertex(T.id, blueprint.id() + "_" + activityLabel + "_" + productId, T.label, "activity", "type", activityLabel);
+            activity = graph.addVertex(T.id, activityID, T.label, "activity", "type", activityLabel);
             blueprint.addEdge("blueprint", activity);
             log.debug("created activity for {}", blueprint.property(NAME_PROP).value());
         }

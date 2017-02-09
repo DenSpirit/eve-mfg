@@ -6,6 +6,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.GZIPOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -34,6 +36,7 @@ public class BlueprintGraphMojo extends AbstractMojo {
     private File outputDirectory;
 
     public void execute() throws MojoExecutionException {
+    	try {
         File blueprintsGraphFile = new File(outputDirectory, "blueprints.gryo");
         boolean upToDate = buildContext.isUptodate(blueprintsGraphFile, typeIDs) && buildContext.isUptodate(blueprintsGraphFile, blueprints);
         if (upToDate) {
@@ -43,6 +46,9 @@ public class BlueprintGraphMojo extends AbstractMojo {
 
         getLog().info("trying to write into " + blueprintsGraphFile);
         getLog().info("directory exists: " + outputDirectory.exists());
+        Importer i;
+			i = new Importer(new FileInputStream(typeIDs), new FileInputStream(blueprints), blueprintsGraphFile);
+        i.importBlueprints();
 
         Importer i = new Importer(typeIDs, blueprints);
         try (Graph g = i.importBlueprints(); GZIPOutputStream blueprintStream = new GZIPOutputStream(new FileOutputStream(blueprintsGraphFile))) {
@@ -54,6 +60,9 @@ public class BlueprintGraphMojo extends AbstractMojo {
             throw new MojoExecutionException("Could not create graph", e);
         }
         getLog().info(getPluginContext().toString());
+    	} catch (FileNotFoundException e) {
+    		throw new MojoExecutionException("Input files are not present", e);
+    	}
     }
 
 }

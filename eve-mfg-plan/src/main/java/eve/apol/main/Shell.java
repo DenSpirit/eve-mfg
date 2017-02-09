@@ -61,4 +61,10 @@ public class Shell {
         }
     }
 
+	/*public static void main(String[] args) {
+		// g.V(37135L).as('item').values('name').as('name')
+		// .select('item').in().inE('material').project('mat','q').
+		//by(outV().values('name')).by(values('quantity')).group().by(select('name'))
+	}*/
+
 }
