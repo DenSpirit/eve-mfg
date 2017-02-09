@@ -18,7 +18,7 @@
   <dependency>
    <groupId>org.yaml</groupId>
    <artifactId>snakeyaml</artifactId>
-   <version>1.18-SNAPSHOT</version>
+   <version>1.17</version>
   </dependency>
   <dependency>
    <groupId>org.slf4j</groupId>
@@ -46,20 +46,6 @@
      <source>1.8</source>
      <target>1.8</target>
     </configuration>
-   </plugin>
-   <plugin>
-    <groupId>eve.apol.eve-mfg</groupId>
-    <artifactId>eveblueprints-maven-plugin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <executions>
-     <execution>
-      <id>make-blueprints</id>
-      <phase>process-resources</phase>
-      <goals>
-       <goal>generate-graph</goal>
-      </goals>
-     </execution>
-    </executions>
    </plugin>
   </plugins>
  </build>
