@@ -90,13 +90,14 @@ public class Importer {
     }
 
     private static Vertex getActivity(TinkerGraph graph, String activityLabel, Vertex blueprint, long productId) {
+        String activityId = blueprint.id() + "_" + activityLabel + "_" + productId;
         Vertex activity;
-        Iterator<Edge> toActivity = blueprint.edges(Direction.OUT, "blueprint");
+        Iterator<Vertex> toActivity = graph.vertices(activityId);
         if (toActivity.hasNext()) {
             log.debug("found activity for {}", blueprint.property(NAME_PROP).value());
-            activity = toActivity.next().inVertex();
+            activity = toActivity.next();
         } else {
-            activity = graph.addVertex(T.id, blueprint.id() + "_" + activityLabel + "_" + productId, T.label, "activity", "type", activityLabel);
+            activity = graph.addVertex(T.id, activityId, T.label, "activity", "type", activityLabel);
             blueprint.addEdge("blueprint", activity);
             log.debug("created activity for {}", blueprint.property(NAME_PROP).value());
         }
