@@ -1,13 +1,12 @@
 package eve.apol;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Iterator;
 
 import org.apache.tinkerpop.gremlin.structure.Direction;
-import org.apache.tinkerpop.gremlin.structure.Edge;
 import org.apache.tinkerpop.gremlin.structure.Graph;
 import org.apache.tinkerpop.gremlin.structure.T;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
@@ -15,69 +14,81 @@ import org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerGraph;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Create TinkerPop Graph instance holding blueprint information
+ * @author dborisevich
+ *
+ */
 public class Importer {
+    private static final String DEFAULT_BLUEPRINTS_PATH = "/blueprint_graph.csv";
+    private static final String DEFAULT_TYPEIDS_PATH = "/typeids.csv";
     private static final String QUANTITY_PROP = "quantity";
     private static final String NAME_PROP = "name";
-    private static final String TYPE_ID = "typeID";
     private static final Logger log = LoggerFactory.getLogger(Importer.class);
 
-    public Importer(File typeidsFile, File blueprintsFile) {
+    public Importer(InputStream typeidsFile, InputStream blueprintsFile) {
         super();
-        this.typeidsFile = typeidsFile;
-        this.blueprintsFile = blueprintsFile;
+        this.typeidsStream = typeidsFile;
+        this.blueprintsStream = blueprintsFile;
     }
 
-    private File typeidsFile;
-    private File blueprintsFile;
+    private InputStream typeidsStream;
+    private InputStream blueprintsStream;
 
-    public Graph importBlueprints() {
-        TinkerGraph graph = TinkerGraph.open();
-        try (BufferedReader typeIDs = new BufferedReader(new FileReader(typeidsFile))) {
-            String line = typeIDs.readLine();
-            while (line != null) {
-                int sep = line.indexOf(';');
-                long typeID = Long.parseLong(line.substring(0, sep));
-                String name = line.substring(sep + 1);
-                Vertex v = graph.addVertex(T.id, typeID, T.label, "item", TYPE_ID, typeID, NAME_PROP, name.trim());
-                v.property(TYPE_ID, typeID, NAME_PROP, name.trim());
-                log.debug("added {}, {}", typeID, name);
-                line = typeIDs.readLine();
-            }
+    public Graph importBlueprints() throws GraphReadException {
+        Graph graph = TinkerGraph.open();
+        try {
+            readItems(graph);
+            readBlueprintConnections(graph);
         } catch (IOException e) {
-            log.error("Could not read typeIDs", e);
-            return null;
-        }
-        graph.createIndex(TYPE_ID, Vertex.class);
-        log.debug("connecting blueprints");
-        try (BufferedReader blueprints = new BufferedReader(new FileReader(blueprintsFile))) {
-            String line = blueprints.readLine(); // headers
-            line = blueprints.readLine();
-            while (line != null) {
-                String[] edgeInformation = line.split(" ");
-                long blueprintId = Long.parseLong(edgeInformation[0]);
-                String activityLabel = edgeInformation[1];
-                long materialId = Long.parseLong(edgeInformation[2]);
-                int materialCount = Integer.parseInt(edgeInformation[3]);
-                long productId = Long.parseLong(edgeInformation[4]);
-                int productQuantity = Integer.parseInt(edgeInformation[5]);
-                line = blueprints.readLine();
-                Vertex blueprint = graph.vertices(blueprintId).next();
-                Vertex product = graph.vertices(productId).next();
-                Vertex activity = getActivity(graph, activityLabel, blueprint, productId);
-                Vertex material = graph.vertices(materialId).next();
-
-                if (!iteratorContains(product.vertices(Direction.IN, activityLabel), activity)) {
-                    activity.addEdge(activityLabel, product, QUANTITY_PROP, productQuantity);
-                }
-
-                material.addEdge("material", activity, QUANTITY_PROP, materialCount);
-
-            }
-        } catch (IOException e) {
-            log.error("Manufacturing info not loaded", e);
-            return null;
+            throw new GraphReadException("Could not load blueprint graph", e);
         }
         return graph;
+    }
+
+    private void readBlueprintConnections(Graph graph) throws IOException {
+        log.debug("connecting blueprints");
+        try (BufferedReader blueprints = new BufferedReader(new InputStreamReader(blueprintsStream))) {
+            blueprints.lines().filter(line -> !line.startsWith("#")).forEach(line -> readConnection(graph, line));
+        }
+    }
+
+    private void readItems(Graph graph) throws IOException {
+        log.debug("reading types");
+        try (BufferedReader typeIDs = new BufferedReader(new InputStreamReader(typeidsStream))) {
+            typeIDs.lines().filter(line -> !line.startsWith("#")).forEach(line -> readItem(graph, line));
+        }
+    }
+
+    private void readConnection(Graph graph, String line) {
+        String[] edgeInformation = line.split(" ");
+
+        long blueprintId = Long.parseLong(edgeInformation[0]);
+        String activityLabel = edgeInformation[1];
+        long materialId = Long.parseLong(edgeInformation[2]);
+        int materialCount = Integer.parseInt(edgeInformation[3]);
+        long productId = Long.parseLong(edgeInformation[4]);
+        int productQuantity = Integer.parseInt(edgeInformation[5]);
+
+        Vertex blueprint = graph.vertices(blueprintId).next();
+        Vertex product = graph.vertices(productId).next();
+        Vertex activity = getActivity(graph, activityLabel, blueprint, productId);
+        Vertex material = graph.vertices(materialId).next();
+
+        if (!iteratorContains(product.vertices(Direction.IN, activityLabel), activity)) {
+            activity.addEdge(activityLabel, product, QUANTITY_PROP, productQuantity);
+        }
+
+        material.addEdge("material", activity, QUANTITY_PROP, materialCount);
+    }
+
+
+    private void readItem(Graph graph, String line) {
+        int sep = line.indexOf(';');
+        long typeID = Long.parseLong(line.substring(0, sep));
+        String name = line.substring(sep + 1);
+        graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim());
+        log.debug("added {}, {}", typeID, name);
     }
 
     private static <THING> boolean iteratorContains(Iterator<THING> iterator, THING thing) {
@@ -89,8 +100,8 @@ public class Importer {
         return false;
     }
 
-    private static Vertex getActivity(TinkerGraph graph, String activityLabel, Vertex blueprint, long productId) {
-        String activityId = blueprint.id() + "_" + activityLabel + "_" + productId;
+    private static Vertex getActivity(Graph graph, String activityLabel, Vertex blueprint, long productId) {
+        String activityId = String.format("%s_%s_%s", blueprint.id(), activityLabel, productId);
         Vertex activity;
         Iterator<Vertex> toActivity = graph.vertices(activityId);
         if (toActivity.hasNext()) {
@@ -103,4 +114,15 @@ public class Importer {
         }
         return activity;
     }
+
+    public static Graph fromClassPath() {
+        return fromClassPath(DEFAULT_TYPEIDS_PATH, DEFAULT_BLUEPRINTS_PATH);
+    }
+    
+    public static Graph fromClassPath(String typeidPath, String blueprintsPath) {
+        InputStream typeids = Importer.class.getResourceAsStream(typeidPath);
+        InputStream blueprints = Importer.class.getResourceAsStream(blueprintsPath);
+        return new Importer(typeids, blueprints).importBlueprints();
+    }
 }
+

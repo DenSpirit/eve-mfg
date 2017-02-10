@@ -1,4 +1,4 @@
-package eve.apol.main;
+package eve.apol.yamlparsing;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,7 +20,6 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeTuple;
 import org.yaml.snakeyaml.nodes.ScalarNode;
 
-import eve.apol.yamlparsing.Item;
 import eve.apol.yamlparsing.stringgrouping.StringGrouper;
 
 public class Snaker {

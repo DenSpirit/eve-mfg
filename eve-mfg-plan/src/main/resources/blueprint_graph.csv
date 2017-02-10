@@ -1,4 +1,4 @@
-blueprint activity materialType materialQuantity productType productQuantity
+#blueprint activity materialType materialQuantity productType productQuantity
 681 manufacturing 38 86 165 1
 682 manufacturing 38 133 166 1
 683 invention 20416 2 39581 1
