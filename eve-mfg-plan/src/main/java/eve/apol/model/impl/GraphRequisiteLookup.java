@@ -49,6 +49,7 @@ public class GraphRequisiteLookup implements RequisiteLookup {
                 .repeat(__
                     .sideEffect(v -> log.trace("Manufacturing {}", ((Vertex) v.get()).value("name").toString()))
                     .in("manufacturing")
+//                    .fil
                     .inE("material").as("matQuantity")
                     .outV().as("matItem")
                     .sideEffect(t -> {
@@ -73,7 +74,7 @@ public class GraphRequisiteLookup implements RequisiteLookup {
                 }))
                 .by(__.select("matItem").unfold().tail().id());
         //List<Map<String, Object>> stuff = new ArrayList<>();
-        Stream<Requisite> requisites = stream(requirementsTraversal).map(map -> {
+        Stream<Requisite> requisites = requirementsTraversal.toStream().map(map -> {
             Requisite req = new Requisite();
             Long typeID = (Long) map.get("material");
             req.setItem(typeIDLookup.getItem(typeID));
@@ -83,10 +84,6 @@ public class GraphRequisiteLookup implements RequisiteLookup {
         });
         log.trace("{} ms to lookup requisites for {}", System.currentTimeMillis() - ms, order.getItem().getName());
         return requisites;
-    }
-
-    private <T> Stream<T> stream(final Iterator<T> iterator) {
-        return StreamSupport.stream(Spliterators.spliteratorUnknownSize(iterator, Spliterator.IMMUTABLE | Spliterator.SIZED), false);
     }
 
 }
