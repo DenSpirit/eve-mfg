@@ -45,14 +45,14 @@ public class Shell {
     }
 
     private void run() {
-        Map<String, Requisite> items = readItems();
-        Stream<Requisite> requisites;
-        items.values().stream()
+        Map<Item, Integer> reqs = readItems().values().stream()
         .map(req -> {
             req.getItem().setTypeID(typeIDLookup.getTypeID(req.getItem().getName()));
             log.trace("{} of {} ({})", req.getQuantity(), req.getItem().getName(), req.getItem().getTypeID());
             return req;
-        }).flatMap(requisiteLookup::getRequisites);
+        }).flatMap(requisiteLookup::getRequisites)
+        .collect(Collectors.toMap(req -> req.getItem(), Requisite::getQuantity, Integer::sum));
+        reqs.entrySet().forEach(item -> System.out.println(item.getKey().getName() + " " + item.getValue()));
     }
 
     private static Map<String, Requisite> readItems() {
