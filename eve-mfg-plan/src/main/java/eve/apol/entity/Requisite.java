@@ -1,6 +1,6 @@
 package eve.apol.entity;
 
-public class Order {
+public class Requisite {
 
     private Item item;
     private int quantity;

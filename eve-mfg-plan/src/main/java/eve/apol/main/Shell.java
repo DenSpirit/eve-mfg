@@ -10,45 +10,55 @@ import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-import org.apache.tinkerpop.gremlin.process.traversal.P;
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
-import org.apache.tinkerpop.gremlin.structure.Graph;
-import org.apache.tinkerpop.gremlin.structure.T;
-import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import eve.apol.Importer;
 import eve.apol.entity.Item;
-import eve.apol.entity.Order;
+import eve.apol.entity.Requisite;
 import eve.apol.model.FactoryOfEverything;
+import eve.apol.model.RequisiteLookup;
 import eve.apol.model.TypeIDLookup;
 
 public class Shell {
 
+    private static final String QUANTITY_REGEX = "(?<quantity>[\\d,.]+)";
+
+    private static final String SPACES_REGEX = "\\s+";
+
+    private static final String ITEM_REGEX = "(?<item>[\\w ]+)";
+
     private static final Logger log = LoggerFactory.getLogger(Shell.class);
-    
-    private TypeIDLookup typeIDLookup = FactoryOfEverything.getLookup();
+
+    private TypeIDLookup typeIDLookup;
+    private RequisiteLookup requisiteLookup;
+
+    public Shell(TypeIDLookup typeIDLookup, RequisiteLookup requisiteLookup) {
+        this.typeIDLookup = typeIDLookup;
+        this.requisiteLookup = requisiteLookup;
+    }
 
     public static void main(String[] args) {
-        Shell shell = new Shell();
+        Shell shell = FactoryOfEverything.getShell();
         shell.run();
     }
 
     private void run() {
-        Map<String, Order> items = readItems();
-        for(Order order : items.values()) {
-            order.getItem().setTypeID(typeIDLookup.getTypeID(order.getItem().getName()));
-            log.info("{} of {} ({})", order.getQuantity(), order.getItem().getName(), order.getItem().getTypeID());
-        }
+        Map<String, Requisite> items = readItems();
+        Stream<Requisite> requisites;
+        items.values().stream()
+        .map(req -> {
+            req.getItem().setTypeID(typeIDLookup.getTypeID(req.getItem().getName()));
+            log.trace("{} of {} ({})", req.getQuantity(), req.getItem().getName(), req.getItem().getTypeID());
+            return req;
+        }).flatMap(requisiteLookup::getRequisites);
     }
 
-    private static Map<String, Order> readItems() {
-        List<Order> items = new ArrayList<>();
+    private static Map<String, Requisite> readItems() {
+        List<Requisite> items = new ArrayList<>();
         try (BufferedReader r = new BufferedReader(new InputStreamReader(System.in))) {
-            Pattern inputPattern = Pattern.compile("^(?<quantity>[\\d,.]+)" + "\\s+" + "(?<item>[\\w ]+)$");
+            Pattern inputPattern = Pattern.compile("^" + QUANTITY_REGEX + SPACES_REGEX + ITEM_REGEX + "$");
             while (true) {
                 String input = r.readLine();
                 if (input == null || input.isEmpty()) {
@@ -56,12 +66,15 @@ public class Shell {
                 }
                 Matcher matcher = inputPattern.matcher(input);
                 if (matcher.matches()) {
-                    Integer quantity = Integer.parseInt(matcher.group("quantity"));
+                    Integer quantity = null;
+                    if (matcher.group("quantity") != null) {
+                        quantity = Integer.parseInt(matcher.group("quantity"));
+                    }
                     String name = matcher.group("item");
                     log.debug("item: {}, quantity: {}", name, quantity);
                     Item item = new Item();
                     item.setName(name);
-                    Order o = new Order();
+                    Requisite o = new Requisite();
                     o.setItem(item);
                     o.setQuantity(quantity);
                     items.add(o);
@@ -73,7 +86,7 @@ public class Shell {
             log.error("something bad happened with input", e);
         }
         return items.stream().collect(Collectors.toMap(order -> order.getItem().getName(), Function.identity(), (o1, o2) -> {
-            Order r = new Order();
+            Requisite r = new Requisite();
             r.setItem(o1.getItem());
             r.setQuantity(o1.getQuantity() + o2.getQuantity());
             return r;
