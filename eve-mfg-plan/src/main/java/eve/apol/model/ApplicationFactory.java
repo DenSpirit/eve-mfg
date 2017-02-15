@@ -7,7 +7,7 @@ import eve.apol.main.Shell;
 import eve.apol.model.impl.GraphTypeIDLookup;
 import eve.apol.model.impl.GraphRequisiteLookup;
 
-public class FactoryOfEverything {
+public class ApplicationFactory {
 
     public static Shell getShell() {
         Graph graph = Importer.fromClassPath();

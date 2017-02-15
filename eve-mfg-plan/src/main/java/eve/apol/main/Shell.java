@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 
 import eve.apol.entity.Item;
 import eve.apol.entity.Requisite;
-import eve.apol.model.FactoryOfEverything;
+import eve.apol.model.ApplicationFactory;
 import eve.apol.model.RequisiteLookup;
 import eve.apol.model.TypeIDLookup;
 
@@ -39,7 +39,7 @@ public class Shell {
     }
 
     public static void main(String[] args) {
-        Shell shell = FactoryOfEverything.getShell();
+        Shell shell = ApplicationFactory.getShell();
         shell.run();
     }
 
