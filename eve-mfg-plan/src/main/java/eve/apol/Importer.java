@@ -105,7 +105,7 @@ public class Importer {
         Vertex activity;
         Iterator<Vertex> toActivity = graph.vertices(activityId);
         if (toActivity.hasNext()) {
-            log.debug("found activity for {}", blueprint.property(NAME_PROP).value());
+            log.debug("found activity for {}", blueprint.value(NAME_PROP).toString());
             activity = toActivity.next();
         } else {
             activity = graph.addVertex(T.id, activityId, T.label, "activity", "type", activityLabel);
