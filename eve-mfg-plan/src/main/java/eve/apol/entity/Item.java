@@ -2,15 +2,12 @@ package eve.apol.entity;
 
 public class Item {
 
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((name == null) ? 0 : name.hashCode());
-        result = prime * result + (int) (typeID ^ (typeID >>> 32));
-        return result;
-    }
+    private String name;
 
+    private long typeID;
+
+    public Item() {
+    }
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -24,22 +21,25 @@ public class Item {
         return true;
     }
 
-    private String name;
-    private long typeID;
-
-    public Item() {
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public long getTypeID() {
         return typeID;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + (int) (typeID ^ (typeID >>> 32));
+        return result;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setTypeID(long typeID) {
