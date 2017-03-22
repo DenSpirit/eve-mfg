@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
 import java.util.Iterator;
 
 import org.apache.tinkerpop.gremlin.structure.Direction;
@@ -88,7 +89,8 @@ public class Importer {
         long typeID = Long.parseLong(items[0]);
         String name = items[1];
         long groupID = Long.parseLong(items[2]);
-        graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim(), "groupID", groupID);
+        BigDecimal volume = new BigDecimal(items[3]); 
+        graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim(), "groupID", groupID, "volume", volume);
         log.debug("added {}, {}", typeID, name);
     }
 
