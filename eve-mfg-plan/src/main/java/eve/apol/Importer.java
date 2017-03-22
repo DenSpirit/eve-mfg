@@ -84,10 +84,11 @@ public class Importer {
 
 
     private void readItem(Graph graph, String line) {
-        int sep = line.indexOf(';');
-        long typeID = Long.parseLong(line.substring(0, sep));
-        String name = line.substring(sep + 1);
-        graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim());
+        String[] items = line.split(";");
+        long typeID = Long.parseLong(items[0]);
+        String name = items[1];
+        long groupID = Long.parseLong(items[2]);
+        graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim(), "groupID", groupID);
         log.debug("added {}, {}", typeID, name);
     }
 
