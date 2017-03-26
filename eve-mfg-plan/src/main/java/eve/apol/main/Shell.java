@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
 import eve.apol.entity.Item;
 import eve.apol.entity.Requisite;
 import eve.apol.model.ApplicationFactory;
+import eve.apol.model.PriceLookup;
 import eve.apol.model.RequisiteLookup;
 import eve.apol.model.TypeIDLookup;
 
@@ -32,10 +33,12 @@ public class Shell {
 
     private TypeIDLookup typeIDLookup;
     private RequisiteLookup requisiteLookup;
+    private PriceLookup priceLookup;
 
-    public Shell(TypeIDLookup typeIDLookup, RequisiteLookup requisiteLookup) {
+    public Shell(TypeIDLookup typeIDLookup, RequisiteLookup requisiteLookup, PriceLookup priceLookup) {
         this.typeIDLookup = typeIDLookup;
         this.requisiteLookup = requisiteLookup;
+        this.priceLookup = priceLookup;
     }
 
     public static void main(String[] args) {
@@ -52,6 +55,10 @@ public class Shell {
         }).flatMap(requisiteLookup::getRequisites)
         .collect(Collectors.toMap(req -> req.getItem(), Requisite::getQuantity, Integer::sum));
         reqs.entrySet().forEach(item -> System.out.println(item.getKey().getName() + " " + item.getValue()));
+        priceLookup.getPrices(reqs.keySet()).thenAccept(prices -> {
+           double total = reqs.entrySet().stream().mapToDouble(e -> e.getValue() * prices.get(e.getKey()).getSell()).sum();
+           System.out.println("Would buy at " + total);
+        });
     }
 
     private static Map<String, Requisite> readItems() {

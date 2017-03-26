@@ -89,7 +89,7 @@ public class Importer {
         long typeID = Long.parseLong(items[0]);
         String name = items[1];
         long groupID = Long.parseLong(items[2]);
-        BigDecimal volume = new BigDecimal(items[3]); 
+        BigDecimal volume = new BigDecimal(items[3]);
         graph.addVertex(T.id, typeID, T.label, "item", NAME_PROP, name.trim(), "groupID", groupID, "volume", volume);
         log.debug("added {}, {}", typeID, name);
     }
