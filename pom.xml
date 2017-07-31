@@ -3,11 +3,31 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>eve.apol</groupId>
-  <artifactId>eve-mfg</artifactId>
+  <artifactId>eve-mfg-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eve-mfg</name>
   <modules>
     <module>eve-mfg-plan</module>
+    <module>sde-parser</module>
   </modules>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.6.1</version>
+          <configuration>
+            <!-- http://maven.apache.org/plugins/maven-compiler-plugin/ -->
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <properties>
+    <jackson.version>2.8.9</jackson.version>
+  </properties>
 </project>
