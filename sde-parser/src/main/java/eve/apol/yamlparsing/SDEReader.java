@@ -21,9 +21,16 @@ public class SDEReader {
 
     public Stream<Item> readItems() throws IOException {
         ObjectMapper jacksonMapper = new ObjectMapper(new YAMLFactory());
-        Map<String, Item> values = jacksonMapper.readValue(typeIDs,
+        Map<String, Item> idItem = jacksonMapper.readValue(typeIDs,
                 new TypeReference<Map<String, Item>>() {});
-        return values.values().stream().filter(item -> item != ItemDeserializer.EMPTY_ITEM);
+        return idItem.entrySet().stream()
+                .map(entry -> {
+                    Item item = entry.getValue();
+                    long id = Long.parseLong(entry.getKey());
+                    item.setTypeID(id);
+                    return item;
+                })
+                .filter(Item::isPublished);
     }
 
 }
