@@ -1,5 +1,7 @@
 package eve.apol.yamlparsing;
 
+import java.math.BigDecimal;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
@@ -10,6 +12,24 @@ public class Item {
     private String name;
     private boolean published;
     private long groupID;
+    private BigDecimal basePrice;
+    private BigDecimal volume;
+
+    public BigDecimal getBasePrice() {
+        return basePrice;
+    }
+
+    public void setBasePrice(BigDecimal basePrice) {
+        this.basePrice = basePrice;
+    }
+
+    public BigDecimal getVolume() {
+        return volume;
+    }
+
+    public void setVolume(BigDecimal volume) {
+        this.volume = volume;
+    }
 
     public long getGroupID() {
         return groupID;
@@ -45,6 +65,8 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item [typeID=" + getTypeID() + ", name=" + getName() + "]";
+        return "Item [typeID=" + typeID + ", name=" + name + ", published=" + published + ", groupID=" + groupID
+                + ", basePrice=" + basePrice + ", volume=" + volume + "]";
     }
+
 }
