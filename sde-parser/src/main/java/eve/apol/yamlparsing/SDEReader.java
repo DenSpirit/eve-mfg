@@ -25,6 +25,7 @@ public class SDEReader {
         ObjectMapper jacksonMapper = new ObjectMapper(new YAMLFactory());
         items = jacksonMapper.readValue(typeIDs,
                 new TypeReference<Map<Long, ItemType>>() {});
+        items.values().removeIf(type -> !type.isPublished());
         items.forEach((typeID, item) -> item.setTypeID(typeID));
         return items.values();
     }
