@@ -12,8 +12,8 @@ public class ItemType {
     private String name;
     private boolean published;
     private long groupID;
-    private BigDecimal basePrice;
-    private BigDecimal volume;
+    private BigDecimal basePrice = BigDecimal.ZERO;
+    private BigDecimal volume = BigDecimal.ZERO;
 
     public BigDecimal getBasePrice() {
         return basePrice;
