@@ -62,7 +62,7 @@ public class Importer {
     }
 
     private void readConnection(Graph graph, String line) {
-        String[] edgeInformation = line.split(" ");
+        String[] edgeInformation = line.split(";");
 
         long blueprintId = Long.parseLong(edgeInformation[0]);
         String activityLabel = edgeInformation[1];
