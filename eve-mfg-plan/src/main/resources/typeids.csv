@@ -2,7 +2,7 @@
 19;Spodumain;461;16.0;1149400.0
 20;Kernite;457;1.2;74916.0
 21;Hedbergite;454;3.0;337408.0
-22;Arkonor;450;16.0;3068504.0
+22;Arkonor;450;16;3068504
 25;Corpse Male;14;2;0
 34;Tritanium;18;0.01;2.0
 35;Pyerite;18;0.01;8.0
@@ -144,7 +144,7 @@
 486;200mm AutoCannon I;55;5.0;9000.0
 487;250mm Light Artillery Cannon I;55;5.0;12000.0
 488;280mm Howitzer Artillery I;55;5.0;15000.0
-489;Dual 180mm AutoCannon I;55;10.0;20000.0
+489;Dual 180mm AutoCannon I;55;10;20000
 490;220mm Vulcan AutoCannon I;55;10.0;60000.0
 491;425mm AutoCannon I;55;10.0;90000.0
 492;650mm Artillery Cannon I;55;25.0;120000.0
@@ -202,7 +202,7 @@
 590;Inquisitor;25;28700.0;0
 591;Tormentor;25;24398.0;0
 592;Navitas;25;10000.0;0
-593;Tristan;25;26500.0;0
+593;Tristan;25;26500;0
 594;Incursus;25;29500.0;0
 596;Impairor;237;28100;0
 597;Punisher;25;28600.0;0
@@ -546,10 +546,10 @@
 1305;Adaptive Nano Plating I Blueprint;163;0.01;74680.0
 1306;Adaptive Nano Plating II;98;5;0
 1307;Adaptive Nano Plating II Blueprint;163;0.01;9999999.0
-1315;'Basic' Expanded Cargohold;765;5.0;0
-1317;Expanded Cargohold I;765;5.0;0
+1315;'Basic' Expanded Cargohold;765;5;0
+1317;Expanded Cargohold I;765;5;0
 1318;Expanded Cargohold I Blueprint;158;0.01;16640.0
-1319;Expanded Cargohold II;765;5.0;0
+1319;Expanded Cargohold II;765;5;0
 1320;Expanded Cargohold II Blueprint;158;0.01;9999999.0
 1333;Reinforced Bulkheads I;78;25.0;0
 1334;Reinforced Bulkheads I Blueprint;158;0.01;125000.0
@@ -749,19 +749,19 @@
 2219;Large Group of Civilian Workers and Dependents;314;125.0;0
 2220;Civilian Workers and Dependents;314;12.0;0
 2221;Manportable Electromagnetic Pulse Weapons ;314;25.0;0
-2226;Sisters of Eve Negotiator;283;1.0;0
+2226;Sisters of EVE Negotiator;283;1.0;0
 2239;Oura Madusaari;283;1.0;0
 2240;Harroken Ikero;283;3.0;0
 2244;Fajah Ateshi;283;1.0;0
 2250;Neurowave Pattern Scanner;314;0.1;0
 2254;Temperate Command Center;1027;1000.0;90000.0
-2256;Temperate Launchpad;1030;-1;900000.0
-2257;Ice Storage Facility;1029;-1;250000.0
+2256;Temperate Launchpad;1030;0;900000.0
+2257;Ice Storage Facility;1029;0;250000.0
 2267;Base Metals;1032;0.01;0
 2268;Aqueous Liquids;1033;0.01;0
 2270;Noble Metals;1032;0.01;0
 2272;Heavy Metals;1032;0.01;0
-2280;Link;1036;-1;0
+2280;Link;1036;0;0
 2281;Adaptive Invulnerability Field II;77;5.0;362408.0
 2282;Adaptive Invulnerability Field II Blueprint;157;0.01;9999999.0
 2286;Planktic Colonies;1035;0.01;0
@@ -843,91 +843,91 @@
 2404;Light Missile Launcher II;509;5.0;72806.0
 2405;Light Missile Launcher II Blueprint;136;0.01;9999999.0
 2406;Planetology;1241;0.01;1000000.0
-2409;Barren Aqueous Liquid Extractor;1026;-1;45000.0
+2409;Barren Aqueous Liquid Extractor;1026;0;45000.0
 2410;Heavy Missile Launcher II;510;10.0;167560.0
 2411;Heavy Missile Launcher II Blueprint;136;0.01;9999999.0
-2412;Temperate Aqueous Liquid Extractor;1026;-1;45000.0
-2413;Storm Aqueous Liquid Extractor;1026;-1;45000.0
-2414;Oceanic Aqueous Liquid Extractor;1026;-1;45000.0
-2415;Ice Aqueous Liquid Extractor;1026;-1;45000.0
-2416;Gas Aqueous Liquid Extractor;1026;-1;45000.0
-2417;Plasma Suspended Plasma Extractor;1026;-1;45000.0
-2418;Lava Suspended Plasma Extractor;1026;-1;45000.0
-2419;Storm Suspended Plasma Extractor;1026;-1;45000.0
+2412;Temperate Aqueous Liquid Extractor;1026;0;45000.0
+2413;Storm Aqueous Liquid Extractor;1026;0;45000.0
+2414;Oceanic Aqueous Liquid Extractor;1026;0;45000.0
+2415;Ice Aqueous Liquid Extractor;1026;0;45000.0
+2416;Gas Aqueous Liquid Extractor;1026;0;45000.0
+2417;Plasma Suspended Plasma Extractor;1026;0;45000.0
+2418;Lava Suspended Plasma Extractor;1026;0;45000.0
+2419;Storm Suspended Plasma Extractor;1026;0;45000.0
 2420;Torpedo Launcher II;508;20.0;655792.0
 2421;Torpedo Launcher II Blueprint;136;0.01;9999999.0
-2422;Storm Ionic Solutions Extractor;1026;-1;45000.0
-2423;Ice Noble Gas Extractor;1026;-1;45000.0
-2424;Gas Ionic Solutions Extractor;1026;-1;45000.0
-2425;Storm Noble Gas Extractor;1026;-1;45000.0
-2426;Gas Noble Gas Extractor;1026;-1;45000.0
-2427;Gas Reactive Gas Extractor;1026;-1;45000.0
-2428;Lava Base Metals Extractor;1026;-1;45000.0
-2429;Plasma Base Metals Extractor;1026;-1;45000.0
-2430;Barren Base Metals Extractor;1026;-1;45000.0
-2431;Storm Base Metals Extractor;1026;-1;45000.0
-2432;Ice Microorganisms Extractor;1026;-1;45000.0
-2433;Gas Base Metals Extractor;1026;-1;45000.0
-2434;Plasma Noble Metals Extractor;1026;-1;45000.0
-2435;Barren Noble Metals Extractor;1026;-1;45000.0
+2422;Storm Ionic Solutions Extractor;1026;0;45000.0
+2423;Ice Noble Gas Extractor;1026;0;45000.0
+2424;Gas Ionic Solutions Extractor;1026;0;45000.0
+2425;Storm Noble Gas Extractor;1026;0;45000.0
+2426;Gas Noble Gas Extractor;1026;0;45000.0
+2427;Gas Reactive Gas Extractor;1026;0;45000.0
+2428;Lava Base Metals Extractor;1026;0;45000.0
+2429;Plasma Base Metals Extractor;1026;0;45000.0
+2430;Barren Base Metals Extractor;1026;0;45000.0
+2431;Storm Base Metals Extractor;1026;0;45000.0
+2432;Ice Microorganisms Extractor;1026;0;45000.0
+2433;Gas Base Metals Extractor;1026;0;45000.0
+2434;Plasma Noble Metals Extractor;1026;0;45000.0
+2435;Barren Noble Metals Extractor;1026;0;45000.0
 2436;Wasp II;100;25.0;231072.0
 2437;Wasp II Blueprint;176;0.01;9999999.0
-2438;Ice Planktic Colonies Extractor;1026;-1;45000.0
-2439;Lava Heavy Metals Extractor;1026;-1;45000.0
-2440;Plasma Heavy Metals Extractor;1026;-1;45000.0
-2441;Ice Heavy Metals Extractor;1026;-1;45000.0
-2442;Lava Non-CS Crystals Extractor;1026;-1;45000.0
-2443;Plasma Non-CS Crystals Extractor;1026;-1;45000.0
+2438;Ice Planktic Colonies Extractor;1026;0;45000.0
+2439;Lava Heavy Metals Extractor;1026;0;45000.0
+2440;Plasma Heavy Metals Extractor;1026;0;45000.0
+2441;Ice Heavy Metals Extractor;1026;0;45000.0
+2442;Lava Non-CS Crystals Extractor;1026;0;45000.0
+2443;Plasma Non-CS Crystals Extractor;1026;0;45000.0
 2444;Ogre I;100;25.0;70000.0
 2445;Ogre I Blueprint;176;0.01;7000000.0
 2446;Ogre II;100;25.0;271072.0
 2447;Ogre II Blueprint;176;0.01;9999999.0
-2448;Lava Felsic Magma Extractor;1026;-1;45000.0
-2449;Barren Microorganisms Extractor;1026;-1;45000.0
-2450;Temperate Microorganisms Extractor;1026;-1;45000.0
-2451;Oceanic Microorganisms Extractor;1026;-1;45000.0
-2452;Oceanic Planktic Colonies Extractor;1026;-1;45000.0
-2453;Temperate Complex Organisms Extractor;1026;-1;45000.0
+2448;Lava Felsic Magma Extractor;1026;0;45000.0
+2449;Barren Microorganisms Extractor;1026;0;45000.0
+2450;Temperate Microorganisms Extractor;1026;0;45000.0
+2451;Oceanic Microorganisms Extractor;1026;0;45000.0
+2452;Oceanic Planktic Colonies Extractor;1026;0;45000.0
+2453;Temperate Complex Organisms Extractor;1026;0;45000.0
 2454;Hobgoblin I;100;5.0;2500.0
 2455;Hobgoblin I Blueprint;176;0.01;250000.0
 2456;Hobgoblin II;100;5.0;36184.0
 2457;Hobgoblin II Blueprint;176;0.01;9999999.0
-2458;Oceanic Complex Organisms Extractor;1026;-1;45000.0
-2459;Barren Carbon Compounds Extractor;1026;-1;45000.0
-2460;Temperate Carbon Compounds Extractor;1026;-1;45000.0
-2461;Oceanic Carbon Compounds Extractor;1026;-1;45000.0
-2462;Temperate Autotrophs Extractor;1026;-1;45000.0
+2458;Oceanic Complex Organisms Extractor;1026;0;45000.0
+2459;Barren Carbon Compounds Extractor;1026;0;45000.0
+2460;Temperate Carbon Compounds Extractor;1026;0;45000.0
+2461;Oceanic Carbon Compounds Extractor;1026;0;45000.0
+2462;Temperate Autotrophs Extractor;1026;0;45000.0
 2463;Nanites;1034;1.5;1.0
 2464;Hornet I;100;5.0;3000.0
 2465;Hornet I Blueprint;176;0.01;300000.0
 2466;Hornet II;100;5.0;37232.0
 2467;Hornet II Blueprint;176;0.01;9999999.0
-2469;Lava Basic Industry Facility;1028;-1;75000.0
-2470;Lava Advanced Industry Facility;1028;-1;250000.0
-2471;Plasma Basic Industry Facility;1028;-1;75000.0
-2472;Plasma Advanced Industry Facility;1028;-1;250000.0
-2473;Barren Basic Industry Facility;1028;-1;75000.0
-2474;Barren Advanced Industry Facility;1028;-1;250000.0
-2475;Barren High-Tech Production Plant;1028;-1;525000.0
+2469;Lava Basic Industry Facility;1028;0;75000.0
+2470;Lava Advanced Industry Facility;1028;0;250000.0
+2471;Plasma Basic Industry Facility;1028;0;75000.0
+2472;Plasma Advanced Industry Facility;1028;0;250000.0
+2473;Barren Basic Industry Facility;1028;0;75000.0
+2474;Barren Advanced Industry Facility;1028;0;250000.0
+2475;Barren High-Tech Production Plant;1028;0;525000.0
 2476;Berserker I;100;25.0;40000.0
 2477;Berserker I Blueprint;176;0.01;4000000.0
 2478;Berserker II;100;25.0;211072.0
 2479;Berserker II Blueprint;176;0.01;9999999.0
-2480;Temperate Advanced Industry Facility;1028;-1;250000.0
-2481;Temperate Basic Industry Facility;1028;-1;75000.0
-2482;Temperate High-Tech Production Plant;1028;-1;525000.0
-2483;Storm Basic Industry Facility;1028;-1;75000.0
-2484;Storm Advanced Industry Facility;1028;-1;250000.0
-2485;Oceanic Advanced Industry Facility;1028;-1;250000.0
+2480;Temperate Advanced Industry Facility;1028;0;250000.0
+2481;Temperate Basic Industry Facility;1028;0;75000.0
+2482;Temperate High-Tech Production Plant;1028;0;525000.0
+2483;Storm Basic Industry Facility;1028;0;75000.0
+2484;Storm Advanced Industry Facility;1028;0;250000.0
+2485;Oceanic Advanced Industry Facility;1028;0;250000.0
 2486;Warrior I;100;5.0;4000.0
 2487;Warrior I Blueprint;176;0.01;400000.0
 2488;Warrior II;100;5.0;40768.0
 2489;Warrior II Blueprint;176;0.01;9999999.0
-2490;Oceanic Basic Industry Facility;1028;-1;75000.0
-2491;Ice Advanced Industry Facility;1028;-1;250000.0
-2492;Gas Basic Industry Facility;1028;-1;75000.0
-2493;Ice Basic Industry Facility;1028;-1;75000.0
-2494;Gas Advanced Industry Facility;1028;-1;250000.0
+2490;Oceanic Basic Industry Facility;1028;0;75000.0
+2491;Ice Advanced Industry Facility;1028;0;250000.0
+2492;Gas Basic Industry Facility;1028;0;75000.0
+2493;Ice Basic Industry Facility;1028;0;75000.0
+2494;Gas Advanced Industry Facility;1028;0;250000.0
 2495;Interplanetary Consolidation;1241;0.01;500000.0
 2505;Command Center Upgrades;1241;0.01;500000.0
 2506;Mjolnir Torpedo;89;0.05;35000
@@ -950,16 +950,16 @@
 2532;Explosive Deflection Amplifier II Blueprint;296;0.01;9999999.0
 2533;Ice Command Center;1027;1000.0;90000.0
 2534;Gas Command Center;1027;1000.0;90000.0
-2535;Oceanic Storage Facility;1029;-1;250000.0
-2536;Gas Storage Facility;1029;-1;250000.0
+2535;Oceanic Storage Facility;1029;0;250000.0
+2536;Gas Storage Facility;1029;0;250000.0
 2537;Thermal Dissipation Amplifier I;295;5.0;0
 2538;Thermal Dissipation Amplifier I Blueprint;296;0.01;187420.0
 2539;Thermal Dissipation Amplifier II;295;5.0;0
 2540;Thermal Dissipation Amplifier II Blueprint;296;0.01;9999999.0
-2541;Barren Storage Facility;1029;-1;250000.0
-2542;Oceanic Launchpad;1030;-1;900000.0
-2543;Gas Launchpad;1030;-1;900000.0
-2544;Barren Launchpad;1030;-1;900000.0
+2541;Barren Storage Facility;1029;0;250000.0
+2542;Oceanic Launchpad;1030;0;900000.0
+2543;Gas Launchpad;1030;0;900000.0
+2544;Barren Launchpad;1030;0;900000.0
 2545;Kinetic Deflection Amplifier I;295;5.0;0
 2546;Kinetic Deflection Amplifier I Blueprint;296;0.01;187420.0
 2547;Kinetic Deflection Amplifier II;295;5.0;0
@@ -967,17 +967,17 @@
 2549;Lava Command Center;1027;1000.0;90000.0
 2550;Storm Command Center;1027;1000.0;90000.0
 2551;Plasma Command Center;1027;1000.0;90000.0
-2552;Ice Launchpad;1030;-1;900000.0
+2552;Ice Launchpad;1030;0;900000.0
 2553;EM Ward Amplifier II;295;5.0;0
 2554;EM Ward Amplifier II Blueprint;296;0.01;9999999.0
-2555;Lava Launchpad;1030;-1;900000.0
-2556;Plasma Launchpad;1030;-1;900000.0
-2557;Storm Launchpad;1030;-1;900000.0
-2558;Lava Storage Facility;1029;-1;250000.0
+2555;Lava Launchpad;1030;0;900000.0
+2556;Plasma Launchpad;1030;0;900000.0
+2557;Storm Launchpad;1030;0;900000.0
+2558;Lava Storage Facility;1029;0;250000.0
 2559;Ladar ECM II;201;5;193826
-2560;Plasma Storage Facility;1029;-1;250000.0
-2561;Storm Storage Facility;1029;-1;250000.0
-2562;Temperate Storage Facility;1029;-1;250000.0
+2560;Plasma Storage Facility;1029;0;250000.0
+2561;Storm Storage Facility;1029;0;250000.0
+2562;Temperate Storage Facility;1029;0;250000.0
 2563;Magnetometric ECM II;201;5;194778
 2567;Multispectral ECM II;201;5;232064
 2571;Gravimetric ECM II;201;5;184600
@@ -1055,7 +1055,7 @@
 2679;Scourge Rage Heavy Assault Missile;654;0.015;126160.0
 2680;Scourge Rage Heavy Assault Missile Blueprint;166;0.01;9999999.0
 2681;Group of VIPs;283;50.0;0
-2682;Large Crates of Galeptos Medicine;314;1000.0;0
+2682;Large Crates of Galeptos Medicine;314;1000;0
 2683;Large Crates of Guidance Systems;314;1000.0;0
 2684;Large Crates of Harroule Dryweed;314;400.0;0
 2685;Large Crates of Holoreels;314;500.0;250.0
@@ -1112,38 +1112,38 @@
 2739;Nanite Repair Paste Blueprint;912;0.01;50000000.0
 2740;Warp Scrambling Battery Blueprint;857;0.01;50000000.0
 2741;Stasis Webification Battery Blueprint;858;0.01;50000000.0
-2742;Biochemical Silo Blueprint;1048;0.01;50000000.0
-2743;Catalyst Silo Blueprint;1048;0.01;50000000.0
-2744;Coupling Array Blueprint;1048;0.01;50000000.0
-2745;General Storage Blueprint;1048;0.01;50000000.0
-2746;Hazardous Chemical Silo Blueprint;1048;0.01;50000000.0
-2747;Hybrid Polymer Silo Blueprint;1048;0.01;50000000.0
-2748;Silo Blueprint;1048;0.01;50000000.0
-2749;Advanced Large Ship Assembly Array Blueprint;1048;0.01;250000000.0
+2742;Biochemical Silo Blueprint;1048;0.01;50000000
+2743;Catalyst Silo Blueprint;1048;0.01;50000000
+2744;Coupling Array Blueprint;1048;0.01;50000000
+2745;General Storage Blueprint;1048;0.01;50000000
+2746;Hazardous Chemical Silo Blueprint;1048;0.01;50000000
+2747;Hybrid Polymer Silo Blueprint;1048;0.01;50000000
+2748;Silo Blueprint;1048;0.01;50000000
+2749;Advanced Large Ship Assembly Array Blueprint;1048;0.01;250000000
 2750;X-Large Ship Maintenance Array Blueprint;1048;0.01;500000000.0
-2751;Advanced Medium Ship Assembly Array Blueprint;1048;0.01;150000000.0
+2751;Advanced Medium Ship Assembly Array Blueprint;1048;0.01;150000000
 2752;Ship Maintenance Array Blueprint;1048;0.01;100000000.0
-2753;Advanced Small Ship Assembly Array Blueprint;1048;0.01;75000000.0
-2754;Ammunition Assembly Array Blueprint;1048;0.01;50000000.0
+2753;Advanced Small Ship Assembly Array Blueprint;1048;0.01;75000000
+2754;Ammunition Assembly Array Blueprint;1048;0.01;50000000
 2755;Ballistic Deflection Array Blueprint;1048;0.01;50000000.0
-2756;Supercapital Ship Assembly Array Blueprint;1048;0.01;500000000.0
+2756;Supercapital Ship Assembly Array Blueprint;1048;0.01;500000000
 2757;Explosion Dampening Array Blueprint;1048;0.01;50000000.0
-2758;Component Assembly Array Blueprint;1048;0.01;50000000.0
+2758;Component Assembly Array Blueprint;1048;0.01;50000000
 2759;Heat Dissipation Array Blueprint;1048;0.01;50000000.0
-2760;Drone Assembly Array Blueprint;1048;0.01;50000000.0
+2760;Drone Assembly Array Blueprint;1048;0.01;50000000
 2761;Photon Scattering Array Blueprint;1048;0.01;50000000.0
-2762;Drug Lab Blueprint;1048;0.01;75000000.0
+2762;Drug Lab Blueprint;1048;0.01;75000000
 2763;Sensor Dampening Battery Blueprint;1048;0.01;50000000.0
-2764;Equipment Assembly Array Blueprint;1048;0.01;50000000.0
-2765;Intensive Reprocessing Array Blueprint;1048;0.01;50000000.0
-2766;Large Ship Assembly Array Blueprint;1048;0.01;100000000.0
-2767;Compression Array Blueprint;1048;0.01;50000000.0
-2768;Medium Ship Assembly Array Blueprint;1048;0.01;50000000.0
-2769;Reprocessing Array Blueprint;1048;0.01;50000000.0
-2770;Rapid Equipment Assembly Array Blueprint;1048;0.01;50000000.0
-2771;Small Ship Assembly Array Blueprint;1048;0.01;50000000.0
-2772;Subsystem Assembly Array Blueprint;1048;0.01;50000000.0
-2773;Capital Ship Assembly Array Blueprint;1048;0.01;300000000.0
+2764;Equipment Assembly Array Blueprint;1048;0.01;50000000
+2765;Intensive Reprocessing Array Blueprint;1048;0.01;50000000
+2766;Large Ship Assembly Array Blueprint;1048;0.01;100000000
+2767;Compression Array Blueprint;1048;0.01;50000000
+2768;Medium Ship Assembly Array Blueprint;1048;0.01;50000000
+2769;Reprocessing Array Blueprint;1048;0.01;50000000
+2770;Rapid Equipment Assembly Array Blueprint;1048;0.01;50000000
+2771;Small Ship Assembly Array Blueprint;1048;0.01;50000000
+2772;Subsystem Assembly Array Blueprint;1048;0.01;50000000
+2773;Capital Ship Assembly Array Blueprint;1048;0.01;300000000
 2774;Amarr Control Tower Blueprint;841;0.01;500000000.0
 2775;Amarr Control Tower Medium Blueprint;841;0.01;250000000.0
 2776;Amarr Control Tower Small Blueprint;841;0.01;125000000.0
@@ -1156,18 +1156,18 @@
 2783;Minmatar Control Tower Blueprint;841;0.01;500000000.0
 2784;Minmatar Control Tower Medium Blueprint;841;0.01;250000000.0
 2785;Minmatar Control Tower Small Blueprint;841;0.01;125000000.0
-2786;Moon Harvesting Array Blueprint;1048;0.01;100000000.0
+2786;Moon Harvesting Array Blueprint;1048;0.01;100000000
 2787;Corporate Hangar Array Blueprint;1048;0.01;100000000.0
 2788;Cynosural Generator Array Blueprint;1048;0.01;250000000.0
 2789;Cynosural System Jammer Blueprint;1048;0.01;250000000.0
-2790;Biochemical Reactor Array Blueprint;1048;0.01;50000000.0
-2791;Complex Reactor Array Blueprint;1048;0.01;50000000.0
+2790;Biochemical Reactor Array Blueprint;1048;0.01;50000000
+2791;Complex Reactor Array Blueprint;1048;0.01;50000000
 2792;Ion Field Projection Battery Blueprint;856;0.01;50000000.0
-2793;Medium Biochemical Reactor Array Blueprint;1048;0.01;50000000.0
+2793;Medium Biochemical Reactor Array Blueprint;1048;0.01;50000000
 2794;Phase Inversion Battery Blueprint;856;0.01;50000000.0
-2795;Polymer Reactor Array Blueprint;1048;0.01;50000000.0
+2795;Polymer Reactor Array Blueprint;1048;0.01;50000000
 2796;Spatial Destabilization Battery Blueprint;856;0.01;50000000.0
-2797;Simple Reactor Array Blueprint;1048;0.01;50000000.0
+2797;Simple Reactor Array Blueprint;1048;0.01;50000000
 2798;White Noise Generation Battery Blueprint;856;0.01;50000000.0
 2799;Energy Neutralizing Battery Blueprint;860;0.01;50000000.0
 2800;Jump Bridge Blueprint;1048;0.01;250000000.0
@@ -1189,8 +1189,8 @@
 2817;Mjolnir Rage Rocket;648;0.005;62340.0
 2818;Mjolnir Rage Rocket Blueprint;166;0.01;9999999.0
 2819;Small AutoCannon Battery Blueprint;854;0.01;25000000.0
-2820;Experimental Laboratory Blueprint;891;0.01;75000000.0
-2821;Research Laboratory Blueprint;891;0.01;75000000.0
+2820;Experimental Laboratory Blueprint;891;0.01;75000000
+2821;Research Laboratory Blueprint;891;0.01;75000000
 2822;XL Torpedo Battery Blueprint;871;0.01;100000000.0
 2823;Cruise Missile Battery Blueprint;871;0.01;50000000.0
 2824;Torpedo Battery Blueprint;871;0.01;50000000.0
@@ -1204,7 +1204,7 @@
 2834;Utu;324;29500.0;0
 2836;Adrestia;358;112000.0;0
 2838;Standard Cerebral Accelerator;303;1.0;32768.0
-2848;Barren Extractor Control Unit;1063;-1;45000.0
+2848;Barren Extractor Control Unit;1063;0;45000.0
 2851;Incriminating Evidence;314;1.0;0
 2853;Salvaged Electronics;314;20.0;0
 2861;Crate of Manportable Electromagnetic Pulse Weapons;314;250.0;0
@@ -1247,7 +1247,7 @@
 2929;800mm Repeating Cannon II;55;20.0;1484776.0
 2930;Crate of Special Forces Weapons and Equipment;314;250.0;0
 2934;Counterfeit Voluval Tattoo Chemicals;314;20.0;0
-2937;Dual 180mm AutoCannon II;55;10.0;220508.0
+2937;Dual 180mm AutoCannon II;55;10;220508
 2938;Dual 180mm AutoCannon II Blueprint;135;0.01;9999999.0
 2942;Captured CEO;283;3.0;1000.0
 2943;Hybrid Slaver Hounds;314;20.0;0
@@ -1350,15 +1350,15 @@
 3050;Mega Beam Laser II Blueprint;133;0.01;9999999.0
 3057;Mega Pulse Laser II;53;20.0;0
 3058;Mega Pulse Laser II Blueprint;133;0.01;9999999.0
-3060;Gas Extractor Control Unit;1063;-1;45000.0
-3061;Ice Extractor Control Unit;1063;-1;45000.0
-3062;Lava Extractor Control Unit;1063;-1;45000.0
-3063;Oceanic Extractor Control Unit;1063;-1;45000.0
-3064;Plasma Extractor Control Unit;1063;-1;45000.0
+3060;Gas Extractor Control Unit;1063;0;45000.0
+3061;Ice Extractor Control Unit;1063;0;45000.0
+3062;Lava Extractor Control Unit;1063;0;45000.0
+3063;Oceanic Extractor Control Unit;1063;0;45000.0
+3064;Plasma Extractor Control Unit;1063;0;45000.0
 3065;Tachyon Beam Laser II;53;20.0;0
 3066;Tachyon Beam Laser II Blueprint;133;0.01;9999999.0
-3067;Storm Extractor Control Unit;1063;-1;45000.0
-3068;Temperate Extractor Control Unit;1063;-1;45000.0
+3067;Storm Extractor Control Unit;1063;0;45000.0
+3068;Temperate Extractor Control Unit;1063;0;45000.0
 3069;Incursion ship attributes effects Vanguard;920;20.0;0
 3072;Incursion Effect Assault;920;20.0;0
 3074;150mm Railgun II;74;5.0;183136.0
@@ -1447,11 +1447,11 @@
 3157;Zainou 'Snapshot' Heavy Assault Missiles AM-702;746;1.0;200000.0
 3158;Zainou 'Snapshot' Heavy Assault Missiles AM-704;746;1.0;200000.0
 3159;Zainou 'Snapshot' Heavy Assault Missiles AM-706;746;1.0;200000.0
-3160;Zainou 'Snapshot' FOF Explosion Radius FR-1002;746;1.0;200000.0
-3161;Zainou 'Snapshot' FOF Explosion Radius FR-1004;746;1.0;200000.0
+3160;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002;746;1;200000
+3161;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004;746;1;200000
 3162;Light Electron Blaster II;74;5.0;74064.0
 3163;Light Electron Blaster II Blueprint;154;0.01;9999999.0
-3164;Zainou 'Snapshot' FOF Explosion Radius FR-1006;746;1.0;200000.0
+3164;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006;746;1;200000
 3165;Zainou 'Snapshot' Heavy Missiles HM-702;746;1.0;200000.0
 3166;Zainou 'Snapshot' Heavy Missiles HM-704;746;1.0;200000.0
 3167;Zainou 'Snapshot' Heavy Missiles HM-706;746;1.0;200000.0
@@ -1794,7 +1794,7 @@
 3578;Heavy Capacitor Booster II;76;20.0;230876.0
 3579;Heavy Capacitor Booster II Blueprint;156;0.01;9999999.0
 3580;CONCORD Capital Remote Capacitor Transmitter Blueprint;147;0.01;26773840
-3581;Purloined Sansha Data Analyzer;538;5.0;33264.0
+3581;Purloined Sansha Data Analyzer;538;5;33264
 3582;Purloined Sansha Data Analyzer Blueprint;917;0.01;332640.0
 3583;Badly Mangled Components;314;4.0;0
 3584;True Slave Decryption Node;314;4.0;0
@@ -2171,7 +2171,7 @@
 4257;Bomb Launcher II Blueprint;136;0.01;19000000.0
 4258;Core Probe Launcher II;481;5;6000
 4259;Core Probe Launcher II Blueprint;918;0.01;60000.0
-4260;Expanded Probe Launcher II;481;5.0;6000.0
+4260;Expanded Probe Launcher II;481;5;6000
 4261;Expanded Probe Launcher II Blueprint;918;0.01;60000.0
 4274;Mining Foreman Link - Harvester Capacitor Efficiency II;316;60;0
 4275;Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint;532;0.01;1732280.0
@@ -2228,9 +2228,6 @@
 4348;Pithum B-Type Adaptive Invulnerability Field;77;5.0;63062.0
 4349;Pithum C-Type Adaptive Invulnerability Field;77;5.0;63062.0
 4358;Exotic Dancers, Male;283;1.0;0
-4359;QA Jump Bridge;707;1.0;100000000.0
-4360;QA ECCM;353;1.0;0
-4361;QA Fuel Control Tower;365;1.0;400000000.0
 4363;Miasmos Quafe Ultra Edition;28;265000.0;0
 4364;Miasmos Quafe Ultra Edition Blueprint;108;0.01;4287500.0
 4365;Men's 'Quafe' T-shirt YC 114;1089;0.1;0
@@ -2238,21 +2235,13 @@
 4367;Men's 'Sterling' Dress Shirt (white);1089;0.1;0
 4368;Women's 'Sterling' Dress Blouse (white);1089;0.1;0
 4370;Small Targeting Amplifier I Blueprint;787;0.01;125000.0
-4371;QA Remote Armor Repair System - 5 Players;353;1.0;31244.0
-4372;QA Shield Transporter - 5 Players;353;1.0;139968.0
-4373;QA Damage Module;353;1.0;0
-4374;QA Multiship Module - 10 Players;353;1.0;0
-4375;QA Multiship Module - 20 Players;353;1.0;0
-4376;QA Multiship Module - 40 Players;353;1.0;0
-4377;QA Multiship Module - 5 Players;353;1.0;0
-4380;QA Immunity Module;353;1.0;362408.0
 4383;Large Micro Jump Drive;1189;10.0;1340852.0
 4384;Large Micro Jump Drive Blueprint;1191;0.01;0
 4385;Micro Jump Drive Operation;275;0.01;4500000.0
 4387;Mobile Large Jump Disruptor I Blueprint;371;0.01;119764480.0
 4388;Miasmos Quafe Ultramarine Edition;28;265000.0;0
 4389;Miasmos Quafe Ultramarine Edition Blueprint;108;0.01;4287500.0
-4390;Pax Ammaria;314;0.1;3328.0
+4390;Pax Ammaria;314;0.1;3328
 4391;Large Ancillary Shield Booster;1156;25.0;0
 4392;Large Ancillary Shield Booster Blueprint;1157;0.01;1458560
 4393;Drone Damage Amplifier I;645;5;0
@@ -2347,7 +2336,7 @@
 5439;J5b Enduring Warp Scrambler;52;5;0
 5443;Faint Epsilon Scoped Warp Scrambler;52;5;0
 5445;Initiated Compact Warp Scrambler;52;5;0
-5493;Type-D Restrained Expanded Cargo;765;5.0;0
+5493;Type-D Restrained Expanded Cargo;765;5;0
 5533;Type-D Restrained Inertial Stabilizers;762;5.0;0
 5599;Type-D Restrained Nanofiber Structure;763;5.0;0
 5631;Type-D Restrained Overdrive Injector;764;5.0;0
@@ -2568,10 +2557,10 @@
 8905;250mm Light Carbine Howitzer I;55;5.0;5996.0
 8907;250mm Light Gallium Cannon;55;5.0;5996.0
 8909;250mm Light Prototype Siege Cannon;55;5.0;5996.0
-9071;Dual 180mm 'Scout' Autocannon I;55;10.0;10000.0
-9073;Dual 180mm Carbine Repeating Cannon I;55;10.0;10000.0
-9091;Dual 180mm Gallium Machine Gun;55;10.0;10000.0
-9093;Dual 180mm Prototype Automatic Cannon;55;10.0;10000.0
+9071;Dual 180mm 'Scout' Autocannon I;55;10;10000
+9073;Dual 180mm Carbine Repeating Cannon I;55;10;10000
+9091;Dual 180mm Gallium Machine Gun;55;10;10000
+9093;Dual 180mm Prototype Automatic Cannon;55;10;10000
 9127;220mm Medium 'Scout' Autocannon I;55;10.0;25888.0
 9129;220mm Medium Carbine Repeating Cannon I;55;10.0;25888.0
 9131;220mm Medium Gallium Machine Gun;55;10.0;25888.0
@@ -2681,23 +2670,14 @@
 10204;Zainou 'Deadeye' Sharpshooter ST-903;742;1.0;200000.0
 10208;Memory Augmentation - Standard;745;1.0;400000.0
 10209;Memory Augmentation - Improved;745;1.0;800000.0
-10210;Memory Augmentation - Advanced;745;1.0;1600000.0
-10211;Memory Augmentation - Elite;745;1.0;3200000.0
 10212;Neural Boost - Standard;745;1.0;400000.0
 10213;Neural Boost - Improved;745;1.0;800000.0
-10214;Neural Boost - Advanced;745;1.0;1600000.0
-10215;Neural Boost - Elite;745;1.0;3200000.0
 10216;Ocular Filter - Standard;745;1.0;400000.0
 10217;Ocular Filter - Improved;745;1.0;800000.0
-10218;Ocular Filter - Advanced;745;1.0;800000.0
-10219;Ocular Filter - Elite;745;1.0;3200000.0
 10221;Cybernetic Subprocessor - Standard;745;1.0;400000.0
 10222;Cybernetic Subprocessor - Improved;745;1.0;800000.0
-10223;Cybernetic Subprocessor - Advanced;745;1.0;1600000.0
-10224;Cybernetic Subprocessor - Elite;745;1.0;3200000.0
 10225;Social Adaptation Chip - Standard;745;1.0;400000.0
 10226;Social Adaptation Chip - Improved;745;1.0;800000.0
-10227;Social Adaptation Chip - Advanced;745;1.0;1600000.0
 10228;Zainou 'Gnome' Shield Management SM-703;749;1.0;200000.0
 10244;Zainou 'Gypsy' Signature Analysis SA-703;1228;1.0;200000.0
 10246;Mining Drone I;101;5.0;0
@@ -2793,37 +2773,37 @@
 11203;Ares Blueprint;105;0.01;292500.0
 11207;Advanced Weapon Upgrades;1216;0.01;500000.0
 11215;Basic Energized EM Membrane;326;25;0
-11216;Basic Energized EM Membrane Blueprint;163;0.01;300000.0
+11216;Basic Energized EM Membrane Blueprint;163;0.01;300000
 11217;Energized EM Membrane I;326;25;0
 11218;Energized EM Membrane I Blueprint;163;0.01;750000.0
 11219;Energized EM Membrane II;326;5;0
 11220;Energized EM Membrane II Blueprint;163;0.01;9999999.0
 11225;Basic Energized Explosive Membrane;326;25;0
-11226;Basic Energized Explosive Membrane Blueprint;163;0.01;300000.0
+11226;Basic Energized Explosive Membrane Blueprint;163;0.01;300000
 11227;Energized Explosive Membrane I;326;25;0
 11228;Energized Explosive Membrane I Blueprint;163;0.01;750000.0
 11229;Energized Explosive Membrane II;326;5;0
 11230;Energized Explosive Membrane II Blueprint;163;0.01;9999999.0
 11235;Basic Energized Armor Layering Membrane;326;25.0;0
-11236;Basic Energized Armor Layering Membrane Blueprint;163;0.01;300000.0
+11236;Basic Energized Armor Layering Membrane Blueprint;163;0.01;300000
 11237;Energized Armor Layering Membrane I;326;25.0;0
 11238;Energized Armor Layering Membrane I Blueprint;163;0.01;750000.0
 11239;Energized Armor Layering Membrane II;326;5.0;0
 11240;Energized Armor Layering Membrane II Blueprint;163;0.01;9999999.0
 11245;Basic Energized Kinetic Membrane;326;25;0
-11246;Basic Energized Kinetic Membrane Blueprint;163;0.01;300000.0
+11246;Basic Energized Kinetic Membrane Blueprint;163;0.01;300000
 11247;Energized Kinetic Membrane I;326;25;0
 11248;Energized Kinetic Membrane I Blueprint;163;0.01;750000.0
 11249;Energized Kinetic Membrane II;326;5;0
 11250;Energized Kinetic Membrane II Blueprint;163;0.01;9999999.0
 11255;Basic Energized Thermal Membrane;326;25;0
-11256;Basic Energized Thermal Membrane Blueprint;163;0.01;300000.0
+11256;Basic Energized Thermal Membrane Blueprint;163;0.01;300000
 11257;Energized Thermal Membrane I;326;25;0
 11258;Energized Thermal Membrane I Blueprint;163;0.01;750000.0
 11259;Energized Thermal Membrane II;326;5;0
 11260;Energized Thermal Membrane II Blueprint;163;0.01;9999999.0
 11265;Basic Energized Adaptive Nano Membrane;326;25;0
-11266;Basic Energized Adaptive Nano Membrane Blueprint;163;0.01;500000.0
+11266;Basic Energized Adaptive Nano Membrane Blueprint;163;0.01;500000
 11267;Energized Adaptive Nano Membrane I;326;25;0
 11268;Energized Adaptive Nano Membrane I Blueprint;163;0.01;1000000.0
 11269;Energized Adaptive Nano Membrane II;326;5;0
@@ -3176,22 +3156,22 @@
 12109;Deep Core Mining Laser I Blueprint;134;0.01;3500000.0
 12110;Homeless;283;3.0;0
 12179;Research Project Management;270;0.01;40000000
-12180;Arkonor Processing;1218;0.01;375000.0
-12181;Bistot Processing;1218;0.01;350000.0
-12182;Crokite Processing;1218;0.01;325000.0
-12183;Dark Ochre Processing;1218;0.01;275000.0
-12184;Gneiss Processing;1218;0.01;250000.0
-12185;Hedbergite Processing;1218;0.01;225000.0
-12186;Hemorphite Processing;1218;0.01;200000.0
-12187;Jaspet Processing;1218;0.01;175000.0
-12188;Kernite Processing;1218;0.01;150000.0
-12189;Mercoxit Processing;1218;0.01;400000.0
-12190;Omber Processing;1218;0.01;125000.0
-12191;Plagioclase Processing;1218;0.01;75000.0
-12192;Pyroxeres Processing;1218;0.01;100000.0
-12193;Scordite Processing;1218;0.01;50000.0
-12194;Spodumain Processing;1218;0.01;300000.0
-12195;Veldspar Processing;1218;0.01;25000.0
+12180;Arkonor Processing;1218;0.01;375000
+12181;Bistot Processing;1218;0.01;350000
+12182;Crokite Processing;1218;0.01;325000
+12183;Dark Ochre Processing;1218;0.01;275000
+12184;Gneiss Processing;1218;0.01;250000
+12185;Hedbergite Processing;1218;0.01;225000
+12186;Hemorphite Processing;1218;0.01;200000
+12187;Jaspet Processing;1218;0.01;175000
+12188;Kernite Processing;1218;0.01;150000
+12189;Mercoxit Processing;1218;0.01;400000
+12190;Omber Processing;1218;0.01;125000
+12191;Plagioclase Processing;1218;0.01;75000
+12192;Pyroxeres Processing;1218;0.01;100000
+12193;Scordite Processing;1218;0.01;50000
+12194;Spodumain Processing;1218;0.01;300000
+12195;Veldspar Processing;1218;0.01;25000
 12196;Scrapmetal Processing;1218;0.01;300000.0
 12198;Mobile Small Warp Disruptor I;361;65.0;0
 12199;Mobile Medium Warp Disruptor I;361;195.0;0
@@ -3389,7 +3369,7 @@
 12836;Transcranial Microcontrollers;1040;6.0;5800.0
 12865;Quafe Ultra;280;0.1;80.0
 12994;Quafe Ultra Special Edition;314;0.1;0
-12995;Ultra! Promotional holoreel;314;0.5;0
+12995;Ultra! Promotional Holoreel;314;0.5;0
 13000;Prototype Cloaking Device I Blueprint;401;0.01;100000000.0
 13001;Small Energy Nosferatu II;68;5;0
 13002;Small Energy Nosferatu II Blueprint;148;0.01;0
@@ -3422,7 +3402,7 @@
 13225;Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603;742;1.0;200000.0
 13226;Zainou 'Snapshot' Cruise Missiles CM-603;746;1.0;200000.0
 13227;Zainou 'Snapshot' Defender Missiles DM-803;746;1.0;200000.0
-13228;Zainou 'Snapshot' FOF Explosion Radius FR-1003;746;1.0;200000.0
+13228;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003;746;1;200000
 13229;Zainou 'Snapshot' Heavy Missiles HM-703;746;1.0;200000.0
 13230;Zainou 'Snapshot' Rockets RD-903;746;1.0;200000.0
 13231;Zainou 'Snapshot' Torpedoes TD-603;746;1.0;200000.0
@@ -3484,7 +3464,7 @@
 13783;Domination 650mm Artillery;55;10.0;59676.0
 13784;Domination 720mm Howitzer Artillery;55;10.0;74980.0
 13785;Domination 800mm Repeating Cannon;55;20.0;448700.0
-13786;Domination Dual 180mm Autocannon;55;10.0;10000.0
+13786;Domination Dual 180mm Autocannon;55;10;10000
 13787;Domination Dual 425mm Autocannon;55;20.0;98972.0
 13788;Domination Dual 650mm Repeating Cannon;55;20.0;298716.0
 13791;Dark Blood Dual Heavy Pulse Laser;53;20.0;0
@@ -3546,7 +3526,7 @@
 13892;Shadow Serpentis Heavy Neutron Blaster;74;10.0;59676.0
 13893;Dread Guristas 75mm Railgun;74;5.0;1000.0
 13894;Shadow Serpentis 75mm Railgun;74;5.0;1000.0
-13918;Korranis DNA;314;0.1;0
+13918;Korrani's DNA;314;0.1;0
 13919;Domination Rapid Light Missile Launcher;511;10.0;4224.0
 13920;Dread Guristas Rapid Light Missile Launcher;511;10.0;4224.0
 13921;Domination Heavy Missile Launcher;510;10.0;14996.0
@@ -3757,7 +3737,7 @@
 14297;Limited Memory Augmentation - Beta;745;1.0;0
 14298;Limited Cybernetic Subprocessor - Beta;745;1.0;0
 14299;Limited Social Adaptation Chip - Beta;745;1.0;0
-14343;Silo;404;4000.0;15000000.0
+14343;Silo;404;4000;15000000
 14358;Zemnar;314;0.2;100.0
 14375;Tuvan's Modified Electron Blaster Cannon;74;20.0;600000.0
 14377;Cormack's Modified Electron Blaster Cannon;74;20.0;600000.0
@@ -3798,7 +3778,7 @@
 14447;Vizan's Modified Mega Pulse Laser;53;20.0;0
 14449;Selynne's Modified Tachyon Beam Laser;53;20.0;0
 14451;Chelm's Modified Tachyon Beam Laser;53;20.0;0
-14453;Raysere's Modified Tachyon Beam Laser;53;20.0;0
+14453;Raysere's Modified Tachyon Beam Laser;53;20;0
 14455;Draclira's Modified Tachyon Beam Laser;53;20.0;0
 14457;Mizuro's Modified 800mm Repeating Cannon;55;20.0;900000.0
 14459;Gotan's Modified 800mm Repeating Cannon;55;20.0;900000.0
@@ -3810,7 +3790,7 @@
 14471;Gotan's Modified Dual 425mm AutoCannon;55;20.0;200000.0
 14473;Mizuro's Modified Dual 650mm Repeating Cannon;55;20.0;600000.0
 14475;Gotan's Modified Dual 650mm Repeating Cannon;55;20.0;600000.0
-14483;Drezins DNA;314;0.1;0
+14483;Drezin's DNA;314;0.1;0
 14484;Mizuro's Modified 100MN Afterburner;46;5;161280
 14486;Hakim's Modified 100MN Afterburner;46;5;161280
 14488;Gotan's Modified 100MN Afterburner;46;5;161280
@@ -4233,7 +4213,7 @@
 15310;Tuvan's Modified Co-Processor;285;5.0;0
 15312;Setele's Modified Co-Processor;285;5.0;0
 15314;Cormack's Modified Co-Processor;285;5.0;0
-15316;Galeptos Medicine;314;1.0;100.0
+15316;Galeptos Medicine;314;1;100
 15317;Genetically Enhanced Livestock;1034;1.5;100.0
 15318;Top-Secret Design Documents;314;1.0;100.0
 15319;Large Special Delivery;314;1000.0;100.0
@@ -4669,7 +4649,7 @@
 16055;Republic Fleet 650mm Artillery;55;10.0;59676.0
 16056;Republic Fleet 720mm Howitzer Artillery;55;10.0;74980.0
 16057;Republic Fleet 800mm Repeating Cannon;55;20.0;448700.0
-16058;Republic Fleet Dual 180mm Autocannon;55;10.0;10000.0
+16058;Republic Fleet Dual 180mm Autocannon;55;10;10000
 16059;Republic Fleet Dual 425mm Autocannon;55;20.0;98972.0
 16060;Republic Fleet Dual 650mm Repeating Cannon;55;20.0;298716.0
 16061;Caldari Navy Rapid Light Missile Launcher;511;10.0;4224.0
@@ -4704,9 +4684,9 @@
 16194;Mercenary Pilot;283;1.0;0
 16213;Caldari Control Tower;365;8000.0;400000000.0
 16214;Minmatar Control Tower;365;8000.0;400000000.0
-16216;Research Laboratory;413;3000.0;100000000.0
+16216;Research Laboratory;413;3000;100000000
 16220;Rapid Equipment Assembly Array;397;6250;10000000
-16221;Moon Harvesting Array;416;4000.0;5000000.0
+16221;Moon Harvesting Array;416;4000;5000000
 16227;Ferox;419;252000;24000000
 16228;Ferox Blueprint;489;0.01;540000000.0
 16229;Brutix;419;270000;27000000
@@ -4739,7 +4719,7 @@
 16269;Krystallos;465;1000.0;450000.0
 16272;Heavy Water;423;0.4;1000.0
 16273;Liquid Ozone;423;0.4;1000.0
-16274;Helium Isotopes;423;0.1;1000
+16274;Helium Isotopes;423;0.05;1000
 16275;Strontium Clathrates;423;3;1000
 16278;Ice Harvester I;464;25.0;1500368.0
 16279;Ice Harvester I Blueprint;490;0.01;15003680.0
@@ -4868,26 +4848,26 @@
 16623;The Chief of Security;283;0.1;0
 16630;The Militia Leader;283;0.1;0
 16631;Small Artillery Battery;426;500.0;500000.0
-16633;Hydrocarbons;427;0.1;2.0
-16634;Atmospheric Gases;427;0.1;2
-16635;Evaporite Deposits;427;0.1;2.0
-16636;Silicates;427;0.1;2
-16637;Tungsten;427;0.4;8.0
-16638;Titanium;427;0.4;8.0
-16639;Scandium;427;0.4;8.0
-16640;Cobalt;427;0.4;8.0
-16641;Chromium;427;0.6;16.0
-16642;Vanadium;427;1.0;16.0
-16643;Cadmium;427;0.4;16.0
-16644;Platinum;427;1.0;16.0
-16646;Mercury;427;0.8;64.0
-16647;Caesium;427;0.8;64.0
-16648;Hafnium;427;0.8;64.0
-16649;Technetium;427;0.8;64.0
-16650;Dysprosium;427;1.0;256.0
-16651;Neodymium;427;1.0;256.0
-16652;Promethium;427;1.0;256.0
-16653;Thulium;427;1;256
+16633;Hydrocarbons;427;0.05;2
+16634;Atmospheric Gases;427;0.05;2
+16635;Evaporite Deposits;427;0.05;2
+16636;Silicates;427;0.05;2
+16637;Tungsten;427;0.05;8
+16638;Titanium;427;0.05;8
+16639;Scandium;427;0.05;8
+16640;Cobalt;427;0.05;8
+16641;Chromium;427;0.05;16
+16642;Vanadium;427;0.05;16
+16643;Cadmium;427;0.05;16
+16644;Platinum;427;0.05;16
+16646;Mercury;427;0.05;64
+16647;Caesium;427;0.05;64
+16648;Hafnium;427;0.05;64
+16649;Technetium;427;0.05;64
+16650;Dysprosium;427;0.05;256
+16651;Neodymium;427;0.05;256
+16652;Promethium;427;0.05;256
+16653;Thulium;427;0.05;256
 16654;Titanium Chromide;428;1.0;40.0
 16655;Crystallite Alloy;428;1.0;40.0
 16656;Fernite Alloy;428;1.0;40.0
@@ -4927,8 +4907,7 @@
 16713;Intermediate Medal;314;0.1;0
 16714;Legends Medal;314;0.1;0
 16832;Sansha Data Sheets;314;1.0;0
-16868;Standard Blue Pill Booster Reaction;661;1.0;1000000.0
-16869;Complex Reactor Array;438;4000.0;25000000.0
+16869;Complex Reactor Array;438;4000;25000000
 17136;Ukomi Superconductors;1040;6.0;5000.0
 17143;Gallentean Planetary Vehicles;314;2.0;10000.0
 17167;Small Beam Laser Battery;430;500.0;500000.0
@@ -5094,8 +5073,8 @@
 17409;Former Slaves;283;1.0;0
 17423;Gallente 106 Election Holoreel;314;0.5;0
 17424;Amarrian Wheat;314;1.15;10000.0
-17425;Crimson Arkonor;450;16.0;3224182.0
-17426;Prime Arkonor;450;16.0;3373716.0
+17425;Crimson Arkonor;450;16;3224182
+17426;Prime Arkonor;450;16;3373716
 17428;Triclinic Bistot;451;16.0;2200984.0
 17429;Monoclinic Bistot;451;16.0;2301400.0
 17432;Sharp Crokite;452;16.0;1604280.0
@@ -5361,9 +5340,9 @@
 17869;Magma Mercoxit;468;40.0;18251776.0
 17870;Vitreous Mercoxit;468;40.0;19103744.0
 17871;Inherent Implants 'Noble' Remote Armor Repair Systems RA-703;738;1.0;0
-17887;Oxygen Isotopes;423;0.1;0
-17888;Nitrogen Isotopes;423;0.1;0
-17889;Hydrogen Isotopes;423;0.1;0
+17887;Oxygen Isotopes;423;0.05;0
+17888;Nitrogen Isotopes;423;0.05;0
+17889;Hydrogen Isotopes;423;0.05;0
 17892;Drugdealer Passcard to Storage Area;474;0.1;0
 17893;High-Tech Data Chip;314;0.01;10000.0
 17894;High-Tech Scanner;314;0.01;10000.0
@@ -5395,47 +5374,17 @@
 17931;Worm Blueprint;105;0.01;0
 17932;Dramiel;25;27289;0
 17933;Dramiel Blueprint;105;0.01;0
-17938;Core Probe Launcher I;481;5.0;6000.0
+17938;Core Probe Launcher I;481;5;6000
 17939;Core Probe Launcher I Blueprint;918;0.01;60000.0
 17940;Mining Barge;257;0.01;500000.0
-17941;Caesarium Cadmide Reaction;436;1.0;1000000.0
-17942;Carbon Polymers Reaction;436;1.0;1000000.0
-17943;Ceramic Powder Reaction;436;1.0;1000000.0
-17944;Crystallite Alloy Reaction;436;1.0;1000000.0
-17945;Dysporite Reaction;436;1.0;1000000.0
-17946;Fernite Alloy Reaction;436;1.0;1000000.0
-17947;Ferrofluid Reaction;436;1.0;1000000.0
-17948;Fluxed Condensates Reaction;436;1.0;1000000.0
-17949;Hexite Reaction;436;1.0;1000000.0
-17950;Hyperflurite Reaction;436;1.0;1000000.0
-17951;Neo Mercurite Reaction;436;1.0;1000000.0
-17952;Platinum Technite Reaction;436;1.0;1000000.0
-17953;Rolled Tungsten Alloy Reaction;436;1.0;1000000.0
-17954;Silicon Diborite Reaction;436;1.0;1000000.0
-17955;Solerium Reaction;436;1.0;1000000.0
-17956;Sulfuric Acid Reaction;436;1.0;1000000.0
-17957;Titanium Chromide Reaction;436;1.0;1000000.0
-17958;Vanadium Hafnite Reaction;436;1.0;1000000.0
 17959;Vanadium Hafnite;428;1.0;80.0
 17960;Prometium;428;1.0;320.0
-17961;Prometium Reaction;436;1.0;1000000.0
-17962;Titanium Carbide Reaction;484;1.0;5000000.0
-17963;Crystalline Carbonide Reaction;484;1.0;5000000.0
-17964;Fernite Carbide Reaction;484;1.0;5000000.0
-17965;Tungsten Carbide Reaction;484;1.0;5000000.0
-17966;Sylramic Fibers Reaction;484;1.0;5000000.0
-17967;Fulleride Reaction;484;1.0;5000000.0
-17968;Phenolic Composites Reaction;484;1.0;5000000.0
-17969;Nanotransistors Reaction;484;1.0;5000000.0
-17970;Hypersynaptic Fibers Reaction;484;1.0;5000000.0
-17971;Ferrogel Reaction;484;1.0;5000000.0
-17972;Fermionic Condensates Reaction;484;1.0;5000000.0
 17974;Battlement Accesscard;474;0.1;0
 17975;Thick Blue Ice;465;1000.0;116000.0
 17976;Pristine White Glaze;465;1000.0;116000.0
 17977;Smooth Glacial Mass;465;1000.0;116000.0
 17978;Enriched Clear Icicle;465;1000.0;466000.0
-17982;Coupling Array;404;4000.0;2500000.0
+17982;Coupling Array;404;4000;2500000
 17983;Armorer Keycard;474;0.1;0
 17984;The Repairer's Keycard;474;0.1;0
 17985;Scratched and Dented Keycard;474;0.1;0
@@ -5450,7 +5399,7 @@
 17998;Sade's Pass;474;0.1;0
 17999;Ammatar Navy Colonel Insignia I;409;0.1;500000.0
 18025;Ice Processing;1218;0.01;400000.0
-18029;Freed Slaves;879;6.0;0
+18029;Freed Slaves;879;1;0
 18036;Arkonor Mining Crystal I;482;6.0;0
 18037;Arkonor Mining Crystal I Blueprint;727;0.01;800000.0
 18038;Bistot Mining Crystal I;482;6.0;0
@@ -6059,8 +6008,7 @@
 20105;'True Creations' Manufacture Passcard;474;0.1;0
 20110;Sleeper Foundation Block;530;1.0;0
 20114;Datacore - Propulsion Subsystems Engineering;333;0.1;0
-20115;Datacore - Engineering Subsystems Engineering;333;0.1;0
-20116;Datacore - Electronic Subsystems Engineering;333;0.1;0
+20115;Datacore - Core Subsystems Engineering;333;0.1;0
 20121;High-grade Crystal Alpha;300;1.0;800000.0
 20125;Curse;906;120000;15022426
 20126;Curse Blueprint;106;0.01;0
@@ -6073,7 +6021,7 @@
 20164;Drazin's Keycard;474;0.1;0
 20171;Datacore - Hydromagnetic Physics;333;0.1;0
 20172;Datacore - Minmatar Starship Engineering;333;0.1;0
-20175;Simple Reactor Array;438;4000.0;12500000.0
+20175;Simple Reactor Array;438;4000;12500000
 20183;Providence;513;18500000;776193970
 20184;Providence Blueprint;525;0.01;1900000000.0
 20185;Charon;513;16250000;773899062
@@ -6280,7 +6228,7 @@
 20721;Arch Angel Carbonized Lead L;83;0.025;1000.0
 20723;Arch Angel Nuclear L;83;0.025;1000.0
 20725;Arch Angel Proton L;83;0.025;1000.0
-20727;Arch Angel Depleted Uranium L;83;0.025;1000.0
+20727;Arch Angel Depleted Uranium L;83;0.025;1000
 20729;Arch Angel Titanium Sabot L;83;0.025;4000.0
 20731;Arch Angel Fusion L;83;0.025;4000.0
 20733;Arch Angel Phased Plasma L;83;0.025;4000.0
@@ -6644,7 +6592,7 @@
 21487;'Kindred' Gyrostabilizer Blueprint;139;0.01;0
 21491;Synthetic Hull Conversion Overdrive Injector;764;5.0;0
 21492;Synthetic Hull Conversion Overdrive Injector Blueprint;158;0.01;0
-21493;Limited Expanded 'Archiver' Cargo;765;5.0;0
+21493;Limited Expanded 'Archiver' Cargo;765;5;0
 21494;Limited Expanded 'Archiver' Cargo Blueprint;158;0.01;0
 21496;Synthetic Hull Conversion Reinforced Bulkheads;78;5.0;0
 21497;Synthetic Hull Conversion Reinforced Bulkheads Blueprint;158;0.01;0
@@ -6823,7 +6771,7 @@
 21852;Sample of Septicemic Agent;526;0.5;0
 21853;Civilian Armor Repairer;62;5.0;0
 21854;Civilian Armor Repairer Blueprint;142;0.01;0
-21855;Civilian Expanded Cargohold;765;5.0;0
+21855;Civilian Expanded Cargohold;765;5;0
 21856;Civilian Expanded Cargohold Blueprint;158;0.01;0
 21857;1MN Civilian Afterburner;46;5;120
 21858;1MN Civilian Afterburner Blueprint;126;0.01;0
@@ -6977,7 +6925,7 @@
 22167;Broken Science Equipment;526;1.0;0
 22173;The Infiltrator;283;1.0;0
 22174;Blue Box;526;0.1;0
-22175;Data Analyzer I;538;5.0;33264.0
+22175;Data Analyzer I;538;5;33264
 22176;Data Analyzer I Blueprint;917;0.01;332640.0
 22177;Relic Analyzer I;538;5.0;33264.0
 22178;Relic Analyzer I Blueprint;917;0.01;332640.0
@@ -7099,7 +7047,7 @@
 22619;Frigoris Restrained Ice Harvester Upgrade;546;5.0;24960.0
 22621;'Anguis' Ice Harvester Upgrade;546;5.0;24960.0
 22623;'Ingenii' Ice Harvester Upgrade;546;5.0;24960.0
-22634;Medium Biochemical Reactor Array;438;4000.0;12500000.0
+22634;Medium Biochemical Reactor Array;438;4000;12500000
 22701;Minmatar Bluechip;526;0.1;0
 22705;Minas's Voucher;526;1.0;0
 22707;Oggiin Kalda's DNA;526;0.1;0
@@ -7771,13 +7719,13 @@
 24562;Jump Portal Generation;275;0.01;50000000.0
 24563;Doomsday Operation;255;0.01;250000000
 24564;Chanounian Wine;526;0.5;0
-24567;Experimental Laboratory;413;3000.0;100000000.0
+24567;Experimental Laboratory;413;3000;100000000
 24568;Capital Remote Armor Repair Systems;1210;0.01;10000000.0
 24569;Capital Remote Armor Repairer I;325;4000;24200788
 24570;Capital Remote Armor Repairer I Blueprint;350;0.01;24200788.0
 24571;Capital Shield Emission Systems;1209;0.01;10000000.0
 24572;Capital Capacitor Emission Systems;1216;0.01;10000000.0
-24574;Small Ship Assembly Array;397;10000.0;100000000.0
+24574;Small Ship Assembly Array;397;10000;100000000
 24575;Supercapital Ship Assembly Array;397;850000;2000000000
 24576;Imperial Navy Gate Permit;526;1.0;0
 24580;Ritual Texts;526;0.1;0
@@ -7809,17 +7757,17 @@
 24644;Capital Tractor Beam I;650;4000.0;1555840.0
 24645;Capital Tractor Beam I Blueprint;723;0.01;400000000.0
 24646;X-Large Ship Maintenance Array;363;40000.0;1000000000.0
-24653;Advanced Small Ship Assembly Array;397;10000.0;100000000.0
-24654;Medium Ship Assembly Array;397;17000.0;100000000.0
-24655;Advanced Medium Ship Assembly Array;397;17000.0;100000000.0
-24656;Capital Ship Assembly Array;397;25000.0;100000000.0
-24657;Advanced Large Ship Assembly Array;397;25000.0;100000000.0
-24658;Ammunition Assembly Array;397;1250.0;10000000.0
-24659;Drone Assembly Array;397;1250.0;10000000.0
+24653;Advanced Small Ship Assembly Array;397;10000;100000000
+24654;Medium Ship Assembly Array;397;17000;100000000
+24655;Advanced Medium Ship Assembly Array;397;17000;100000000
+24656;Capital Ship Assembly Array;397;25000;100000000
+24657;Advanced Large Ship Assembly Array;397;25000;100000000
+24658;Ammunition Assembly Array;397;1250;10000000
+24659;Drone Assembly Array;397;1250;10000000
 24660;Component Assembly Array;397;12500;10000000
 24663;Zor's Custom Navigation Hyper-Link;747;1.0;800000.0
 24669;Shaqil's Speed Enhancer;747;1.0;0
-24684;Biochemical Reactor Array;438;4000.0;25000000.0
+24684;Biochemical Reactor Array;438;4000;25000000
 24688;Rokh;27;486000.0;165000000.0
 24689;Rokh Blueprint;107;0.01;1650000000.0
 24690;Hyperion;27;495000.0;176000000.0
@@ -7868,19 +7816,16 @@
 25230;Republic Fleet High Captain Insignia II;409;0.1;100000.0
 25233;Corporation Contracting;274;0.01;150000.0
 25235;Contracting;274;0.01;150000.0
-25237;Pure Standard Blue Pill Booster;712;1.0;512.0
+25237;Pure Standard Blue Pill Booster;712;1;512
 25239;Blood Gold Tag;370;0.1;4500.0
-25240;Improved Blue Pill Booster Reaction;662;1.0;1000000.0
-25241;Pure Improved Blue Pill Booster;712;1.0;512.0
-25242;Pure Standard Crash Booster;712;1.0;512.0
-25243;Standard Crash Booster Reaction;661;1.0;1000000.0
-25251;Standard Frentix Booster Reaction;661;1.0;1000000.0
-25252;Pure Standard Frentix Booster;712;1.0;512.0
+25241;Pure Improved Blue Pill Booster;712;1;512
+25242;Pure Standard Crash Booster;712;1;512
+25252;Pure Standard Frentix Booster;712;1;512
 25266;Gas Cloud Harvester I;737;5.0;9272.0
 25267;Gas Cloud Harvester I Blueprint;134;0.01;16500000.0
 25268;Amber Cytoserocin;711;10.0;0
-25270;Biochemical Silo;404;4000.0;20000000.0
-25271;Catalyst Silo;404;4000.0;7500000.0
+25270;Biochemical Silo;404;4000;20000000
+25271;Catalyst Silo;404;4000;7500000
 25273;Golden Cytoserocin;711;10.0;0
 25274;Viridian Cytoserocin;711;10.0;0
 25275;Celadon Cytoserocin;711;10.0;0
@@ -7888,29 +7833,9 @@
 25277;Lime Cytoserocin;711;10.0;0
 25278;Vermillion Cytoserocin;711;10.0;0
 25279;Azure Cytoserocin;711;10.0;0
-25280;Hazardous Chemical Silo;404;4000.0;25000000.0
+25280;Hazardous Chemical Silo;404;4000;25000000
 25281;The Red Card;474;0.1;0
-25282;Strong Blue Pill Booster Reaction;662;1.0;1000000.0
-25283;Pure Strong Blue Pill Booster;712;1.0;512.0
-25284;Standard Drop Booster Reaction;661;1.0;1000000.0
-25285;Standard Exile Booster Reaction;661;1.0;1000000.0
-25286;Standard Mindflood Booster Reaction;661;1.0;1000000.0
-25287;Standard X-Instinct Booster Reaction;661;1.0;1000000.0
-25288;Standard Sooth Sayer Booster Reaction;661;1.0;1000000.0
-25289;Improved Crash Booster Reaction;662;1.0;1000000.0
-25290;Improved Drop Booster Reaction;662;1.0;1000000.0
-25291;Improved Exile Booster Reaction;662;1.0;1000000.0
-25292;Improved Mindflood Booster Reaction;662;1.0;1000000.0
-25293;Improved Frentix Booster Reaction;662;1.0;1000000.0
-25294;Improved X-Instinct Booster Reaction;662;1.0;1000000.0
-25295;Improved Sooth Sayer Booster Reaction;662;1.0;1000000.0
-25296;Strong Crash Booster Reaction;662;1.0;1000000.0
-25297;Strong Drop Booster Reaction;662;1.0;1000000.0
-25298;Strong Exile Booster Reaction;662;1.0;1000000.0
-25299;Strong Mindflood Booster Reaction;662;1.0;1000000.0
-25300;Strong Frentix Booster Reaction;662;1.0;1000000.0
-25301;Strong X-Instinct Booster Reaction;662;1.0;1000000.0
-25302;Strong Sooth Sayer Booster Reaction;662;1.0;1000000.0
+25283;Pure Strong Blue Pill Booster;712;1;512
 25303;Standard Blue Pill Booster Blueprint;718;0.01;0
 25304;Pith Guristas Spa-Card;474;0.1;0
 25305;Drug Lab;397;1250.0;75000000.0
@@ -7925,25 +7850,25 @@
 25327;Standard Drop Booster Blueprint;718;0.01;0
 25328;Improved Drop Booster Blueprint;718;0.01;0
 25329;Strong Drop Booster Blueprint;718;0.01;0
-25330;Pure Standard Drop Booster;712;1.0;512.0
-25331;Pure Standard Exile Booster;712;1.0;512.0
-25332;Pure Standard Mindflood Booster;712;1.0;512.0
-25333;Pure Standard X-Instinct Booster;712;1.0;512.0
-25334;Pure Standard Sooth Sayer Booster;712;1.0;512.0
-25335;Pure Improved Crash Booster;712;1.0;512.0
-25336;Pure Improved Drop Booster;712;1.0;512.0
-25337;Pure Improved Exile Booster;712;1.0;512.0
-25338;Pure Improved Mindflood Booster;712;1.0;512.0
-25339;Pure Improved Frentix Booster;712;1.0;512.0
-25340;Pure Improved X-Instinct Booster;712;1.0;512.0
-25341;Pure Improved Sooth Sayer Booster;712;1.0;512.0
-25342;Pure Strong Crash Booster;712;1.0;512.0
-25343;Pure Strong Drop Booster;712;1.0;512.0
-25344;Pure Strong Exile Booster;712;1.0;512.0
-25345;Pure Strong Mindflood Booster;712;1.0;512.0
-25346;Pure Strong Frentix Booster;712;1.0;512.0
-25347;Pure Strong X-Instinct Booster;712;1.0;512.0
-25348;Pure Strong Sooth Sayer Booster;712;1.0;512.0
+25330;Pure Standard Drop Booster;712;1;512
+25331;Pure Standard Exile Booster;712;1;512
+25332;Pure Standard Mindflood Booster;712;1;512
+25333;Pure Standard X-Instinct Booster;712;1;512
+25334;Pure Standard Sooth Sayer Booster;712;1;512
+25335;Pure Improved Crash Booster;712;1;512
+25336;Pure Improved Drop Booster;712;1;512
+25337;Pure Improved Exile Booster;712;1;512
+25338;Pure Improved Mindflood Booster;712;1;512
+25339;Pure Improved Frentix Booster;712;1;512
+25340;Pure Improved X-Instinct Booster;712;1;512
+25341;Pure Improved Sooth Sayer Booster;712;1;512
+25342;Pure Strong Crash Booster;712;1;512
+25343;Pure Strong Drop Booster;712;1;512
+25344;Pure Strong Exile Booster;712;1;512
+25345;Pure Strong Mindflood Booster;712;1;512
+25346;Pure Strong Frentix Booster;712;1;512
+25347;Pure Strong X-Instinct Booster;712;1;512
+25348;Pure Strong Sooth Sayer Booster;712;1;512
 25349;Strong Exile Booster;303;1.0;32768.0
 25352;Black Jack's Underling;283;1.0;0
 25353;Serpentis Shipyard Cipher;474;0.1;0
@@ -8066,7 +7991,7 @@
 25811;Astrometric Acquisition;1217;0.01;450000.0
 25812;Gas Cloud Harvester II;737;5.0;9272.0
 25813;Gas Cloud Harvester II Blueprint;134;0.01;92720.0
-25821;General Storage;404;4000.0;7500000.0
+25821;General Storage;404;4000;7500000
 25844;Head in a Jar;526;1.0;0
 25847;A Really REALLY Clueless Tourist;283;1.0;100.0
 25849;Kalorr Makur's Tag;370;0.1;0
@@ -8638,8 +8563,8 @@
 27244;Zainou 'Snapshot' Defender Missiles DM-801;746;1.0;200000.0
 27245;Zainou 'Snapshot' Heavy Assault Missiles AM-705;746;1.0;200000.0
 27246;Zainou 'Snapshot' Heavy Assault Missiles AM-701;746;1.0;200000.0
-27247;Zainou 'Snapshot' FOF Explosion Radius FR-1005;746;1.0;200000.0
-27249;Zainou 'Snapshot' FOF Explosion Radius FR-1001;746;1.0;200000.0
+27247;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005;746;1;200000
+27249;Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001;746;1;200000
 27250;Zainou 'Snapshot' Heavy Missiles HM-705;746;1.0;200000.0
 27251;Zainou 'Snapshot' Heavy Missiles HM-701;746;1.0;200000.0
 27252;Zainou 'Snapshot' Light Missiles LM-905;746;1.0;200000.0
@@ -9164,7 +9089,7 @@
 28334;Republic Fleet Depleted Uranium M;83;0.0125;2050.0
 28336;Republic Fleet Depleted Uranium S;83;0.0025;500.0
 28338;Republic Fleet Depleted Uranium XL;83;0.125;50000.0
-28351;Design Laboratory;413;3000.0;150000000.0
+28351;Design Laboratory;413;3000;150000000
 28352;Rorqual;883;14500000;1520784302
 28353;Rorqual Blueprint;944;0.01;3000000000.0
 28359;Alliance Tournament Silver Medal;314;0.1;0
@@ -9175,7 +9100,7 @@
 28364;Drone Tactical Limb;886;0.07;0
 28365;Drone Epidermal Shielding Chunk;886;0.1;0
 28366;Drone Coronary Unit;886;0.08;0
-28367;Compressed Arkonor;450;8.8;15680470.0
+28367;Compressed Arkonor;450;8.8;15680470
 28374;Capital Industrial Ships;257;0.01;500000000.0
 28375;Republic Fleet Heavy Assault Missile Launcher;771;10.0;34096.0
 28376;Republic Fleet Heavy Assault Missile Launcher Blueprint;136;0.01;300000.0
@@ -9184,7 +9109,7 @@
 28379;Domination Heavy Assault Missile Launcher;771;10.0;34096.0
 28381;Dread Guristas Heavy Assault Missile Launcher;771;10.0;34096.0
 28383;True Sansha Heavy Assault Missile Launcher;771;10.0;34096.0
-28385;Compressed Crimson Arkonor;450;8.8;16120910.0
+28385;Compressed Crimson Arkonor;450;8.8;16120910
 28387;Compressed Prime Arkonor;450;8.8;16868580.0
 28388;Compressed Bistot;451;4.4;10461840.0
 28389;Compressed Monoclinic Bistot;451;4.4;11507000.0
@@ -9305,7 +9230,7 @@
 28583;Industrial Core I;515;4000;37609578
 28584;Industrial Core I Blueprint;516;0.01;522349680.0
 28585;Industrial Reconfiguration;1218;0.01;25000000.0
-28605;Design Laboratory Blueprint;891;0.01;100000000.0
+28605;Design Laboratory Blueprint;891;0.01;100000000
 28606;Orca;941;10250000;1630025214
 28607;Orca Blueprint;945;0.01;900000000
 28609;Heavy Interdiction Cruisers;257;0.01;32000000.0
@@ -9318,7 +9243,7 @@
 28622;Green Arisite;467;5.0;399926.0
 28623;Oeryl;453;8.0;768500.0
 28624;Geodite;452;16.0;1527958.0
-28625;Polygypsum;450;16.0;3068504.0
+28625;Polygypsum;450;16;3068504
 28626;Zuthrine;468;40.0;17367040.0
 28627;Azure Ice;465;1000.0;0
 28628;Crystalline Icicle;465;1000.0;0
@@ -9355,14 +9280,14 @@
 28683;Synth X-Instinct Booster Blueprint;718;0.01;1000000.0
 28684;Synth Sooth Sayer Booster;303;1.0;8192.0
 28685;Synth Sooth Sayer Booster Blueprint;718;0.01;1000000.0
-28686;Pure Synth Blue Pill Booster;712;1.0;512.0
-28687;Pure Synth Crash Booster;712;1.0;512.0
-28688;Pure Synth Drop Booster;712;1.0;512.0
-28689;Pure Synth Exile Booster;712;1.0;512.0
-28690;Pure Synth Frentix Booster;712;1.0;512.0
-28691;Pure Synth Mindflood Booster;712;1.0;512.0
-28692;Pure Synth Sooth Sayer Booster;712;1.0;512.0
-28693;Pure Synth X-Instinct Booster;712;1.0;512.0
+28686;Pure Synth Blue Pill Booster;712;1;512
+28687;Pure Synth Crash Booster;712;1;512
+28688;Pure Synth Drop Booster;712;1;512
+28689;Pure Synth Exile Booster;712;1;512
+28690;Pure Synth Frentix Booster;712;1;512
+28691;Pure Synth Mindflood Booster;712;1;512
+28692;Pure Synth Sooth Sayer Booster;712;1;512
+28693;Pure Synth X-Instinct Booster;712;1;512
 28694;Amber Mykoserocin;711;10.0;0
 28695;Azure Mykoserocin;711;10.0;0
 28696;Celadon Mykoserocin;711;10.0;0
@@ -9371,14 +9296,6 @@
 28699;Malachite Mykoserocin;711;10.0;0
 28700;Vermillion Mykoserocin;711;10.0;0
 28701;Viridian Mykoserocin;711;10.0;0
-28702;Synth Blue Pill Booster Reaction;661;1.0;1000000.0
-28703;Synth Crash Booster Reaction;661;1.0;1000000.0
-28704;Synth Drop Booster Reaction;661;1.0;1000000.0
-28705;Synth Exile Booster Reaction;661;1.0;1000000.0
-28706;Synth Frentix Booster Reaction;661;1.0;1000000.0
-28707;Synth Mindflood Booster Reaction;661;1.0;1000000.0
-28708;Synth Sooth Sayer Booster Reaction;661;1.0;1000000.0
-28709;Synth X-Instinct Booster Reaction;661;1.0;1000000.0
 28710;Golem;900;486000.0;284750534.0
 28711;Golem Blueprint;107;0.01;1650000000.0
 28729;Legion Magnetometric ECM;201;5;20000
@@ -9636,26 +9553,19 @@
 29504;OP Insecticide;284;0.25;320.0
 29531;Old Map;314;0.1;0
 29607;Gallentean Viral Agent;314;0.5;850.0
-29613;Large Ship Assembly Array;397;25000.0;90000000.0
+29613;Large Ship Assembly Array;397;25000;90000000
 29614;Brutor Workers;283;3.0;0
 29616;Guristas Nova XL Torpedo;476;0.3;250000.0
 29618;Guristas Inferno XL Torpedo;476;0.3;325000.0
 29620;Guristas Scourge XL Torpedo;476;0.3;300000.0
 29622;Guristas Mjolnir XL Torpedo;476;0.3;350000.0
 29637;Industrial Command Ships;257;0.01;50000000.0
-29640;Unrefined Hyperflurite Reaction;436;1.0;1000000.0
-29641;Unrefined Ferrofluid Reaction;436;1.0;1000000.0
-29642;Unrefined Prometium Reaction;436;1.0;1000000.0
-29643;Unrefined Neo Mercurite Reaction;436;1.0;1000000.0
-29644;Unrefined Dysporite Reaction;436;1.0;1000000.0
-29645;Unrefined Fluxed Condensates Reaction;436;1.0;1000000.0
 29659;Unrefined Fluxed Condensates;428;1.0;512.0
 29660;Unrefined Dysporite;428;1.0;320.0
 29661;Unrefined Neo Mercurite;428;1.0;320.0
 29662;Unrefined Prometium;428;1.0;320.0
 29663;Unrefined Ferrofluid;428;1.0;512.0
 29664;Unrefined Hyperflurite;428;1.0;320.0
-29668;30 Day Pilot's License Extension (PLEX);943;0.01;0
 29932;Sareko's Capsule;314;1000.0;0
 29933;Victor Emblem;314;0.1;0
 29934;Splinter Bodyguard;314;25.0;0
@@ -9680,31 +9590,15 @@
 29953;PDW-09FX Data Shell;314;0.1;0
 29954;PDW-09FX Tactical Subroutines;314;0.1;0
 29955;Address #298 Audio Fragment;314;0.1;0
-29964;Legion Defensive - Adaptive Augmenter;954;40.0;0
-29965;Legion Defensive - Nanobot Injector;954;40.0;0
-29966;Legion Defensive - Augmented Plating;954;40.0;0
-29967;Legion Defensive - Warfare Processor;954;40;0
-29969;Tengu Defensive - Adaptive Shielding;954;40.0;0
-29970;Tengu Defensive - Amplification Node;954;40.0;0
-29971;Tengu Defensive - Supplemental Screening;954;40.0;0
-29972;Tengu Defensive - Warfare Processor;954;40;0
-29974;Loki Defensive - Adaptive Shielding;954;40.0;0
-29975;Loki Defensive - Adaptive Augmenter;954;40.0;0
-29976;Loki Defensive - Amplification Node;954;40.0;0
-29977;Loki Defensive - Warfare Processor;954;40;0
-29979;Proteus Defensive - Adaptive Augmenter;954;40.0;0
-29980;Proteus Defensive - Nanobot Injector;954;40.0;0
-29981;Proteus Defensive - Augmented Plating;954;40.0;0
-29982;Proteus Defensive - Warfare Processor;954;40;0
-29984;Tengu;963;92000.0;0
+29984;Tengu;963;92000;0
 29985;Tengu Blueprint;996;0.01;45600000.0
-29986;Legion;963;118000.0;0
+29986;Legion;963;118000;0
 29987;Legion Blueprint;996;0.01;45275000.0
-29988;Proteus;963;115000.0;0
+29988;Proteus;963;115000;0
 29989;Proteus Blueprint;996;0.01;43775000.0
-29990;Loki;963;80000.0;0
+29990;Loki;963;80000;0
 29991;Loki Blueprint;996;0.01;44500000.0
-29992;Optimized Nano-engines;964;10.0;400000.0
+29992;Optimized Nano-Engines;964;10.0;400000.0
 29993;Optimized Nano-Engines Blueprint;965;0.01;10000000.0
 29994;Warfare Computation Core;964;10.0;400000.0
 29995;Warfare Computation Core Blueprint;965;0.01;10000000.0
@@ -9714,7 +9608,7 @@
 30003;Fullerene Intercalated Sheets Blueprint;965;0.01;10000000.0
 30008;Reinforced Metallofullerene Alloys;964;10.0;400000.0
 30009;Reinforced Metallofullerene Alloys Blueprint;965;0.01;10000000.0
-30013;Core Scanner Probe I;479;0.1;23442.0
+30013;Core Scanner Probe I;479;0.1;23442
 30014;Core Scanner Probe I Blueprint;486;0.01;5000000.0
 30018;Fused Nanomechanical Engines;966;0.01;0
 30019;Powdered C-540 Graphite;966;0.01;0
@@ -9723,138 +9617,10 @@
 30024;Cartesian Temporal Coordinator;966;0.01;0
 30028;Combat Scanner Probe I;479;1;23442
 30029;Combat Scanner Probe I Blueprint;486;0.01;5000000.0
-30036;Legion Electronics - Energy Parasitic Complex;955;40.0;0
-30037;Legion Electronics - Energy Parasitic Complex Blueprint;973;0.01;0
-30038;Legion Electronics - Tactical Targeting Network;955;40.0;0
-30039;Legion Electronics - Tactical Targeting Network Blueprint;973;0.01;0
-30040;Legion Electronics - Dissolution Sequencer;955;40.0;0
-30041;Legion Electronics - Dissolution Sequencer Blueprint;973;0.01;0
-30042;Legion Electronics - Emergent Locus Analyzer;955;40.0;0
-30043;Legion Electronics - Emergent Locus Analyzer Blueprint;973;0.01;0
-30046;Tengu Electronics - Obfuscation Manifold;955;40.0;0
-30047;Tengu Electronics - Obfuscation Manifold Blueprint;973;0.01;0
-30048;Tengu Electronics - CPU Efficiency Gate;955;40.0;0
-30049;Tengu Electronics - CPU Efficiency Gate Blueprint;973;0.01;0
-30050;Tengu Electronics - Dissolution Sequencer;955;40.0;0
-30051;Tengu Electronics - Dissolution Sequencer Blueprint;973;0.01;0
-30052;Tengu Electronics - Emergent Locus Analyzer;955;40.0;0
-30053;Tengu Electronics - Emergent Locus Analyzer Blueprint;973;0.01;0
-30056;Proteus Electronics - Friction Extension Processor;955;40.0;0
-30057;Proteus Electronics - Friction Extension Processor Blueprint;973;0.01;0
-30058;Proteus Electronics - CPU Efficiency Gate;955;40.0;0
-30059;Proteus Electronics - CPU Efficiency Gate Blueprint;973;0.01;0
-30060;Proteus Electronics - Dissolution Sequencer;955;40.0;0
-30061;Proteus Electronics - Dissolution Sequencer Blueprint;973;0.01;0
-30062;Proteus Electronics - Emergent Locus Analyzer;955;40.0;0
-30063;Proteus Electronics - Emergent Locus Analyzer Blueprint;973;0.01;0
-30066;Loki Electronics - Immobility Drivers;955;40.0;0
-30067;Loki Electronics - Immobility Drivers Blueprint;973;0.01;0
-30068;Loki Electronics - Tactical Targeting Network;955;40.0;0
-30069;Loki Electronics - Tactical Targeting Network Blueprint;973;0.01;0
-30070;Loki Electronics - Dissolution Sequencer;955;40.0;0
-30071;Loki Electronics - Dissolution Sequencer Blueprint;973;0.01;0
-30072;Loki Electronics - Emergent Locus Analyzer;955;40.0;0
-30073;Loki Electronics - Emergent Locus Analyzer Blueprint;973;0.01;0
-30076;Legion Propulsion - Chassis Optimization;957;40.0;6450.0
-30077;Legion Propulsion - Chassis Optimization Blueprint;973;0.01;64500.0
-30078;Legion Propulsion - Fuel Catalyst;957;40.0;6450.0
-30079;Legion Propulsion - Fuel Catalyst Blueprint;973;0.01;64500.0
-30080;Legion Propulsion - Wake Limiter;957;40.0;6450.0
-30081;Legion Propulsion - Wake Limiter Blueprint;973;0.01;64500.0
-30082;Legion Propulsion - Interdiction Nullifier;957;40.0;6450.0
-30083;Legion Propulsion - Interdiction Nullifier Blueprint;973;0.01;64500.0
-30086;Tengu Propulsion - Intercalated Nanofibers;957;40.0;6450.0
-30087;Tengu Propulsion - Intercalated Nanofibers Blueprint;973;0.01;64500.0
-30088;Tengu Propulsion - Gravitational Capacitor;957;40.0;6450.0
-30089;Tengu Propulsion - Gravitational Capacitor Blueprint;973;0.01;64500.0
-30090;Tengu Propulsion - Fuel Catalyst;957;40.0;6450.0
-30091;Tengu Propulsion - Fuel Catalyst Blueprint;973;0.01;64500.0
-30092;Tengu Propulsion - Interdiction Nullifier;957;40.0;6450.0
-30093;Tengu Propulsion - Interdiction Nullifier Blueprint;973;0.01;64500.0
-30096;Proteus Propulsion - Wake Limiter;957;40.0;6450.0
-30097;Proteus Propulsion - Wake Limiter Blueprint;973;0.01;64500.0
-30098;Proteus Propulsion - Localized Injectors;957;40.0;6450.0
-30099;Proteus Propulsion - Localized Injectors Blueprint;973;0.01;64500.0
-30100;Proteus Propulsion - Gravitational Capacitor;957;40.0;6450.0
-30101;Proteus Propulsion - Gravitational Capacitor Blueprint;973;0.01;64500.0
-30102;Proteus Propulsion - Interdiction Nullifier;957;40.0;6450.0
-30103;Proteus Propulsion - Interdiction Nullifier Blueprint;973;0.01;64500.0
-30106;Loki Propulsion - Chassis Optimization;957;40.0;6450.0
-30107;Loki Propulsion - Chassis Optimization Blueprint;973;0.01;64500.0
-30108;Loki Propulsion - Intercalated Nanofibers;957;40.0;6450.0
-30109;Loki Propulsion - Intercalated Nanofibers Blueprint;973;0.01;64500.0
-30110;Loki Propulsion - Fuel Catalyst;957;40.0;6450.0
-30111;Loki Propulsion - Fuel Catalyst Blueprint;973;0.01;64500.0
-30112;Loki Propulsion - Interdiction Nullifier;957;40.0;6450.0
-30113;Loki Propulsion - Interdiction Nullifier Blueprint;973;0.01;64500.0
-30117;Legion Offensive - Drone Synthesis Projector;956;40.0;0
-30118;Legion Offensive - Assault Optimization;956;40.0;0
-30119;Legion Offensive - Liquid Crystal Magnifiers;956;40.0;0
-30120;Legion Offensive - Covert Reconfiguration;956;40.0;0
-30122;Tengu Offensive - Accelerated Ejection Bay;956;40.0;0
-30123;Tengu Offensive - Rifling Launcher Pattern;956;40.0;0
-30124;Tengu Offensive - Magnetic Infusion Basin;956;40.0;0
-30125;Tengu Offensive - Covert Reconfiguration;956;40.0;0
-30127;Proteus Offensive - Dissonic Encoding Platform;956;40.0;0
-30128;Proteus Offensive - Hybrid Propulsion Armature;956;40.0;0
-30129;Proteus Offensive - Drone Synthesis Projector;956;40.0;0
-30130;Proteus Offensive - Covert Reconfiguration;956;40.0;0
-30132;Loki Offensive - Turret Concurrence Registry;956;40.0;0
-30133;Loki Offensive - Projectile Scoping Array;956;40.0;0
-30134;Loki Offensive - Hardpoint Efficiency Configuration;956;40.0;0
-30135;Loki Offensive - Covert Reconfiguration;956;40.0;0
-30139;Tengu Engineering - Power Core Multiplier;958;40.0;0
-30140;Tengu Engineering - Power Core Multiplier Blueprint;973;0.01;99200.0
-30141;Tengu Engineering - Augmented Capacitor Reservoir;958;40.0;0
-30142;Tengu Engineering - Augmented Capacitor Reservoir Blueprint;973;0.01;99200.0
-30143;Tengu Engineering - Capacitor Regeneration Matrix;958;40.0;0
-30144;Tengu Engineering - Capacitor Regeneration Matrix Blueprint;973;0.01;99200.0
-30145;Tengu Engineering - Supplemental Coolant Injector;958;40.0;0
-30146;Tengu Engineering - Supplemental Coolant Injector Blueprint;973;0.01;99200.0
-30149;Proteus Engineering - Power Core Multiplier;958;40.0;0
-30150;Proteus Engineering - Power Core Multiplier Blueprint;973;0.01;99200.0
-30151;Proteus Engineering - Augmented Capacitor Reservoir;958;40.0;0
-30152;Proteus Engineering - Augmented Capacitor Reservoir Blueprint;973;0.01;99200.0
-30153;Proteus Engineering - Capacitor Regeneration Matrix;958;40.0;0
-30154;Proteus Engineering - Capacitor Regeneration Matrix Blueprint;973;0.01;99200.0
-30155;Proteus Engineering - Supplemental Coolant Injector;958;40.0;0
-30156;Proteus Engineering - Supplemental Coolant Injector Blueprint;973;0.01;99200.0
-30159;Loki Engineering - Power Core Multiplier;958;40.0;0
-30160;Loki Engineering - Power Core Multiplier Blueprint;973;0.01;99200.0
-30161;Loki Engineering - Augmented Capacitor Reservoir;958;40.0;0
-30162;Loki Engineering - Augmented Capacitor Reservoir Blueprint;973;0.01;99200.0
-30163;Loki Engineering - Capacitor Regeneration Matrix;958;40.0;0
-30164;Loki Engineering - Capacitor Regeneration Matrix Blueprint;973;0.01;99200.0
-30165;Loki Engineering - Supplemental Coolant Injector;958;40.0;0
-30166;Loki Engineering - Supplemental Coolant Injector Blueprint;973;0.01;99200.0
-30169;Legion Engineering - Power Core Multiplier;958;40.0;0
-30170;Legion Engineering - Power Core Multiplier Blueprint;973;0.01;99200.0
-30171;Legion Engineering - Augmented Capacitor Reservoir;958;40.0;0
-30172;Legion Engineering - Augmented Capacitor Reservoir Blueprint;973;0.01;99200.0
-30173;Legion Engineering - Capacitor Regeneration Matrix;958;40.0;0
-30174;Legion Engineering - Capacitor Regeneration Matrix Blueprint;973;0.01;99200.0
-30175;Legion Engineering - Supplemental Coolant Injector;958;40.0;0
-30176;Legion Engineering - Supplemental Coolant Injector Blueprint;973;0.01;99200.0
 30182;Serpentis Informant;283;1.0;0
 30187;Intact Thruster Sections;971;10.0;0
 30221;Snowball CXIV;500;0.1;0
 30222;Melted Snowball CX;976;1.0;0
-30227;Legion Defensive - Adaptive Augmenter Blueprint;973;0.01;0
-30228;Legion Defensive - Nanobot Injector Blueprint;973;0.01;0
-30229;Legion Defensive - Augmented Plating Blueprint;973;0.01;0
-30230;Legion Defensive - Warfare Processor Blueprint;973;0.01;0
-30232;Tengu Defensive - Adaptive Shielding Blueprint;973;0.01;0
-30233;Tengu Defensive - Amplification Node Blueprint;973;0.01;0
-30234;Tengu Defensive - Supplemental Screening Blueprint;973;0.01;0
-30235;Tengu Defensive - Warfare Processor Blueprint;973;0.01;0
-30237;Proteus Defensive - Adaptive Augmenter Blueprint;973;0.01;0
-30238;Proteus Defensive - Nanobot Injector Blueprint;973;0.01;0
-30239;Proteus Defensive - Augmented Plating Blueprint;973;0.01;0
-30240;Proteus Defensive - Warfare Processor Blueprint;973;0.01;0
-30242;Loki Defensive - Adaptive Shielding Blueprint;973;0.01;0
-30243;Loki Defensive - Adaptive Augmenter Blueprint;973;0.01;0
-30244;Loki Defensive - Amplification Node Blueprint;973;0.01;0
-30245;Loki Defensive - Warfare Processor Blueprint;973;0.01;0
 30248;Emergent Combat Analyzer;966;0.01;0
 30251;Neurovisual Input Matrix;966;0.01;0
 30252;Thermoelectric Catalysts;966;0.01;0
@@ -9875,22 +9641,12 @@
 30310;Carbon-86 Epoxy Resin;974;0.4;0
 30311;C3-FTM Acid;974;0.2;0
 30324;Defensive Subsystem Technology;270;0.01;10000000.0
-30325;Engineering Subsystem Technology;270;0.01;10000000.0
-30326;Electronic Subsystem Technology;270;0.01;10000000.0
+30325;Core Subsystem Technology;270;0.01;10000000
 30327;Offensive Subsystem Technology;270;0.01;10000000.0
 30328;Civilian Stasis Webifier;65;5.0;0
-30329;Civilian Stasis Webifier Blueprint;145;0.01;224880.0
+30329;Civilian Stasis Webifier Blueprint;145;0.01;224880
 30342;Civilian Thermal Dissipation Field;77;20.0;1800.0
-30343;Civilian Thermal Dissipation Field Blueprint;157;0.01;750000.0
-30344;Fulleroferrocene Reaction;977;1.0;15000000.0
-30345;PPD Fullerene Fibers Reaction;977;1.0;15000000.0
-30346;Fullerene Intercalated Graphite Reaction;977;1.0;15000000.0
-30348;Lanthanum Metallofullerene Reaction;977;1.0;15000000.0
-30349;Scandium Metallofullerene Reaction;977;1.0;15000000.0
-30350;Graphene Nanoribbons Reaction;977;1.0;15000000.0
-30351;Carbon-86 Epoxy Resin Reaction;977;1.0;15000000.0
-30352;C3-FTM Acid Reaction;977;1.0;15000000.0
-30368;Methanofullerene Reaction;977;1.0;15000000.0
+30343;Civilian Thermal Dissipation Field Blueprint;157;0.01;750000
 30370;Fullerite-C50;711;1.0;0
 30371;Fullerite-C60;711;1.0;0
 30372;Fullerite-C70;711;1.0;0
@@ -9907,28 +9663,12 @@
 30386;R.Db.- Hybrid Technology;716;1.0;0
 30389;Subsystem Assembly Array;397;17000.0;100000000.0
 30391;Omni Effect Beacon;920;20.0;0
-30392;Legion Offensive - Drone Synthesis Projector Blueprint;973;0.01;0
-30393;Legion Offensive - Assault Optimization Blueprint;973;0.01;0
-30394;Legion Offensive - Liquid Crystal Magnifiers Blueprint;973;0.01;0
-30395;Legion Offensive - Covert Reconfiguration Blueprint;973;0.01;0
-30397;Tengu Offensive - Accelerated Ejection Bay Blueprint;973;0.01;0
-30398;Tengu Offensive - Rifling Launcher Pattern Blueprint;973;0.01;0
-30399;Tengu Offensive - Magnetic Infusion Basin Blueprint;973;0.01;0
-30400;Tengu Offensive - Covert Reconfiguration Blueprint;973;0.01;0
-30402;Proteus Offensive - Dissonic Encoding Platform Blueprint;973;0.01;0
-30403;Proteus Offensive - Hybrid Propulsion Armature Blueprint;973;0.01;0
-30404;Proteus Offensive - Drone Synthesis Projector Blueprint;973;0.01;0
-30405;Proteus Offensive - Covert Reconfiguration Blueprint;973;0.01;0
-30407;Loki Offensive - Turret Concurrence Registry Blueprint;973;0.01;0
-30408;Loki Offensive - Projectile Scoping Array Blueprint;973;0.01;0
-30409;Loki Offensive - Hardpoint Efficiency Configuration Blueprint;973;0.01;0
-30410;Loki Offensive - Covert Reconfiguration Blueprint;973;0.01;0
 30420;Civilian EM Ward Field;77;20.0;75000.0
-30421;Civilian EM Ward Field Blueprint;157;0.01;750000.0
+30421;Civilian EM Ward Field Blueprint;157;0.01;750000
 30422;Civilian Explosive Deflection Field;77;20.0;75000.0
-30423;Civilian Explosive Deflection Field Blueprint;157;0.01;750000.0
+30423;Civilian Explosive Deflection Field Blueprint;157;0.01;750000
 30424;Civilian Kinetic Deflection Field;77;20.0;75000.0
-30425;Civilian Kinetic Deflection Field Blueprint;157;0.01;750000.0
+30425;Civilian Kinetic Deflection Field Blueprint;157;0.01;750000
 30464;Metallofullerene Plating;964;5.0;400000.0
 30465;Metallofullerene Plating Blueprint;965;0.01;10000000.0
 30466;Electromechanical Interface Nexus;964;10.0;400000.0
@@ -9942,22 +9682,18 @@
 30478;Reconfigured Subspace Calibrator;964;10.0;400000.0
 30479;Reconfigured Subspace Calibrator Blueprint;965;0.01;10000000.0
 30486;Sisters Combat Scanner Probe;479;1;23442
-30488;Sisters Core Scanner Probe;479;0.1;23442.0
-30497;Reinforced Metal Scraps;526;0.01;20.0
+30488;Sisters Core Scanner Probe;479;0.1;23442
+30497;Reinforced Metal Scraps;526;0.01;20
 30532;Amarr Defensive Systems;1240;0.01;5000000.0
-30536;Amarr Electronic Systems;1240;0.01;5000000.0
 30537;Amarr Offensive Systems;1240;0.01;5000000.0
 30538;Amarr Propulsion Systems;1240;0.01;5000000.0
-30539;Amarr Engineering Systems;1240;0.01;5000000.0
+30539;Amarr Core Systems;1240;0.01;5000000
 30540;Gallente Defensive Systems;1240;0.01;5000000.0
-30541;Gallente Electronic Systems;1240;0.01;5000000.0
-30542;Caldari Electronic Systems;1240;0.01;5000000.0
-30543;Minmatar Electronic Systems;1240;0.01;5000000.0
 30544;Caldari Defensive Systems;1240;0.01;5000000.0
 30545;Minmatar Defensive Systems;1240;0.01;5000000.0
-30546;Gallente Engineering Systems;1240;0.01;5000000.0
-30547;Minmatar Engineering Systems;1240;0.01;5000000.0
-30548;Caldari Engineering Systems;1240;0.01;5000000.0
+30546;Gallente Core Systems;1240;0.01;5000000
+30547;Minmatar Core Systems;1240;0.01;5000000
+30548;Caldari Core Systems;1240;0.01;5000000
 30549;Caldari Offensive Systems;1240;0.01;5000000.0
 30550;Gallente Offensive Systems;1240;0.01;5000000.0
 30551;Minmatar Offensive Systems;1240;0.01;5000000.0
@@ -9969,9 +9705,6 @@
 30582;Intact Power Cores;992;10.0;0
 30586;Malfunctioning Power Cores;992;10.0;0
 30588;Wrecked Power Cores;992;10.0;0
-30599;Intact Electromechanical Component;990;10.0;0
-30600;Malfunctioning Electromechanical Component;990;10.0;0
-30605;Wrecked Electromechanical Component;990;10.0;0
 30614;Intact Armor Nanobot;993;10.0;0
 30615;Malfunctioning Armor Nanobot;993;10.0;0
 30618;Wrecked Armor Nanobot;993;10.0;0
@@ -9982,17 +9715,17 @@
 30651;Caldari Strategic Cruiser;257;0.01;1500000.0
 30652;Gallente Strategic Cruiser;257;0.01;1500000.0
 30653;Minmatar Strategic Cruiser;257;0.01;1500000.0
-30655;Hybrid Polymer Silo;404;4000.0;7500000.0
-30656;Polymer Reactor Array;438;4000.0;12500000.0
+30655;Hybrid Polymer Silo;404;4000;7500000
+30656;Polymer Reactor Array;438;4000;12500000
 30716;Tahaki Karin;283;3.0;1000.0
 30719;Kritsan Parthus;283;1.0;0
 30744;Neural Network Analyzer;880;0.1;200000.0
 30745;Sleeper Data Library;880;0.1;500000.0
 30746;Ancient Coordinates Database;880;0.1;1500000.0
 30747;Sleeper Drone AI Nexus;880;0.1;5000000.0
-30752;Intact Hull Section;997;100.0;0
-30753;Malfunctioning Hull Section;997;100.0;0
-30754;Wrecked Hull Section;997;100.0;0
+30752;Intact Hull Section;997;50;0
+30753;Malfunctioning Hull Section;997;50;0
+30754;Wrecked Hull Section;997;50;0
 30755;Strange Datacore;314;0.1;0
 30756;Red;314;1.0;0
 30757;Nebben Centrien, Janitor;283;3.0;0
@@ -10018,12 +9751,12 @@
 30827;Dagan;283;1.0;0
 30832;Relic Analyzer II;538;5.0;33264.0
 30833;Relic Analyzer II Blueprint;917;0.01;332640.0
-30834;Data Analyzer II;538;5.0;33264.0
+30834;Data Analyzer II;538;5;33264
 30835;Data Analyzer II Blueprint;917;0.01;332640.0
 30836;Salvager II;1122;5.0;33264.0
 30837;Salvager II Blueprint;1123;0.01;332640.0
 30839;Civilian Damage Control;60;5;0
-30840;Civilian Damage Control Blueprint;140;0.01;50000.0
+30840;Civilian Damage Control Blueprint;140;0.01;50000
 30842;InterBus Shuttle;31;5000.0;7500.0
 30843;InterBus Shuttle Blueprint;111;0.01;50000.0
 30844;Pulsar Effect Beacon Class 1;920;20.0;0
@@ -10065,7 +9798,7 @@
 30906;Letter of Recommendation;526;0.1;150.0
 30907;Smuggler's Warning About Sister Alitura;314;1.0;0
 30951;Verification Key;314;3.0;0
-30952;Dossier – Author Unknown;314;0.1;0
+30952;Dossier � Author Unknown;314;0.1;0
 30954;Hyasyoda Captain;314;0.1;0
 30955;S.I Formula Sheet;314;0.1;0
 30964;CPF.HYA LogInt Facility POI-26: Data Cache;314;3.0;0
@@ -11078,10 +10811,9 @@
 32235;Tattered Doll;314;3.0;0
 32237;Octomet Dog Tags;314;3.0;0
 32241;Drive Cluster EDF-285;314;0.1;0
-32245;Hyasyoda Research Laboratory;413;3000.0;100000000.0
-32246;RSS Core Scanner Probe;479;0.1;23442.0
+32245;Hyasyoda Research Laboratory;413;3000;100000000
+32246;RSS Core Scanner Probe;479;0.1;23442
 32248;Nugoehuvi Synth Blue Pill Booster;303;1.0;8192.0
-32250;Sovereignty Blockade Unit;1005;2500;150000000
 32252;Amphere 9;314;1.0;0
 32254;Imperial Navy Modified 'Noble' Implant;738;1.0;200000.0
 32255;Sansha Modified 'Gnome' Implant;749;1.0;200000.0
@@ -11127,17 +10859,17 @@
 32352;Proof of Discovery: Ore Passkey;314;1.0;0
 32365;Proof of Discovery: Relic;314;1.0;0
 32366;Proof of Discovery: Data;314;1.0;0
-32371;Capital Ship Design – “Dictator”;314;0.1;0
-32372;Minedrill – E518 Crew;283;3.0;0
+32371;Capital Ship Design � �Dictator�;314;0.1;0
+32372;Minedrill � E518 Crew;283;3.0;0
 32374;Holoreel GRS-81A;280;0.5;250.0
 32375;Proof of Discovery: Gas Passkey;314;1.0;0
 32376;Proof of Discovery: Gas;314;1.0;0
-32383;Guristas ‘Dirty' Explosive System;314;0.1;0
+32383;Guristas �Dirty' Explosive System;314;0.1;0
 32389;Dread Guristas Strike Force;283;1.0;0
 32393;Sealed Research Cache;314;2.0;0
-32398;Lieutenant Kipo “Foxfire” Tekira;283;1.0;100.0
+32398;Lieutenant Kipo �Foxfire� Tekira;283;1.0;100.0
 32403;Caldari Navy Overlay Transponder;314;0.1;0
-32407;Holoreel – Torture Log I15B;314;0.5;250.0
+32407;Holoreel � Torture Log I15B;314;0.5;250.0
 32408;Correspondence Log KL-513;314;0.5;100.0
 32414;Domination Target Painter;379;5.0;0
 32418;Boundless Creations Security Codes;314;1.0;0
@@ -11160,8 +10892,8 @@
 32465;Civilian Hobgoblin;100;5.0;2500.0
 32467;Civilian Small Remote Shield Booster;41;5.0;4996.0
 32469;Civilian Small Remote Armor Repairer;325;5;4996
-32634;Default Point Light;1110;-1;0
-32643;swarren;935;-1;0
+32634;Default Point Light;1110;0;0
+32643;swarren;935;0;0
 32772;Medium Ancillary Shield Booster;1156;10.0;0
 32773;Medium Ancillary Shield Booster Blueprint;1157;0.01;1458560
 32774;Small Ancillary Shield Booster;1156;5;0
@@ -11178,12 +10910,6 @@
 32792;100 Aurum Token;943;0.01;0
 32793;500 Aurum Token;943;0.01;0
 32797;Resistance Phasing;1216;0.01;500000
-32799;Orbital Laser S;86;1.0;0
-32800;Tactical Laser S Blueprint;168;0.01;12500
-32801;Orbital EMP S;83;0.0025;1000.0
-32802;Tactical EMP S Blueprint;165;0.01;100000
-32803;Orbital Hybrid S;85;0.0025;500.0
-32804;Tactical Hybrid S Blueprint;167;0.01;50000
 32809;Ammatar Navy Thermal Plating;98;5.0;0
 32810;Ammatar Navy Thermal Plating Blueprint;163;0.01;0
 32811;Miasmos Amastris Edition;28;265000.0;0
@@ -11201,15 +10927,6 @@
 32827;Unrefined Titanium Chromide;428;1.0;40.0
 32828;Unrefined Fernite Alloy;428;1.0;40.0
 32829;Unrefined Crystallite Alloy;428;1.0;40.0
-32830;Unrefined Vanadium Hafnite Reaction;436;1.0;1000000.0
-32831;Unrefined Platinum Technite Reaction;436;1.0;1000000.0
-32832;Unrefined Solerium Reaction;436;1.0;1000000.0
-32833;Unrefined Caesarium Cadmide Reaction;436;1.0;1000000.0
-32834;Unrefined Hexite Reaction;436;1.0;1000000.0
-32835;Unrefined Rolled Tungsten Alloy Reaction;436;1.0;1000000.0
-32836;Unrefined Titanium Chromide Reaction;436;1.0;1000000.0
-32837;Unrefined Fernite Alloy Reaction;436;1.0;1000000.0
-32838;Unrefined Crystallite Alloy Reaction;436;1.0;1000000.0
 32839;Quest Survey Probe I Blueprint;1160;0.01;5000000.0
 32841;InterBus Catalyst Blueprint;487;0.01;7887800.0
 32843;Intaki Syndicate Catalyst Blueprint;487;0.01;7887800.0
@@ -11237,7 +10954,7 @@
 32873;Algos Blueprint;487;0.01;8242751.0
 32874;Dragoon;420;47000.0;0
 32875;Dragoon Blueprint;487;0.01;9023825.0
-32876;Corax;420;52000.0;0
+32876;Corax;420;52000;0
 32877;Corax Blueprint;487;0.01;8795138.0
 32878;Talwar;420;43000.0;0
 32879;Talwar Blueprint;487;0.01;7837500.0
@@ -11320,14 +11037,14 @@
 33038;NEO YC 114: Tinkerhell and Alts;1195;0.01;0
 33039;NEO YC 114: Tengu Terror;1195;0.01;0
 33040;NEO YC 114: Oxygen Isonopes;1195;0.01;0
-33041;NEO YC 114: Africa‘s Finest;1195;0.01;0
+33041;NEO YC 114: Africa�s Finest;1195;0.01;0
 33042;NEO YC 114: Something Else;1195;0.01;0
 33043;NEO YC 114: The Exiled Gaming;1195;0.01;0
 33044;NEO YC 114: Perihelion Beryllium Duralumin;1195;0.01;0
 33045;NEO YC 114: Goggle Wearing Internet Crime Fighters;1195;0.01;0
-33046;NEO YC 114: ISN – Incursion Shiny Network;1195;0.01;0
+33046;NEO YC 114: ISN � Incursion Shiny Network;1195;0.01;0
 33047;NEO YC 114: Baaaramu;1195;0.01;0
-33048;NEO YC 114: Asine Hitama‘s team;1195;0.01;0
+33048;NEO YC 114: Asine Hitama�s team;1195;0.01;0
 33049;NEO YC 114: EFS;1195;0.01;0
 33050;NEO YC 114: Much Crying Old Experts;1195;0.01;0
 33051;NEO YC 114: DeepWater;1195;0.01;0
@@ -11347,7 +11064,7 @@
 33065;Donut Holder;1194;0.01;0
 33066;New Eden Soundbox;1194;0.01;0
 33067;Deactivated Station Key Pass Blueprint;1197;0.01;0
-33069;Orbital Target;1198;-1;0
+33069;Orbital Target;1198;0;0
 33070;New Eden Open Gold Medal;314;0.1;0
 33071;New Eden Open Silver Medal;314;0.1;0
 33072;New Eden Open Bronze Medal;314;0.1;0
@@ -11499,21 +11216,12 @@
 33337;Promethium Mercurite;428;1.0;320.0
 33338;Unrefined Promethium Mercurite;428;1.0;320.0
 33339;Unrefined Thulium Hafnite;428;1.0;320.0
-33340;Thulium Hafnite Reaction;436;1.0;1000000.0
-33341;Promethium Mercurite Reaction;436;1.0;1000000.0
-33342;Unrefined Thulium Hafnite Reaction;436;1.0;1000000.0
-33343;Unrefined Promethium Mercurite Reaction;436;1.0;1000000.0
 33359;Photonic Metamaterials;429;1;3500
 33360;Terahertz Metamaterials;429;1.0;3500.0
 33361;Plasmonic Metamaterials;429;1.0;3500.0
 33362;Nonlinear Metamaterials;429;1.0;3500.0
-33363;Nonlinear Metamaterials Reaction;484;1.0;5000000.0
-33364;Photonic Metamaterials Reaction;484;1.0;5000000.0
-33365;Plasmonic Metamaterials Reaction;484;1.0;5000000.0
-33366;Terahertz Metamaterials Reaction;484;1.0;5000000.0
 33373;Alliance Tournament IX: HYDRA RELOADED and 0utbreak;1225;0.01;0
 33374;Alliance Tournament X: Verge of Collapse;1225;0.01;0
-33375;QA Cross Protocol Analyzer;353;5.0;33264.0
 33377;Sleeve - 'Drone' (left);1084;0.1;0
 33378;Sleeve - 'Wreckage' (left);1084;0.1;0
 33379;Sleeve - 'Prototype' (left);1084;0.1;0
@@ -11587,7 +11295,7 @@
 33488;Men's 'Luxury' T-shirt;1089;0.1;0
 33513;Leopard;31;5000.0;7500.0
 33514;Leopard Blueprint;111;0.01;50000
-33515;Small Mobile Siphon Unit Blueprint;1267;0.01;100000000.0
+33515;Small Mobile Siphon Unit Blueprint;1267;0.01;100000000
 33516;High-grade Ascendancy Alpha;300;1;0
 33517;Mobile Depot Blueprint;1269;0.01;1000000.0
 33518;Mobile Cynosural Inhibitor Blueprint;1268;0.01;150000000.0
@@ -11603,11 +11311,11 @@
 33529;High-grade Ascendancy Omega;300;1;800000
 33536;High-grade Ascendancy Alpha Blueprint;724;0.01;0
 33539;Shattered Villard Wheel;526;0.1;0
-33543;High-grade Ascendancy Beta Blueprint;724;-1;0
-33545;High-grade Ascendancy Gamma Blueprint;724;-1;0
-33546;High-grade Ascendancy Epsilon Blueprint;724;-1;0
-33547;High-grade Ascendancy Delta Blueprint;724;-1;0
-33548;High-grade Ascendancy Omega Blueprint;724;-1;0
+33543;High-grade Ascendancy Beta Blueprint;724;0;0
+33545;High-grade Ascendancy Gamma Blueprint;724;0;0
+33546;High-grade Ascendancy Epsilon Blueprint;724;0;0
+33547;High-grade Ascendancy Delta Blueprint;724;0;0
+33548;High-grade Ascendancy Omega Blueprint;724;0;0
 33549;Women's 'Phanca' Cybernetic Arm (left);1271;0.1;0
 33550;Women's 'Phanca' Cybernetic Arm (right);1271;0.1;0
 33551;Men's 'Phanca' Cybernetic Arm (left);1271;0.1;0
@@ -11617,15 +11325,15 @@
 33555;Mid-grade Ascendancy Alpha;300;1;0
 33556;Mid-grade Ascendancy Alpha Blueprint;724;0.01;0
 33557;Mid-grade Ascendancy Beta;300;1;800000
-33558;Mid-grade Ascendancy Beta Blueprint;724;-1;0
+33558;Mid-grade Ascendancy Beta Blueprint;724;0;0
 33559;Mid-grade Ascendancy Delta;300;1;800000
-33560;Mid-grade Ascendancy Delta Blueprint;724;-1;0
+33560;Mid-grade Ascendancy Delta Blueprint;724;0;0
 33561;Mid-grade Ascendancy Epsilon;300;1;800000
-33562;Mid-grade Ascendancy Epsilon Blueprint;724;-1;0
+33562;Mid-grade Ascendancy Epsilon Blueprint;724;0;0
 33563;Mid-grade Ascendancy Gamma;300;1;800000
-33564;Mid-grade Ascendancy Gamma Blueprint;724;-1;0
+33564;Mid-grade Ascendancy Gamma Blueprint;724;0;0
 33565;Mid-grade Ascendancy Omega;300;1;800000
-33566;Mid-grade Ascendancy Omega Blueprint;724;-1;0
+33566;Mid-grade Ascendancy Omega Blueprint;724;0;0
 33569;Snowball;500;0.1;0
 33571;Sodium Firework;500;0.1;0
 33572;Barium Firework;500;0.1;0
@@ -11635,9 +11343,9 @@
 33578;Men's 'Humanitarian' T-shirt YC 115;1089;0.1;0
 33579;Women's 'Humanitarian' T-shirt YC 115;1089;0.1;0
 33581;Small Mobile 'Hybrid' Siphon Unit;1247;35.0;0
-33582;Small Mobile 'Hybrid' Siphon Unit Blueprint;1267;0.01;100000000.0
+33582;Small Mobile 'Hybrid' Siphon Unit Blueprint;1267;0.01;100000000
 33583;Small Mobile 'Rote' Siphon Unit;1247;35.0;0
-33584;Small Mobile 'Rote' Siphon Unit Blueprint;1267;0.01;120000000.0
+33584;Small Mobile 'Rote' Siphon Unit Blueprint;1267;0.01;120000000
 33585;Amarr Encounter Surveillance System;1273;200.0;25000000.0
 33586;Amarr Encounter Surveillance System Blueprint;1277;0.01;100000000.0
 33587;Mobile Decoy Unit;1274;50.0;0
@@ -11817,7 +11525,7 @@
 33817;Garmur Blueprint;105;0.01;0
 33818;Orthrus;26;101000.0;0
 33819;Orthrus Blueprint;106;0.01;0
-33820;Barghest;27;595000.0;108750000.0
+33820;Barghest;27;595000;108750000
 33821;Barghest Blueprint;107;0.01;0
 33822;Omnidirectional Tracking Enhancer I;1292;5;0
 33823;Omnidirectional Tracking Enhancer I Blueprint;408;0.01;144000.0
@@ -11838,8 +11546,8 @@
 33850;Federation Navy Drone Navigation Computer;644;25;139232
 33852;Sentient Drone Navigation Computer;644;25;139232
 33856;Expedition Frigates;257;0.01;4000000.0
-33867;Thukker Component Assembly Array;397;12500.0;10000000.0
-33868;Thukker Component Assembly Array Blueprint;1048;0.01;50000000.0
+33867;Thukker Component Assembly Array;397;12500;10000000
+33868;Thukker Component Assembly Array Blueprint;1048;0.01;50000000
 33870;Brutix Serpentis Edition Blueprint;489;0.01;570000000.0
 33872;Cyclone Thukker Tribe Edition Blueprint;489;0.01;525000000.0
 33874;Ferox Guristas Edition Blueprint;489;0.01;540000000.0
@@ -12159,28 +11867,28 @@
 34400;Gamma Ray Modulate Disc;314;0.1;2000000.0
 34401;Infrared Ray Modulate Disc;314;0.1;2000000.0
 34402;Radio Ray Modulate Disc;314;0.1;2000000.0
-34412;Small Intact Hull Section;997;30.0;0
-34414;Small Malfunctioning Hull Section;997;30.0;0
-34416;Small Wrecked Hull Section;997;30.0;0
-34417;Manufacturing Union’s Placard;1194;3.0;0
+34412;Small Intact Hull Section;997;20;0
+34414;Small Malfunctioning Hull Section;997;20;0
+34416;Small Wrecked Hull Section;997;20;0
+34417;Manufacturing Union�s Placard;1194;3.0;0
 34418;The Galactic Party Planning Guide;1194;3.0;0
 34419;Jump Fatigue Recovery Agent;1194;3.0;0
 34420;Cooking With Veldspar;1194;3.0;0
-34421;Chribba’s Modified Strip Miner;1194;3.0;0
-34422;Rooks & Kings – The Clarion Call Compilation;1194;3.0;0
+34421;Chribba�s Modified Strip Miner;1194;3.0;0
+34422;Rooks & Kings � The Clarion Call Compilation;1194;3.0;0
 34423;Pre-Completed CSM 10 Ballot Paper;1194;3.0;0
 34424;Titanium Plated Cranial Shielding;1194;3.0;0
-34425;SCC Guidelines – Lotteries For Dummies;1194;3.0;0
-34426;Sort Dragon’s Guide To Diplomacy;1194;3.0;0
+34425;SCC Guidelines � Lotteries For Dummies;1194;3.0;0
+34426;Sort Dragon�s Guide To Diplomacy;1194;3.0;0
 34427;Polaris Eviction Notice;1194;3.0;0
 34428;Jump Portal Generation Instruction Holoreel;1194;3.0;0
-34429;Vincent Pryce’s Warp Disruption Field Generator;1194;3.0;0
-34430;My God, It’s Full Of Holes!;1194;3.0;0
-34431;Guillome Renard’s Sleeper Loot Stash;1194;3.0;0
+34429;Vincent Pryce�s Warp Disruption Field Generator;1194;3.0;0
+34430;My God, It�s Full Of Holes!;1194;3.0;0
+34431;Guillome Renard�s Sleeper Loot Stash;1194;3.0;0
 34432;Sisters Of EVE Charity Statue;1194;3.0;0
-34433;The Damsel’s Drunk Bodyguard;1194;3.0;0
-34434;Alice Saki’s Good Posting Guide;1194;3.0;0
-34435;Soxfour’s Spaceboots;1194;3.0;0
+34433;The Damsel�s Drunk Bodyguard;1194;3.0;0
+34434;Alice Saki�s Good Posting Guide;1194;3.0;0
+34435;Soxfour�s Spaceboots;1194;3.0;0
 34436;The Friend Ship;1194;3.0;0
 34442;Dominix Quafe Edition Blueprint;107;0.01;1660000000.0
 34444;Tristan Quafe Edition Blueprint;105;0.01;2825000.0
@@ -12188,23 +11896,23 @@
 34450;Intravenous Oscillation Fluid;314;0.1;0
 34451;Nanoplastic Membrane Patch;314;0.1;0
 34452;Self-regulating Machine Gears;314;0.1;0
-34458;末日沙场级YC117年特别版蓝图;107;0.01;1565000000.0
-34460;地狱天使级YC117年特别版蓝图;107;0.01;1800000000.0
-34462;马克瑞级YC117年特别版蓝图;107;0.01;0
-34464;响尾蛇级YC117年特别版蓝图;107;0.01;0
-34466;多米尼克斯级YC117年特别版蓝图;107;0.01;1660000000.0
-34468;万王宝座级YC117年特别版蓝图;107;0.01;1250000000.0
-34470;乌鸦级YC117年特别版蓝图;107;0.01;1135000000.0
-34472;灾难级YC117年特别版蓝图;107;0.01;1265000000.0
-34474;幼龙级YC117年特别版蓝图;489;0.01;580000000.0
-34476;毒蜥级YC117年特别版蓝图;106;0.01;0
-34478;银鹰级YC117年特别版蓝图;106;0.01;0
-34480;伊什塔级YC117年特别版蓝图;106;0.01;0
+34458;?????YC117??????;107;0.01;1565000000.0
+34460;?????YC117??????;107;0.01;1800000000.0
+34462;????YC117??????;107;0.01;0
+34464;????YC117??????;107;0.01;0
+34466;??????YC117??????;107;0.01;1660000000.0
+34468;?????YC117??????;107;0.01;1250000000.0
+34470;???YC117??????;107;0.01;1135000000.0
+34472;???YC117??????;107;0.01;1265000000.0
+34474;???YC117??????;489;0.01;580000000.0
+34476;???YC117??????;106;0.01;0
+34478;???YC117??????;106;0.01;0
+34480;????YC117??????;106;0.01;0
 34481;Domination Inertial Stabilizers;762;5.0;0
 34483;Shadow Serpentis Inertial Stabilizers;762;5.0;0
 34485;ORE Reinforced Bulkheads;78;5.0;0
 34487;Syndicate Reinforced Bulkheads;78;5.0;0
-34489;ORE Expanded Cargohold;765;5.0;0
+34489;ORE Expanded Cargohold;765;5;0
 34496;Council Diplomatic Shuttle;31;5000.0;7500.0
 34497;Council Diplomatic Shuttle Blueprint;111;0.01;50000.0
 34533;Minmatar Tactical Destroyer;257;0.01;1000000.0
@@ -12230,9 +11938,9 @@
 34560;Redoubt Element;1314;0.1;0
 34562;Svipul;1305;47000;0
 34563;Svipul Blueprint;1309;0.01;40000000.0
-34574;CharacterDrifter;1;-1;0
+34574;CharacterDrifter;1;0;0
 34575;Antikythera Element;1314;0.1;5000000.0
-34580;Lux Kontos;53;-1;0
+34580;Lux Kontos;53;0;0
 34590;Victorieux Luxury Yacht;26;115000.0;0
 34591;Victorieux Luxury Yacht Blueprint;106;0.01;0
 34593;Entosis Link I;1313;20;0
@@ -12283,8 +11991,8 @@
 34641;Maelstrom Krusual SKIN (Permanent);1311;0.01;0
 34642;Maelstrom Nefantar SKIN (Permanent);1311;0.01;0
 34643;Typhoon Krusual SKIN (Permanent);1311;0.01;0
-34645;Orca ORE Development SKIN (Permanent);1311;0.01;0
-34646;Rorqual ORE Development SKIN (Permanent);1311;0.01;0
+34645;Orca Nocx Rush SKIN (Permanent);1311;0.01;0
+34646;Rorqual Nocx Rush SKIN (Permanent);1311;0.01;0
 34647;Archon Kador SKIN (Permanent);1311;0.01;0
 34648;Archon Tash-Murkon SKIN (Permanent);1311;0.01;0
 34649;Aeon Khanid SKIN (Permanent);1311;0.01;0
@@ -12395,9 +12103,9 @@
 34755;Iteron Mark V Inner Zone Shipping SKIN (Permanent);1311;0.01;0
 34756;Iteron Mark V InterBus SKIN (Permanent);1311;0.01;0
 34757;Mammoth Nefantar SKIN (Permanent);1311;0.01;0
-34758;Hulk ORE Development SKIN (Permanent);1311;0.01;0
-34759;Mackinaw ORE Development SKIN (Permanent);1311;0.01;0
-34760;Skiff ORE Development SKIN (Permanent);1311;0.01;0
+34758;Hulk Nocx Rush SKIN (Permanent);1311;0.01;0
+34759;Mackinaw Nocx Rush SKIN (Permanent);1311;0.01;0
+34760;Skiff Nocx Rush SKIN (Permanent);1311;0.01;0
 34769;CSM 1 Electee Archive Script ;1194;0.01;0
 34770;CSM 2 Electee Archive Script;1194;0.01;0
 34771;CSM 3 Electee Archive Script;1194;0.01;0
@@ -13300,6 +13008,8 @@
 35832;Astrahus;1657;8000;0
 35833;Fortizar;1657;80000;0
 35834;Keepstar;1657;800000;0
+35835;Athanor;1406;8000;0
+35836;Tatara;1406;80000;0
 35877;Standup Supercapital Shipyard I;1415;64000;0
 35878;Standup Manufacturing Plant I;1415;4000;0
 35881;Standup Capital Shipyard I;1415;32000;0
@@ -13765,6 +13475,8 @@
 36971;Raitaru Blueprint;1462;0.01;4000000000
 36972;Azbel Blueprint;1462;0.01;25000000000
 36973;Sotiyo Blueprint;1462;0.01;100000000000
+36977;Athanor Blueprint;1462;0.01;5500000000
+36978;Tatara Blueprint;1462;0.01;40000000000
 36982;Magnate Sarum Serenity Only SKIN (Permanent);1311;0.01;0
 36983;Magnate Tash-Murkon Serenity Only SKIN (Permanent);1311;0.01;0
 36984;Punisher Kador Serenity Only SKIN (Permanent);1311;0.01;0
@@ -13786,6 +13498,7 @@
 37029;Standup Point Defense Battery I Blueprint;1707;0.01;1000000000
 37030;Standup Arcing Vorton Projector I Blueprint;1707;0.01;10000000000
 37032;Standup Reprocessing Facility I Blueprint;1707;0.01;160000000
+37034;Standup Moon Drill I Blueprint;1707;0.01;1600000000
 37041;Standup Variable Spectrum ECM I Blueprint;1707;0.01;200000000
 37043;Standup XL Energy Neutralizer I Blueprint;1707;0.01;500000000
 37044;Standup Heavy Energy Neutralizer I Blueprint;1707;0.01;500000000
@@ -13860,7 +13573,7 @@
 37155;Standup M-Set Basic Small Ship Manufacturing Material Efficiency II;1824;10;0
 37156;Standup M-Set Drone and Fighter Manufacturing Material Efficiency I;1822;10;0
 37157;Standup M-Set Drone and Fighter Manufacturing Material Efficiency II;1822;10;0
-37158;Standup M-Set Ammunition Manufacturing Material Efficiency I;1820;10;0
+37158;Standup M-Set Ammunition�Manufacturing Material Efficiency I;1820;10;0
 37159;Standup M-Set Ammunition Manufacturing Material Efficiency II;1820;10;0
 37160;Standup M-Set Equipment Manufacturing Time Efficiency I;1819;10;0
 37161;Standup M-Set Equipment Manufacturing Time Efficiency II;1819;10;0
@@ -13918,12 +13631,6 @@
 37273;Standup XL-Set EW and Emissions Co-ordinator II;1641;40;0
 37274;Standup XL-Set Extinction Level Weapons Suite I;1642;40;0
 37275;Standup XL-Set Extinction Level Weapons Suite II;1642;40;0
-37280;Standup M-Set HS Materials Reclamation I;1647;10;0
-37281;Standup M-Set HS Materials Reclamation II;1647;10;0
-37282;Standup L-Set Ore Grading Processor I;1648;20;0
-37283;Standup L-Set Ore Grading Processor II;1648;20;0
-37284;Standup XL-Set Reprocessing Monitor I;1649;40;0
-37285;Standup XL-Set Reprocessing Monitor II;1649;40;0
 37288;Rapid Torpedo Launcher I;1673;4000;0
 37289;Quad 800mm Repeating Cannon I;55;4000;32694870
 37290;Quad Mega Pulse Laser I;53;4000;0
@@ -13996,12 +13703,6 @@
 37436;Standup XL-Set EW and Emissions Co-ordinator II Blueprint;1708;0.01;2500000000
 37437;Standup XL-Set Extinction Level Weapons Suite I Blueprint;1708;0.01;2500000000
 37438;Standup XL-Set Extinction Level Weapons Suite II Blueprint;1708;0.01;2500000000
-37443;Standup M-Set HS Materials Reclamation I Blueprint;1708;0.01;100000000
-37444;Standup M-Set HS Materials Reclamation II Blueprint;1708;0.01;100000000
-37445;Standup L-Set Ore Grading Processor I Blueprint;1708;0.01;500000000
-37446;Standup L-Set Ore Grading Processor II Blueprint;1708;0.01;500000000
-37447;Standup XL-Set Reprocessing Monitor I Blueprint;1708;0.01;2500000000
-37448;Standup XL-Set Reprocessing Monitor II Blueprint;1708;0.01;2500000000
 37450;Ice Mining Laser I;54;5;0
 37451;Ice Mining Laser II;54;5;0
 37452;ORE Ice Mining Laser;54;5;0
@@ -14121,6 +13822,7 @@
 37595;Anshar Valimor Legacy SKIN (Permanent);1311;0.01;0
 37599;Cenobite I;1537;3000;0
 37600;Women's Genolution Combat Suit;1088;0.1;0
+37601;Women's CONCORD 'Solitaire' Survival Suit;1088;0.1;0
 37604;Apostle;1538;18135000;1700000000
 37605;Minokawa;1538;15500000;1700000000
 37606;Lif;1538;14625000;1700000000
@@ -14131,10 +13833,10 @@
 37612;True Sansha Warp Disruption Field Generator;899;50;3964874
 37613;CONCORD Warp Disruption Field Generator;899;50;3964874
 37615;Command Destroyers;257;0.01;20000000
-37617;Stork Blueprint;1542;-1;4000000
-37618;Pontifex Blueprint;1542;-1;4000000
-37619;Magus Blueprint;1542;-1;4000000
-37620;Bifrost Blueprint;1542;-1;4000000
+37617;Stork Blueprint;1542;0;4000000
+37618;Pontifex Blueprint;1542;0;4000000
+37619;Magus Blueprint;1542;0;4000000
+37620;Bifrost Blueprint;1542;0;4000000
 37621;Micro Jump Field Generator Blueprint;1543;0.01;12655040
 37622;Corpii C-Type Small Energy Neutralizer;71;5;0
 37623;Corpii B-Type Small Energy Neutralizer;71;5;0
@@ -14151,9 +13853,12 @@
 37798;Structure Electronic Systems;1545;0.01;5000000
 37799;Structure Engineering Systems;1545;0.01;5000000
 37805;Republic Fleet Shield Recharger;39;5;0
+37808;Women's CONCORD Test Pilot T-Shirt;1089;0.1;0
+37809;Men's CONCORD Test Pilot T-Shirt;1089;0.1;0
 37810;Men's Genolution Combat Suit;1088;0.1;0
 37816;Women's 'Rocket' Dress (festive);1088;0.1;0
 37817;Men's 'Curate' Coat (festive);1088;0.1;0
+37818;Men's CONCORD 'Solitaire' Survival Suit;1088;0.1;0
 37820;Caldari Navy Shield Power Relay;57;5;0
 37821;Standup Gravimetric ECM Script;1549;1;4000
 37822;Standup Ladar ECM Script;1549;1;4000
@@ -14186,6 +13891,7 @@
 37866;Men's 'Serpentis' T-shirt (olive/black);1089;0.1;0
 37867;Garmur Waschi Uprising 'Combat' SKIN (Permanent);1311;0.01;0
 37868;Orthrus Waschi Uprising 'Combat' SKIN (Permanent);1311;0.01;0
+37869;Barghest Waschi Uprising 'Combat' SKIN (Permanent);1311;0.01;0
 37874;Project Compass Star Charts;1194;0.01;0
 37875;Contraband Amarrian Walnuts;1194;0.01;0
 37877;Cerebrum In A Container;1194;0.01;0
@@ -14200,12 +13906,12 @@
 37886;Capital Parking Ticket;1194;0.01;0
 37887;Counterfeit Dominix Model;1194;0.01;0
 37888;Starsi;1194;0.01;0
-37889;YC118 Succession Trial Champion’s Decree – House Tash-Murkon;1194;0.01;0
-37892;YC118 Succession Trial Champion’s Decree – House Ardishapur;1194;0.01;0
-37893;YC118 Succession Trial Champion’s Decree – House Kador;1194;0.01;0
-37894;YC118 Succession Trial Champion’s Decree – House Khanid;1194;0.01;0
-37895;YC118 Succession Trial Champion’s Decree – House Kor-Azor;1194;0.01;0
-37896;YC118 Succession Trial Champion’s Decree – House Sarum;1194;0.01;0
+37889;YC118 Succession Trial Champion�s Decree � House Tash-Murkon;1194;0.01;0
+37892;YC118 Succession Trial Champion�s Decree � House Ardishapur;1194;0.01;0
+37893;YC118 Succession Trial Champion�s Decree � House Kador;1194;0.01;0
+37894;YC118 Succession Trial Champion�s Decree � House Khanid;1194;0.01;0
+37895;YC118 Succession Trial Champion�s Decree � House Kor-Azor;1194;0.01;0
+37896;YC118 Succession Trial Champion�s Decree � House Sarum;1194;0.01;0
 37897;Apocalypse Ardishapur Serenity Only SKIN (Permanent);1311;0.01;0
 37898;Providence Ardishapur Serenity Only SKIN (Permanent);1311;0.01;0
 37899;Arbitrator Ardishapur Serenity Only SKIN (Permanent);1311;0.01;0
@@ -14415,7 +14121,7 @@
 40514;Fenrir Tronhadar Ink SKIN (Permanent);1311;0.01;0
 40515;Nomad Tronhadar Ink SKIN (Permanent);1311;0.01;0
 40519;Skill Extractor;1301;0.01;0
-40520;Skill Injector;1739;0.01;0
+40520;Large Skill Injector;1739;0.01;0
 40521;Upwell Palatine Keepstar Blueprint;1462;0.01;200000000
 40522;Men's 'Mirelle' Upwell Executive Coat;1088;0.1;0
 40523;Women's 'Mirelle' Upwell Executive Coat;1088;0.1;0
@@ -14495,8 +14201,8 @@
 40624;Bustard Matigu Seabeast SKIN (Permanent);1311;0.01;0
 40625;Charon Matigu Seabeast SKIN (Permanent);1311;0.01;0
 40626;Rhea Matigu Seabeast SKIN (Permanent);1311;0.01;0
-40631;‘Holy Destiny’ Electromagnetic Lance;588;8000;240947786
-40632;‘Divine Harvest’ Electromagnetic Reaper;588;8000;240947786
+40631;�Holy Destiny� Electromagnetic Lance;588;8000;240947786
+40632;�Divine Harvest� Electromagnetic Reaper;588;8000;240947786
 40633;Bosonic Field Generator;588;8000;240947786
 40634;Gravitational Transportation Field Oscillator;588;8000;500000000
 40635;Stasis Webification Burst Projector;842;8000;400000000
@@ -14718,6 +14424,7 @@
 41178;TE-2100 Ample XL Cruise Missile Launcher Blueprint;136;0.01;108700000
 41179;Dread Guristas XL Cruise Missile Launcher Blueprint;136;0.01;54371388
 41180;Arbalest Compact XL Torpedo Launcher;524;4000;0
+41181;TE-2100 Ample XL Torpedo Launcher;524;4000;0
 41182;Dread Guristas XL Torpedo Launcher;524;4000;0
 41183;Arbalest Compact XL Torpedo Launcher Blueprint;136;0.01;108740000
 41184;TE-2100 Ample XL Torpedo Launcher Blueprint;136;0.01;108740000
@@ -14921,37 +14628,21 @@
 41419;Scorpion Valkyrie SKIN (Permanent);1311;0.01;0
 41420;Merlin Valkyrie SKIN (Permanent);1311;0.01;0
 41421;Moa Valkyrie SKIN (Permanent);1311;0.01;0
-41422;Standup M-Set LNS Materials Reclamation I;1693;10;0
-41423;Standup M-Set LNS Materials Reclamation II;1693;10;0
-41424;Standup M-Set I1 Materials Reclamation I;1694;10;0
-41425;Standup M-Set I1 Materials Reclamation II;1694;10;0
-41426;Standup M-Set I2 Materials Reclamation I;1695;10;0
-41427;Standup M-Set I2 Materials Reclamation II;1695;10;0
-41428;Standup L-Set Ice Grading Processor I;1696;20;0
-41429;Standup L-Set Ice Grading Processor II;1696;20;0
-41430;Standup M-Set LNS Materials Reclamation II Blueprint;1708;0.01;100000000
-41431;Standup M-Set I1 Materials Reclamation I Blueprint;1708;0.01;100000000
-41432;Standup M-Set I1 Materials Reclamation II Blueprint;1708;0.01;100000000
-41433;Standup M-Set I2 Materials Reclamation I Blueprint;1708;0.01;100000000
-41434;Standup M-Set I2 Materials Reclamation II Blueprint;1708;0.01;100000000
-41435;Standup L-Set Ice Grading Processor I Blueprint;1708;0.01;500000000
-41436;Standup L-Set Ice Grading Processor II Blueprint;1708;0.01;500000000
-41437;Standup M-Set LNS Materials Reclamation I Blueprint;1708;0.01;100000000
 41438;Gravitational Transportation Field Oscillator Blueprint;651;0.01;500000000
-41439;‘Iron Pike’ Kinetic Lance;588;8000;240947786
-41440;‘Phalarica’ Thermal Lance;588;8000;240947786
-41441;‘Geiravor’ Explosive Lance;588;8000;240947786
-41442;‘Cold Wind’ Kinetic Reaper;588;8000;240947786
-41443;‘Guillotine’ Thermal Reaper;588;8000;240947786
-41444;‘Jormungandr’ Explosive Reaper;588;8000;240947786
-41445;‘Holy Destiny’ Electromagnetic Lance Blueprint;651;0.01;300000000
-41446;‘Iron Pike’ Kinetic Lance Blueprint;651;0.01;300000000
-41447;‘Phalarica’ Thermal Lance Blueprint;651;0.01;300000000
-41448;‘Geiravor’ Explosive Lance Blueprint;651;0.01;300000000
-41449;‘Cold Wind’ Kinetic Reaper Blueprint;651;0.01;300000000
-41450;‘Guillotine’ Thermal Reaper Blueprint;651;0.01;300000000
-41451;‘Jormungandr’ Explosive Reaper Blueprint;651;0.01;300000000
-41452;‘Divine Harvest’ Electromagnetic Reaper Blueprint;651;0.01;300000000
+41439;�Iron Pike� Kinetic Lance;588;8000;240947786
+41440;�Phalarica� Thermal Lance;588;8000;240947786
+41441;�Geiravor� Explosive Lance;588;8000;240947786
+41442;�Cold Wind� Kinetic Reaper;588;8000;240947786
+41443;�Guillotine� Thermal Reaper;588;8000;240947786
+41444;�Jormungandr� Explosive Reaper;588;8000;240947786
+41445;�Holy Destiny� Electromagnetic Lance Blueprint;651;0.01;300000000
+41446;�Iron Pike� Kinetic Lance Blueprint;651;0.01;300000000
+41447;�Phalarica� Thermal Lance Blueprint;651;0.01;300000000
+41448;�Geiravor� Explosive Lance Blueprint;651;0.01;300000000
+41449;�Cold Wind� Kinetic Reaper Blueprint;651;0.01;300000000
+41450;�Guillotine� Thermal Reaper Blueprint;651;0.01;300000000
+41451;�Jormungandr� Explosive Reaper Blueprint;651;0.01;300000000
+41452;�Divine Harvest� Electromagnetic Reaper Blueprint;651;0.01;300000000
 41456;CONCORD 25000mm Steel Plates;329;4000;0
 41457;Dark Blood 25000mm Steel Plates;329;4000;0
 41458;Shadow Serpentis 25000mm Steel Plates;329;4000;0
@@ -15027,15 +14718,15 @@
 41530;Dread Guristas Capital Flex Shield Hardener;1700;4000;75000
 41531;Domination Capital Flex Shield Hardener;1700;4000;75000
 41532;Bosonic Field Generator Blueprint;651;0.01;500000000
-41533;‘Ligature’ Integrated Analyzer;538;5;33264
-41534;‘Zeugma’ Integrated Analyzer;538;5;33264
-41535;‘Ligature’ Integrated Analyzer Blueprint;917;0.01;332640
-41536;‘Zeugma’ Integrated Analyzer Blueprint;917;0.01;332640
+41533;Ligature Integrated Analyzer;538;5;33264
+41534;Zeugma Integrated Analyzer;538;5;33264
+41535;Ligature Integrated Analyzer Blueprint;917;0.01;332640
+41536;Zeugma Integrated Analyzer Blueprint;917;0.01;332640
 41537;Doomsday Rapid Firing;255;0.01;250000000
 41565;Capital Radiative Scoped Remote Capacitor Transmitter;67;4000;26773840
 41566;Capital Inductive Compact Remote Capacitor Transmitter;67;4000;26773840
-41575;Women's “Mirelle” Upwell Executive Spectacles ;1083;0.1;0
-41576;Men's “Mirelle” Upwell Executive Spectacles;1083;0.5;0
+41575;Women's �Mirelle� Upwell Executive Spectacles ;1083;0.1;0
+41576;Men's �Mirelle� Upwell Executive Spectacles;1083;0.5;0
 41579;Capsule Upwell SKIN (Permanent);1311;0.01;0
 41580;Capsule Palatine SKIN (Permanent);1311;0.01;0
 41582;Apostle Blueprint;1718;0.01;1000000000
@@ -15128,7 +14819,7 @@
 41671;True Sansha Capital Remote Shield Booster Blueprint;121;0.01;0
 41680;Apostle Raata Sunset SKIN (Permanent);1311;0.01;0
 41681;Minokawa Raata Sunset SKIN (Permanent);1311;0.01;0
-41682;Minokawa Blue Tiger  SKIN (Permanent);1311;0.01;0
+41682;Minokawa Blue Tiger SKIN (Permanent);1311;0.01;0
 41683;Minokawa Matigu Seabeast SKIN (Permanent);1311;0.01;0
 41684;Ninazu Valimor Legacy SKIN (Permanent);1311;0.01;0
 41685;Lif Valklear Glory SKIN (Permanent);1311;0.01;0
@@ -15142,8 +14833,8 @@
 42136;Vehement Blueprint;537;0.01;0
 42137;Vendetta Blueprint;1013;0.01;0
 42138;Vanquisher Blueprint;110;0.01;0
-42145;Low-Grade Asklepian Alpha;300;1;0
-42146;Low-Grade Asklepian Beta;300;1;0
+42145;Low-grade Asklepian Alpha;300;1;0
+42146;Low-grade Asklepian Beta;300;1;0
 42147;Atron Serpentis SKIN (Permanent);1311;0.01;0
 42148;Imicus Serpentis SKIN (Permanent);1311;0.01;0
 42149;Incursus Serpentis SKIN (Permanent);1311;0.01;0
@@ -15196,29 +14887,29 @@
 42197;Occator Serpentis SKIN (Permanent);1311;0.01;0
 42198;Obelisk Serpentis SKIN (Permanent);1311;0.01;0
 42199;Anshar Serpentis SKIN (Permanent);1311;0.01;0
-42200;Low-Grade Asklepian Delta;300;1;0
-42201;Low-Grade Asklepian Epsilon;300;1;0
-42202;Low-Grade Asklepian Gamma;300;1;0
-42203;Low-Grade Asklepian Omega;300;1;0
-42204;Mid-Grade Asklepian Alpha;300;1;0
-42205;Mid-Grade Asklepian Beta;300;1;0
-42206;Mid-Grade Asklepian Gamma;300;1;0
-42207;Mid-Grade Asklepian Delta;300;1;0
-42208;Mid-Grade Asklepian Epsilon;300;1;0
+42200;Low-grade Asklepian Delta;300;1;0
+42201;Low-grade Asklepian Epsilon;300;1;0
+42202;Low-grade Asklepian Gamma;300;1;0
+42203;Low-grade Asklepian Omega;300;1;0
+42204;Mid-grade Asklepian Alpha;300;1;0
+42205;Mid-grade Asklepian Beta;300;1;0
+42206;Mid-grade Asklepian Gamma;300;1;0
+42207;Mid-grade Asklepian Delta;300;1;0
+42208;Mid-grade Asklepian Epsilon;300;1;0
 42209;Mid-grade Asklepian Omega;300;1;0
-42210;High-Grade Asklepian Alpha;300;1;800000
-42211;High-Grade Asklepian Beta;300;1;800000
-42212;High-Grade Asklepian Gamma;300;1;800000
-42213;High-Grade Asklepian Delta;300;1;800000
-42214;High-Grade Asklepian Epsilon;300;1;800000
+42210;High-grade Asklepian Alpha;300;1;800000
+42211;High-grade Asklepian Beta;300;1;800000
+42212;High-grade Asklepian Gamma;300;1;800000
+42213;High-grade Asklepian Delta;300;1;800000
+42214;High-grade Asklepian Epsilon;300;1;800000
 42215;High-grade Asklepian Omega;300;1;800000
 42226;Serpentis Modified Capital Microprocessor;528;1;250000
 42229;Copper Ouroboros;1194;0.1;0
 42230;Silver Ouroboros;1194;0.1;0
 42231;Gold Ouroboros;1194;0.1;0
-42232;Gold Ouroboros Accelerator;303;1;0
-42233;Silver Ouroboros Accelerator;303;1;0
-42234;Copper Ouroboros Accelerator;303;1;0
+42241;Molok;30;155000000;0
+42242;Dagon;1538;18135000;0
+42243;Chemosh;485;18500000;0
 42244;Porpoise;941;400000;40000000
 42245;Rabisu;832;115000;12567518
 42246;Caedes;830;28600;0
@@ -15230,8 +14921,6 @@
 42528;Mining Foreman Burst I;1770;60;0
 42529;Shield Command Burst I;1770;60;0
 42530;Skirmish Command Burst I;1770;60;0
-42531;Blood Raider Cerebral Accelerator;303;1;0
-42541;Advanced Blood Raider Cerebral Accelerator;303;1;0
 42543;Impairor Purity of the Throne SKIN (Permanent);1311;0.01;0
 42544;Crucifier Purity of the Throne SKIN (Permanent);1311;0.01;0
 42545;Executioner Purity of the Throne SKIN (Permanent);1311;0.01;0
@@ -15289,6 +14978,9 @@
 42598;Impel Purity of the Throne SKIN (Permanent);1311;0.01;0
 42599;Providence Purity of the Throne SKIN (Permanent);1311;0.01;0
 42600;Ark Purity of the Throne SKIN (Permanent);1311;0.01;0
+42614;Venture Morphite Shine SKIN (Permanent);1311;0.01;0
+42615;Endurance Morphite Shine SKIN (Permanent);1311;0.01;0
+42616;Prospect Morphite Shine SKIN (Permanent);1311;0.01;0
 42617;Procurer Morphite Shine SKIN (Permanent);1311;0.01;0
 42618;Retriever Morphite Shine SKIN (Permanent);1311;0.01;0
 42619;Covetor Morphite Shine SKIN (Permanent);1311;0.01;0
@@ -15298,6 +14990,14 @@
 42623;Bowhead Morphite Shine SKIN (Permanent);1311;0.01;0
 42624;Orca Morphite Shine SKIN (Permanent);1311;0.01;0
 42625;Rorqual Morphite Shine SKIN (Permanent);1311;0.01;0
+42644;Procurer Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42645;Retriever Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42646;Covetor Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42647;Skiff Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42648;Mackinaw Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42649;Hulk Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42651;Orca Digmaster Blazon SKIN (Permanent);1311;0.01;0
+42652;Rorqual Digmaster Blazon SKIN (Permanent);1311;0.01;0
 42653;Apostle Purity of the Throne SKIN (Permanent);1311;0.01;0
 42671;Venture Paydirt Prospector SKIN (Permanent);1311;0.01;0
 42672;Endurance Paydirt Prospector SKIN (Permanent);1311;0.01;0
@@ -15319,15 +15019,15 @@
 42699;Men's 'Dread' Beret (Guristas);1092;0.1;0
 42700;Women's 'Function' T-shirt (Blood Raiders);1089;0.1;0
 42701;Women's 'Excursion' Pants (Blood Raider);1090;0.1;0
-42702;Men's 'Marshall' Jacket (Blood Raiders black/red);1088;0.1;0
+42702;Men's 'Marshal' Jacket (Blood Raiders black/red);1088;0.1;0
 42703;Women's 'Gunner' Jacket (Blood Raiders black);1088;0.1;0
 42704;Men's 'Form' T-shirt (Blood Raiders);1089;0.1;0
 42705;Men's 'Outlaw' Jacket (Blood Raiders extra red);1088;0.1;0
 42706;Women's 'Outlaw' Coat (Blood Raiders extra red);1088;0.1;0
 42707;Women's 'Sterling' Dress Blouse (Blood Raider);1089;0.1;0
 42708;Men's Beret (Blood Raiders);1092;0.1;0
-42709;Women's ‘Defender’ Beret (Gallente Federation);1092;0.1;0
-42712;Men's ‘Liberator’ Beret (Minmatar Republic);1092;0.1;0
+42709;Women's �Defender� Beret (Gallente Federation);1092;0.1;0
+42712;Men's �Liberator� Beret (Minmatar Republic);1092;0.1;0
 42717;Women's 'Pithum' Beret (Guristas);1092;0.1;0
 42718;Women's Cap (Blood Raiders);1092;0.1;0
 42721;Men's 'Pithum' Beret (Guristas);1092;0.1;0
@@ -15335,11 +15035,11 @@
 42729;Women's 'Boarder' Cap (Digital Camo);1092;0.1;0
 42732;Men's 'Boarder' Cap (Digital Camo);1092;0.1;0
 42733;Women's Beret (Blood Raiders);1092;0.1;0
-42736;Men's ‘Protector’ Beret (Caldari State);1092;0.1;0
-42738;Women's ‘Liberator’ Beret (Minmatar Republic);1092;0.1;0
-42739;Men's ‘Defender’ Beret (Gallente Federation);1092;0.1;0
-42740;Women's ‘Protector’ Beret (Caldari State);1092;0.1;0
-42741;Men’s ‘Crusader’ Beret (Amarr Empire);1092;0.1;0
+42736;Men's �Protector� Beret (Caldari State);1092;0.1;0
+42738;Women's �Liberator� Beret (Minmatar Republic);1092;0.1;0
+42739;Men's �Defender� Beret (Gallente Federation);1092;0.1;0
+42740;Women's �Protector� Beret (Caldari State);1092;0.1;0
+42741;Men�s �Crusader� Beret (Amarr Empire);1092;0.1;0
 42744;Women's 'Crusader' Beret (Amarr Empire);1092;0.1;0
 42746;Crucifier Cold Iron SKIN (Permanent);1311;0.01;0
 42747;Executioner Cold Iron SKIN (Permanent);1311;0.01;0
@@ -15437,6 +15137,7 @@
 43485;Magnate Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
 43486;Punisher Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
 43487;Tormentor Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
+43490;Anathema Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
 43496;Coercer Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
 43497;Dragoon Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
 43500;Arbitrator Crimson Harvest YC118 SKIN (Permanent);1311;0.01;0
@@ -15609,6 +15310,7 @@
 43808;Skiff Angel Industrial Livery SKIN (Permanent);1311;0.01;0
 43809;Mackinaw Angel Industrial Livery SKIN (Permanent);1311;0.01;0
 43810;Hulk Angel Industrial Livery SKIN (Permanent);1311;0.01;0
+43811;Bowhead Angel Industrial Livery SKIN (Permanent);1311;0.01;0
 43812;Orca Angel Industrial Livery SKIN (Permanent);1311;0.01;0
 43813;Rorqual Angel Industrial Livery SKIN (Permanent);1311;0.01;0
 43814;Porpoise Angel Industrial Livery SKIN (Permanent);1311;0.01;0
@@ -15621,6 +15323,7 @@
 43821;Skiff Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
 43822;Mackinaw Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
 43823;Hulk Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
+43824;Bowhead Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
 43825;Orca Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
 43826;Rorqual Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
 43827;Porpoise Blood Raider Industrial Livery SKIN (Permanent);1311;0.01;0
@@ -15633,6 +15336,7 @@
 43834;Skiff Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
 43835;Mackinaw Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
 43836;Hulk Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
+43837;Bowhead Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
 43838;Orca Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
 43839;Rorqual Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
 43840;Porpoise Guristas Industrial Livery SKIN (Permanent);1311;0.01;0
@@ -15645,6 +15349,7 @@
 43847;Skiff Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
 43848;Mackinaw Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
 43849;Hulk Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
+43850;Bowhead Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
 43851;Orca Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
 43852;Rorqual Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
 43853;Porpoise Sansha Industrial Livery SKIN (Permanent);1311;0.01;0
@@ -15802,7 +15507,7 @@
 44086;Standup L-Set Capital Ship Manufacturing Efficiency I Blueprint;1708;0.01;500000000
 44087;Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint;1708;0.01;500000000
 44088;Standup L-Set Drone and Fighter Manufacturing Efficiency I Blueprint;1708;0.01;500000000
-44089;Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint;1708;0.01;500000000
+44089;Standup L-Set Drone and Fighter Manufacturing Efficiency II Blueprint;1708;0.01;500000000
 44090;Standup L-Set Invention Optimization I Blueprint;1708;0.01;500000000
 44091;Standup L-Set Invention Optimization II Blueprint;1708;0.01;500000000
 44092;Standup L-Set ME Research Optimization I Blueprint;1708;0.01;500000000
@@ -15887,24 +15592,1127 @@
 44200;Punisher Khanid SKIN (Permanent);1311;0.01;0
 44203;Merlin Sukuuvestaa SKIN (Permanent);1311;0.01;0
 44204;300 Aurum Token;943;0.01;0
-44205;Jezaja’s Giant Secure Container;1194;3;0
+44205;Jezaja�s Giant Secure Container;1194;3;0
 44206;A Letter Of Complaint;1194;3;0
 44207;Kor-Azor Family Decree;1194;3;0
 44208;Forged Frigate Blueprints;1194;3;0
 44209;[CNS] Kiirasha Final Broadcast Fragment;1194;3;0
-44210;Scale Model Of [RFS] Mah’tu Rea;1194;3;0
+44210;Scale Model Of [RFS] Mah�tu Rea;1194;3;0
 44211;Rejected Ship Replacement Program Request;1194;3;0
 44212;Upwell Consortium Propaganda Reel;1194;3;0
 44213;The Champion Ship;1194;3;0
 44214;CONCORD Speeding Ticket;1194;3;0
 44215;Kaalakiota Peaks Vodka;1194;3;0
 44216;Armor Plating From TES Seraph;1194;3;0
-44217;YC119 Yoiul Festival Accelerator;303;1;0
 44218;Stratios SOE Fire Cell (Defense) SKIN (Permanent);1311;0.01;0
 44219;Astero SOE Fire Cell (Defense) SKIN (Permanent);1311;0.01;0
 44220;Nestor SOE Fire Cell (Defense) SKIN (Permanent);1311;0.01;0
-44248;Naval Capsuleer Enlistment (Amarr);526;0.01;0
-44249;Naval Capsuleer Enlistment (Caldari);526;0.01;0
-44250;Naval Capsuleer Enlistment (Gallente);526;0.01;0
-44251;Naval Capsuleer Enlistment (Minmatar);526;0.01;0
-44252;Naval Capsuleer Blueprint Documents;526;0.01;0
+44248;Enlistment (Amarr) for Naval Capsuleers;526;0.01;0
+44249;Enlistment (Caldari) for Naval Capsuleers;526;0.01;0
+44250;Enlistment (Gallente) for Naval Capsuleers;526;0.01;0
+44251;Enlistment (Minmatar) for Naval Capsuleers;526;0.01;0
+44252;Blueprint Documents for Naval Capsuleers;526;0.01;0
+44254;Orthrus Convergence - Nova SKIN (Permanent);1311;0.01;0
+44255;Barghest Convergence - Nova SKIN (Permanent);1311;0.01;0
+44256;Garmur Convergence - Nova SKIN (Permanent);1311;0.01;0
+44257;Gnosis Midnight SKIN (Permanent);1311;0.01;0
+44258;Apotheosis Midnight SKIN (Permanent);1311;0.01;0
+44259;Sunesis Midnight SKIN (Permanent);1311;0.01;0
+44260;Crown Imperial Firework;500;0.1;0
+44261;Angels Arisen Firework;500;0.1;0
+44262;Blood Dagger Firework;500;0.1;0
+44263;Wheel of Prosperity Firework;500;0.1;0
+44264;Pulsar Flare Firework;500;0.1;0
+44265;Wings of Victory Firework;500;0.1;0
+44266;Spacetime Singularity Firework;500;0.1;0
+44267;Crimson Scythes Firework;500;0.1;0
+44268;Four Freedoms Firework;500;0.1;0
+44269;Naughty People Firework;500;0.1;0
+44270;Flames of the Rebellion Firework;500;0.1;0
+44271;Nation Uplifts Firework;500;0.1;0
+44272;Fangs of the Serpent Firework;500;0.1;0
+44280;Apocalypse IGC Victory SKIN (Permanent);1311;0.01;0
+44888;Velator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44889;Atron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44890;Imicus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44891;Incursus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44892;Maulus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44893;Navitas YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44894;Tristan YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44895;Enyo YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44896;Ishkur YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44897;Helios YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44898;Nemesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44899;Keres YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44900;Ares YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44901;Taranis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44902;Thalia YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44905;Algos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44906;Catalyst YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44907;Magus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44908;Eris YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44909;Hecate YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44910;Celestis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44911;Exequror YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44912;Thorax YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44913;Vexor YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44914;Deimos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44915;Ishtar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44916;Phobos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44917;Oneiros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44918;Arazu YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44919;Lachesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44923;Brutix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44924;Myrmidon YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44925;Talos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44926;Astarte YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44927;Eos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44929;Dominix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44930;Hyperion YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44931;Megathron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44932;Sin YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44933;Kronos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44936;Moros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44937;Thanatos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44938;Nyx YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44939;Erebus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44940;Epithal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44941;Iteron Mark V YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44942;Kryos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44943;Miasmos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44944;Nereus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44945;Viator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44946;Occator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44947;Obelisk YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44948;Anshar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44949;Machariel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44950;Cynabal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44951;Dramiel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent);1311;0.01;0
+44992;PLEX;1875;0.0002;0
+44993;Pacifier;830;20000;30000000
+44995;Enforcer;833;100000;200000000
+44996;Marshal;898;450000;1000000000
+45009;Standup Moon Drill I;1887;8000;0
+45010;Focused Warp Scrambling Script;908;1;0
+45011;Focused Warp Scrambling Script Blueprint;912;0.01;50000000
+45012;Raven IGC Victory SKIN (Permanent);1311;0.01;0
+45013;Cormorant IGC SKIN (Permanent);1311;0.01;0
+45014;Caracal IGC SKIN (Permanent);1311;0.01;0
+45015;Drake IGC SKIN (Permanent);1311;0.01;0
+45018;Astero SOE Blue Cell (Surveillance) SKIN (Permanent);1311;0.01;0
+45019;Stratios SOE Blue Cell (Surveillance) SKIN (Permanent);1311;0.01;0
+45020;Nestor SOE Blue Cell (Surveillance) SKIN (Permanent);1311;0.01;0
+45021;Federation Navy Comet Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45022;Maulus Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45023;Exequror Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45024;Vexor Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45025;Brutix Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45026;Dominix Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45027;Megathron Navy Issue Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+45043;Dagon Blueprint;1718;0.01;0
+45044;Chemosh Blueprint;537;0.01;0
+45045;Molok Blueprint;110;0.01;0
+45060;Vintage Frigate Blueprints;1194;0.01;0
+45061;Subspace Energy & You;1194;0.01;0
+45062;Replica Gold Magnate Decorative Plating;1194;0.01;0
+45480;Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent);1311;0.01;0
+45481;Pacifier CONCORD Aerospace 'Prototype' SKIN (Permanent);1311;0.01;0
+45482;Capsule YC119 Capsuleer Day SKIN (Permanent);1311;0.01;0
+45483;Astero SOE Gold Cell (Archaeology) SKIN (Permanent);1311;0.01;0
+45484;Stratios SOE Gold Cell (Archaeology) SKIN (Permanent);1311;0.01;0
+45485;Nestor SOE Gold Cell (Archaeology) SKIN (Permanent);1311;0.01;0
+45486;Pacifier Blueprint;105;0.01;1600000
+45487;Enforcer Blueprint;106;0.01;82000000
+45490;Zeolites;1884;10;1500
+45491;Sylvite;1884;10;1500
+45492;Bitumens;1884;10;1500
+45493;Coesite;1884;10;1500
+45494;Cobaltite;1920;10;2000
+45495;Euxenite;1920;10;2000
+45496;Titanite;1920;10;2000
+45497;Scheelite;1920;10;2000
+45498;Otavite;1921;10;3500
+45499;Sperrylite;1921;10;3500
+45500;Vanadinite;1921;10;3500
+45501;Chromite;1921;10;3500
+45502;Carnotite;1922;10;6000
+45503;Zircon;1922;10;6000
+45504;Pollucite;1922;10;6000
+45505;Taipan Hostile Takeover SKIN (Permanent);1311;0.01;0
+45506;Cinnabar;1922;10;6000
+45507;Worm Hostile Takeover SKIN (Permanent);1311;0.01;0
+45508;Gila Hostile Takeover SKIN (Permanent);1311;0.01;0
+45509;Rattlesnake Hostile Takeover SKIN (Permanent);1311;0.01;0
+45510;Xenotime;1923;10;10000
+45511;Monazite;1923;10;10000
+45512;Loparite;1923;10;10000
+45513;Ytterbite;1923;10;10000
+45514;Women's SOE Expeditionary Suit;1088;0.1;0
+45515;Women's Caldari State Exploration Suit;1088;0.1;0
+45516;Women's Minmatar Republic Exploration Suit;1088;0.1;0
+45517;Women's Gallente Federation Exploration Suit;1088;0.1;0
+45518;Women's Amarr Empire Exploration Suit;1088;0.1;0
+45519;Women's Corporate Troubleshooter Gear;1088;0.1;0
+45520;Women's ORE Claim Surveyor Suit;1088;0.1;0
+45521;Men's Gallente Federation Exploration Suit;1088;0.1;0
+45522;Men's ORE Claim Surveyor Suit;1088;0.5;0
+45523;Men's SOE Expeditionary Suit;1088;0.1;0
+45524;Men's Caldari State Exploration Suit;1088;0.1;0
+45525;Men's Minmatar Republic Exploration Suit;1088;0.1;0
+45526;Men's Amarr Empire Exploration Suit;1088;0.1;0
+45527;Men's Corporate Troubleshooter Gear;1088;0.1;0
+45530;Virtuoso;834;28100;50000000
+45531;Victor;833;116000;100000000
+45532;Victor Blueprint;106;0.01;0
+45533;Virtuoso Blueprint;105;0.01;0
+45537;Standup Composite Reactor I;1322;4000;0
+45538;Standup Hybrid Reactor I;1322;4000;0
+45539;Standup Biochemical Reactor I;1322;4000;0
+45540;Standup Composite Reactor I Blueprint;1707;0.01;1000000000
+45541;Standup Hybrid Reactor I Blueprint;1707;0.01;1000000000
+45542;Standup Biochemical Reactor I Blueprint;1707;0.01;1000000000
+45544;Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency;1839;10;0
+45545;Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency Blueprint;1708;0.01;100000000
+45546;Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency;1861;20;0
+45547;Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency Blueprint;1708;0.01;500000000
+45548;Standup XL-Set Thukker Structure and Component Manufacturing Efficiency;1869;40;0
+45549;Standup XL-Set Thukker Structure and Component Manufacturing Efficiency Blueprint;1708;0.01;2500000000
+45550;Standup Hyasyoda Research Lab;1415;4000;0
+45551;Standup Hyasyoda Research Lab Blueprint;1707;0.01;1000000000
+45552;Guristas Victory SKIN (Permanent);1311;0.01;0
+45553;Hurricane Hazard Control SKIN (Permanent);1311;0.01;0
+45554;Rifter Hazard Control SKIN (Permanent);1311;0.01;0
+45555;Nidhoggur Hazard Control SKIN (Permanent);1311;0.01;0
+45556;Hel Hazard Control SKIN (Permanent);1311;0.01;0
+45557;Sabre Hazard Control SKIN (Permanent);1311;0.01;0
+45558;Naglfar Hazard Control SKIN (Permanent);1311;0.01;0
+45559;Typhoon Hazard Control SKIN (Permanent);1311;0.01;0
+45560;Tristan Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45561;Helios Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45562;Algos Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45563;Catalyst Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45564;Hecate Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45565;Thorax Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45566;Vexor Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45567;Ishtar Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45568;Vexor Navy Issue Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45569;Dominix Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45570;Megathron Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45571;Kronos Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45572;Moros Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45573;Thanatos Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45574;Nyx Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45575;Epithal Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45576;Iteron Mark V Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45577;Miasmos Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45578;Nereus Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45579;Viator Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45580;Occator Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45581;Obelisk Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45582;Erebus Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45584;Hyasyoda Research Lab Technical Data Chip;1886;0.1;0
+45585;Thukker Capital Component Manufacturing Technical Data Chip;1886;0.1;0
+45586;Legion Defensive - Covert Reconfiguration;954;40;0
+45587;Legion Defensive - Augmented Plating;954;40;0
+45588;Legion Defensive - Nanobot Injector;954;40;0
+45589;Tengu Defensive - Covert Reconfiguration;954;40;0
+45590;Tengu Defensive - Supplemental Screening;954;40;0
+45591;Tengu Defensive - Amplification Node;954;40;0
+45592;Proteus Defensive - Covert Reconfiguration;954;40;0
+45593;Proteus Defensive - Augmented Plating;954;40;0
+45594;Proteus Defensive - Nanobot Injector;954;40;0
+45595;Loki Defensive - Covert Reconfiguration;954;40;0
+45596;Loki Defensive - Augmented Durability;954;40;0
+45597;Loki Defensive - Adaptive Defense Node;954;40;0
+45598;Legion Offensive - Liquid Crystal Magnifiers;956;40;0
+45599;Legion Offensive - Assault Optimization;956;40;0
+45600;Legion Offensive - Support Processor;956;40;0
+45601;Tengu Offensive - Accelerated Ejection Bay;956;40;0
+45602;Tengu Offensive - Magnetic Infusion Basin;956;40;0
+45603;Tengu Offensive - Support Processor;956;40;0
+45604;Proteus Offensive - Hybrid Encoding Platform;956;40;0
+45605;Proteus Offensive - Drone Synthesis Projector;956;40;0
+45606;Proteus Offensive - Support Processor;956;40;0
+45607;Loki Offensive - Projectile Scoping Array;956;40;0
+45608;Loki Offensive - Launcher Efficiency Configuration;956;40;0
+45609;Loki Offensive - Support Processor;956;40;0
+45610;Legion Propulsion - Interdiction Nullifier;957;40;0
+45611;Legion Propulsion - Intercalated Nanofibers;957;40;0
+45612;Legion Propulsion - Wake Limiter;957;40;0
+45613;Tengu Propulsion - Interdiction Nullifier;957;40;0
+45614;Tengu Propulsion - Chassis Optimization;957;40;0
+45615;Tengu Propulsion - Fuel Catalyst;957;40;0
+45616;Proteus Propulsion - Interdiction Nullifier;957;40;0
+45617;Proteus Propulsion - Hyperspatial Optimization;957;40;0
+45618;Proteus Propulsion - Localized Injectors;957;40;0
+45619;Loki Propulsion - Interdiction Nullifier;957;40;0
+45620;Loki Propulsion - Intercalated Nanofibers;957;40;0
+45621;Loki Propulsion - Wake Limiter;957;40;0
+45622;Legion Core - Dissolution Sequencer;958;40;0
+45623;Legion Core - Augmented Antimatter Reactor;958;40;0
+45624;Legion Core - Energy Parasitic Complex;958;40;0
+45625;Tengu Core - Electronic Efficiency Gate;958;40;0
+45626;Tengu Core - Augmented Graviton Reactor;958;40;0
+45627;Tengu Core - Obfuscation Manifold;958;40;0
+45628;Proteus Core - Electronic Efficiency Gate;958;40;0
+45629;Proteus Core - Augmented Fusion Reactor;958;40;0
+45630;Proteus Core - Friction Extension Processor;958;40;0
+45631;Loki Core - Dissolution Sequencer;958;40;0
+45632;Loki Core - Augmented Nuclear Reactor;958;40;0
+45633;Loki Core - Immobility Drivers;958;40;0
+45635;Small Skill Injector;1739;0.002;0
+45640;Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency;1836;10;0
+45641;Standup L-Set Thukker Advanced Component Manufacturing Efficiency;1860;20;0
+45642;Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency Blueprint;1708;0.01;100000000
+45643;Standup L-Set Thukker Advanced Component Manufacturing Efficiency Blueprint;1708;0.01;500000000
+45644;Loggerhead Blueprint;1718;0.01;0
+45645;Loggerhead;1538;15500000;0
+45646;Caiman Blueprint;537;0.01;0
+45647;Caiman;485;16250000;0
+45648;Komodo Blueprint;110;0.01;0
+45649;Komodo;30;132500000;0
+45652;Superconducting Magnetometric Amplifier;964;5;400000
+45653;Superconducting Gravimetric Amplifier;964;5;400000
+45654;Superconducting Radar Amplifier;964;5;400000
+45655;Superconducting Ladar Amplifier;964;5;400000
+45656;Superconducting Magnetometric Amplifier Blueprint;965;0.01;10000000
+45657;Superconducting Gravimetric Amplifier Blueprint;965;0.01;10000000
+45658;Superconducting Radar Amplifier Blueprint;965;0.01;10000000
+45659;Superconducting Ladar Amplifier Blueprint;965;0.01;10000000
+45660;Scorched Microgravimeter;966;0.01;0
+45661;Faraday Force Magnetometer;966;0.01;0
+45662;Ancient Radar Decorrelator;966;0.01;0
+45663;Synthetic Aperture Ladar Receiver;966;0.01;0
+45664;Sin Ruby Sungrazer SKIN (Permanent);1311;0.01;0
+45665;Abaddon Star Captain SKIN (Permanent);1311;0.01;0
+45666;Apocalypse Star Captain SKIN (Permanent);1311;0.01;0
+45667;Armageddon Star Captain SKIN (Permanent);1311;0.01;0
+45668;Machariel Angel's Hex SKIN (Permanent);1311;0.01;0
+45677;Blood Raider Molok Blueprint Armored Cache;1818;20000;0
+45678;Blood Raider Chemosh Blueprint Armored Cache;1818;20000;0
+45679;Blood Raider Dagon Blueprint Armored Cache;1818;20000;0
+45681;Legion Defensive - Covert Reconfiguration Blueprint;973;0.01;0
+45682;Legion Defensive - Augmented Plating Blueprint;973;0.01;0
+45683;Legion Defensive - Nanobot Injector Blueprint;973;0.01;0
+45684;Tengu Defensive - Covert Reconfiguration Blueprint;973;0.01;0
+45685;Tengu Defensive - Supplemental Screening Blueprint;973;0.01;0
+45686;Tengu Defensive - Amplification Node Blueprint;973;0.01;0
+45687;Proteus Defensive - Covert Reconfiguration Blueprint;973;0.01;0
+45688;Proteus Defensive - Augmented Plating Blueprint;973;0.01;0
+45689;Proteus Defensive - Nanobot Injector Blueprint;973;0.01;0
+45690;Loki Defensive - Covert Reconfiguration Blueprint;973;0.01;0
+45691;Loki Defensive - Augmented Durability Blueprint;973;0.01;0
+45692;Loki Defensive - Adaptive Defense Node Blueprint;973;0.01;0
+45693;Legion Offensive - Liquid Crystal Magnifiers Blueprint;973;0.01;0
+45694;Legion Offensive - Assault Optimization Blueprint;973;0.01;0
+45695;Legion Offensive - Support Processor Blueprint;973;0.01;0
+45696;Tengu Offensive - Accelerated Ejection Bay Blueprint;973;0.01;0
+45697;Tengu Offensive - Magnetic Infusion Basin Blueprint;973;0.01;0
+45698;Tengu Offensive - Support Processor Blueprint;973;0.01;0
+45699;Proteus Offensive - Hybrid Encoding Platform Blueprint;973;0.01;0
+45700;Proteus Offensive - Drone Synthesis Projector Blueprint;973;0.01;0
+45701;Proteus Offensive - Support Processor Blueprint;973;0.01;0
+45702;Loki Offensive - Projectile Scoping Array Blueprint;973;0.01;0
+45703;Loki Offensive - Launcher Efficiency Configuration Blueprint;973;0.01;0
+45704;Loki Offensive - Support Processor Blueprint;973;0.01;0
+45705;Legion Propulsion - Interdiction Nullifier Blueprint;973;0.01;0
+45706;Legion Propulsion - Intercalated Nanofibers Blueprint;973;0.01;0
+45707;Legion Propulsion - Wake Limiter Blueprint;973;0.01;0
+45708;Tengu Propulsion - Interdiction Nullifier Blueprint;973;0.01;0
+45709;Tengu Propulsion - Chassis Optimization Blueprint;973;0.01;0
+45710;Tengu Propulsion - Fuel Catalyst Blueprint;973;0.01;0
+45711;Proteus Propulsion - Interdiction Nullifier Blueprint;973;0.01;0
+45712;Proteus Propulsion - Hyperspatial Optimization Blueprint;973;0.01;0
+45713;Proteus Propulsion - Localized Injectors Blueprint;973;0.01;0
+45714;Loki Propulsion - Interdiction Nullifier Blueprint;973;0.01;0
+45715;Loki Propulsion - Intercalated Nanofibers Blueprint;973;0.01;0
+45716;Loki Propulsion - Wake Limiter Blueprint;973;0.01;0
+45717;Legion Core - Dissolution Sequencer Blueprint;973;0.01;0
+45718;Legion Core - Augmented Antimatter Reactor Blueprint;973;0.01;0
+45719;Legion Core - Energy Parasitic Complex Blueprint;973;0.01;0
+45720;Tengu Core - Electronic Efficiency Gate Blueprint;973;0.01;0
+45721;Tengu Core - Augmented Graviton Reactor Blueprint;973;0.01;0
+45722;Tengu Core - Obfuscation Manifold Blueprint;973;0.01;0
+45723;Proteus Core - Electronic Efficiency Gate Blueprint;973;0.01;0
+45724;Proteus Core - Augmented Fusion Reactor Blueprint;973;0.01;0
+45725;Proteus Core - Friction Extension Processor Blueprint;973;0.01;0
+45726;Loki Core - Dissolution Sequencer Blueprint;973;0.01;0
+45727;Loki Core - Augmented Nuclear Reactor Blueprint;973;0.01;0
+45728;Loki Core - Immobility Drivers Blueprint;973;0.01;0
+45734;Women's Exoplanets Hunter T-shirt;1089;0.1;0
+45735;Women's Exoplanets Hunter Mission Suit;1088;0.1;0
+45737;Women's Exoplanets Data Analyst Lab Coat;1088;0.1;0
+45738;Women's Exoplanets Program Director Coat;1088;0.1;0
+45739;Women's Exoplanets Hunter Cap;1092;0.1;0
+45740;Men's Exoplanets Hunter Cap;1092;0.1;0
+45741;Men's Exoplanets Hunter Mission Suit;1088;0.1;0
+45742;Men's Exoplanets Program Director Coat;1088;0.1;0
+45743;Men's Exoplanets Hunter T-shirt;1089;0.1;0
+45744;Men's Exoplanets Data Analyst Lab Coat;1088;0.1;0
+45745;Men's 'Farsight' Augmented Spectacles;1083;0.1;0
+45746;Reactions;1218;0.01;1000000
+45748;Mass Reactions;1218;0.01;5000000
+45749;Advanced Mass Reactions;1218;0.01;25000000
+45750;Remote Reactions;1218;0.01;15000000
+45751;Amarr Shuttle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45752;Impairor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45753;Crucifier Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45754;Executioner Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45755;Inquisitor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45756;Magnate Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45757;Punisher Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45758;Tormentor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45759;Retribution Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45760;Vengeance Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45761;Anathema Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45762;Purifier Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45763;Sentinel Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45764;Crusader Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45765;Malediction Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45766;Deacon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45767;Imperial Navy Slicer Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45768;Crucifier Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45769;Coercer Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45770;Dragoon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45771;Pontifex Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45772;Heretic Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45773;Confessor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45774;Arbitrator Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45775;Augoror Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45776;Maller Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45777;Omen Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45778;Sacrilege Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45779;Zealot Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45780;Devoter Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45781;Guardian Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45782;Curse Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45783;Pilgrim Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45784;Legion Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45785;Augoror Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45786;Omen Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45787;Harbinger Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45788;Oracle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45789;Prophecy Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45790;Absolution Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45791;Damnation Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45792;Harbinger Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45793;Abaddon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45794;Apocalypse Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45795;Armageddon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45796;Redeemer Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45797;Paladin Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45798;Apocalypse Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45799;Armageddon Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45800;Revelation Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45801;Archon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45802;Aeon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45803;Avatar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45804;Bestower Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45805;Sigil Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45806;Prorator Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45807;Impel Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45808;Providence Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45809;Ark Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45810;Caldari Shuttle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45811;Ibis Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45812;Bantam Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45813;Condor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45814;Griffin Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45815;Heron Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45816;Kestrel Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45817;Merlin Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45818;Harpy Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45819;Hawk Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45820;Buzzard Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45821;Manticore Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45822;Kitsune Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45823;Crow Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45824;Raptor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45825;Kirin Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45826;Caldari Navy Hookbill Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45827;Griffin Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45828;Corax Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45829;Cormorant Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45830;Stork Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45831;Flycatcher Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45832;Jackdaw Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45833;Blackbird Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45834;Caracal Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45835;Moa Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45836;Osprey Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45837;Cerberus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45838;Eagle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45839;Onyx Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45840;Basilisk Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45841;Falcon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45842;Rook Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45843;Tengu Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45844;Caracal Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45845;Osprey Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45846;Drake Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45847;Ferox Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45848;Naga Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45849;Nighthawk Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45850;Vulture Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45851;Drake Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45852;Raven Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45853;Rokh Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45854;Scorpion Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45855;Widow Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45856;Golem Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45857;Raven Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45858;Scorpion Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45859;Phoenix Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45860;Chimera Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45861;Wyvern Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45862;Leviathan Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45863;Badger Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45864;Tayra Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45865;Crane Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45866;Bustard Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45867;Charon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45868;Rhea Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45869;Gallente Shuttle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45870;Velator Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45871;Atron Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45872;Imicus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45873;Incursus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45874;Maulus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45875;Navitas Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45876;Tristan Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45877;Enyo Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45878;Ishkur Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45879;Helios Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45880;Nemesis Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45881;Keres Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45882;Ares Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45883;Taranis Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45884;Thalia Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45885;Federation Navy Comet Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45886;Maulus Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45887;Algos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45888;Catalyst Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45889;Magus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45890;Eris Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45891;Hecate Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45892;Celestis Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45893;Exequror Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45894;Thorax Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45895;Vexor Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45896;Deimos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45897;Ishtar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45898;Phobos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45899;Oneiros Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45900;Arazu Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45901;Lachesis Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45902;Proteus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45903;Exequror Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45904;Vexor Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45905;Brutix Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45906;Myrmidon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45907;Talos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45908;Astarte Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45909;Eos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45910;Brutix Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45911;Dominix Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45912;Hyperion Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45913;Megathron Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45914;Sin Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45915;Kronos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45916;Dominix Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45917;Megathron Navy Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45918;Moros Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45919;Thanatos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45920;Nyx Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45921;Erebus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45922;Epithal Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45923;Iteron Mark V Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45924;Kryos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45925;Miasmos Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45926;Nereus Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45927;Viator Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45928;Occator Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45929;Obelisk Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45930;Anshar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45931;Minmatar Shuttle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45932;Reaper Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45933;Breacher Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45934;Burst Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45935;Probe Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45936;Rifter Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45937;Slasher Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45938;Vigil Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45939;Jaguar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45940;Wolf Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45941;Cheetah Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45942;Hound Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45943;Hyena Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45944;Claw Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45945;Stiletto Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45946;Scalpel Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45947;Republic Fleet Firetail Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45948;Vigil Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45949;Talwar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45950;Thrasher Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45951;Bifrost Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45952;Sabre Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45953;Svipul Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45954;Bellicose Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45955;Rupture Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45956;Scythe Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45957;Stabber Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45958;Muninn Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45959;Vagabond Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45960;Broadsword Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45961;Scimitar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45962;Huginn Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45963;Rapier Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45964;Loki Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45965;Scythe Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45966;Stabber Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45967;Cyclone Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45968;Hurricane Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45969;Tornado Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45970;Claymore Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45971;Sleipnir Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45972;Hurricane Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45973;Maelstrom Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45974;Tempest Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45975;Typhoon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45976;Panther Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45977;Vargur Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45978;Tempest Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45979;Typhoon Fleet Issue Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45980;Naglfar Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45981;Nidhoggur Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45982;Hel Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45983;Ragnarok Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45984;Hoarder Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45985;Mammoth Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45986;Wreathe Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45987;Prowler Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45988;Mastodon Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45989;Fenrir Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45990;Nomad Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45991;Pacifier Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45992;Enforcer Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+45996;Exoplanets Hunter Reward Crate;1194;6000;0
+45997;Tengu Sukuuvestaa SKIN (Permanent);1311;0.01;0
+45998;Agency Damage Booster I;303;1;32768
+45999;Agency Damage Booster II;303;1;32768
+46000;Agency Damage Booster III;303;1;32768
+46001;Agency Tank Booster I;303;1;32768
+46002;Agency Tank Booster II;303;1;32768
+46003;Agency Tank Booster III;303;1;32768
+46004;Agency Speed Booster I;303;1;32768
+46005;Agency Speed Booster II;303;1;32768
+46006;Agency Speed Booster III;303;1;32768
+46007;Valkyrie Cerebral Accelerator;303;1;0
+46014;Hel Firewall Breach SKIN (Permanent);1311;0.01;0
+46015;Nidhoggur Firewall Breach SKIN (Permanent);1311;0.01;0
+46016;Naglfar Firewall Breach SKIN (Permanent);1311;0.01;0
+46017;Rupture Firewall Breach SKIN (Permanent);1311;0.01;0
+46018;Broadsword Firewall Breach SKIN (Permanent);1311;0.01;0
+46019;Muninn Firewall Breach SKIN (Permanent);1311;0.01;0
+46020;Enforcer Firewatch SKIN (Permanent);1311;0.01;0
+46021;Pacifier Firewatch SKIN (Permanent);1311;0.01;0
+46022;Legion Sunburst SKIN (Permanent);1311;0.01;0
+46024;Tengu Nightfire SKIN (Permanent);1311;0.01;0
+46025;Proteus Skyliner SKIN (Permanent);1311;0.01;0
+46026;Loki Battlescar SKIN (Permanent);1311;0.01;0
+46038;Men's IGC Location Scout Suit;1088;0.1;0
+46039;Women's IGC Location Scout Suit;1088;0.1;0
+46040;Vigilant IGC SKIN (Permanent);1311;0.01;0
+46041;Violator IGC SKIN (Permanent);1311;0.01;0
+46042;Vindicator IGC SKIN (Permanent);1311;0.01;0
+46043;Vehement IGC SKIN (Permanent);1311;0.01;0
+46044;Vendetta IGC SKIN (Permanent);1311;0.01;0
+46045;Vanquisher IGC SKIN (Permanent);1311;0.01;0
+46050;Superior Exoplanets Hunter Reward Crate;1194;6000;0
+46051;Daredevil IGC SKIN (Permanent);1311;0.01;0
+46089;Bantam Steel Cardinal SKIN (Permanent);1311;0.01;0
+46090;Condor Steel Cardinal SKIN (Permanent);1311;0.01;0
+46091;Griffin Steel Cardinal SKIN (Permanent);1311;0.01;0
+46092;Heron Steel Cardinal SKIN (Permanent);1311;0.01;0
+46093;Kestrel Steel Cardinal SKIN (Permanent);1311;0.01;0
+46094;Merlin Steel Cardinal SKIN (Permanent);1311;0.01;0
+46095;Harpy Steel Cardinal SKIN (Permanent);1311;0.01;0
+46096;Hawk Steel Cardinal SKIN (Permanent);1311;0.01;0
+46097;Buzzard Steel Cardinal SKIN (Permanent);1311;0.01;0
+46098;Manticore Steel Cardinal SKIN (Permanent);1311;0.01;0
+46099;Kitsune Steel Cardinal SKIN (Permanent);1311;0.01;0
+46100;Crow Steel Cardinal SKIN (Permanent);1311;0.01;0
+46101;Raptor Steel Cardinal SKIN (Permanent);1311;0.01;0
+46102;Kirin Steel Cardinal SKIN (Permanent);1311;0.01;0
+46103;Caldari Navy Hookbill Steel Cardinal SKIN (Permanent);1311;0.01;0
+46104;Griffin Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46105;Corax Steel Cardinal SKIN (Permanent);1311;0.01;0
+46106;Cormorant Steel Cardinal SKIN (Permanent);1311;0.01;0
+46107;Stork Steel Cardinal SKIN (Permanent);1311;0.01;0
+46108;Flycatcher Steel Cardinal SKIN (Permanent);1311;0.01;0
+46109;Jackdaw Steel Cardinal SKIN (Permanent);1311;0.01;0
+46110;Blackbird Steel Cardinal SKIN (Permanent);1311;0.01;0
+46111;Caracal Steel Cardinal SKIN (Permanent);1311;0.01;0
+46112;Moa Steel Cardinal SKIN (Permanent);1311;0.01;0
+46113;Osprey Steel Cardinal SKIN (Permanent);1311;0.01;0
+46114;Cerberus Steel Cardinal SKIN (Permanent);1311;0.01;0
+46115;Eagle Steel Cardinal SKIN (Permanent);1311;0.01;0
+46116;Onyx Steel Cardinal SKIN (Permanent);1311;0.01;0
+46117;Basilisk Steel Cardinal SKIN (Permanent);1311;0.01;0
+46118;Falcon Steel Cardinal SKIN (Permanent);1311;0.01;0
+46119;Rook Steel Cardinal SKIN (Permanent);1311;0.01;0
+46120;Tengu Steel Cardinal SKIN (Permanent);1311;0.01;0
+46121;Caracal Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46122;Osprey Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46123;Drake Steel Cardinal SKIN (Permanent);1311;0.01;0
+46124;Ferox Steel Cardinal SKIN (Permanent);1311;0.01;0
+46125;Naga Steel Cardinal SKIN (Permanent);1311;0.01;0
+46126;Nighthawk Steel Cardinal SKIN (Permanent);1311;0.01;0
+46127;Vulture Steel Cardinal SKIN (Permanent);1311;0.01;0
+46128;Drake Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46129;Raven Steel Cardinal SKIN (Permanent);1311;0.01;0
+46130;Rokh Steel Cardinal SKIN (Permanent);1311;0.01;0
+46131;Scorpion Steel Cardinal SKIN (Permanent);1311;0.01;0
+46132;Widow Steel Cardinal SKIN (Permanent);1311;0.01;0
+46133;Golem Steel Cardinal SKIN (Permanent);1311;0.01;0
+46134;Raven Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46135;Scorpion Navy Issue Steel Cardinal SKIN (Permanent);1311;0.01;0
+46136;Phoenix Steel Cardinal SKIN (Permanent);1311;0.01;0
+46137;Chimera Steel Cardinal SKIN (Permanent);1311;0.01;0
+46138;Wyvern Steel Cardinal SKIN (Permanent);1311;0.01;0
+46139;Leviathan Steel Cardinal SKIN (Permanent);1311;0.01;0
+46140;Badger Steel Cardinal SKIN (Permanent);1311;0.01;0
+46141;Tayra Steel Cardinal SKIN (Permanent);1311;0.01;0
+46142;Crane Steel Cardinal SKIN (Permanent);1311;0.01;0
+46143;Bustard Steel Cardinal SKIN (Permanent);1311;0.01;0
+46144;Charon Steel Cardinal SKIN (Permanent);1311;0.01;0
+46145;Rhea Steel Cardinal SKIN (Permanent);1311;0.01;0
+46146;Apostle Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+46147;Minokawa Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+46148;Ninazu Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+46149;Lif Exoplanets Hunter SKIN (Permanent);1311;0.01;0
+46151;IGC Garment Keeper;1194;0.1;0
+46152;Ubiquitous Moon Ore Processing;1218;0.01;10000000
+46153;Common Moon Ore Processing;1218;0.01;15000000
+46154;Uncommon Moon Ore Processing;1218;0.01;20000000
+46155;Rare Moon Ore Processing;1218;0.01;25000000
+46156;Exceptional Moon Ore Processing;1218;0.01;30000000
+46157;Methanofullerene Reaction Formula;1889;0.01;15000000
+46158;Fulleroferrocene Reaction Formula;1889;0.01;15000000
+46159;PPD Fullerene Fibers Reaction Formula;1889;0.01;15000000
+46160;Fullerene Intercalated Graphite Reaction Formula;1889;0.01;15000000
+46161;Lanthanum Metallofullerene Reaction Formula;1889;0.01;15000000
+46162;Scandium Metallofullerene Reaction Formula;1889;0.01;15000000
+46163;Graphene Nanoribbons Reaction Formula;1889;0.01;15000000
+46164;Carbon-86 Epoxy Resin Reaction Formula;1889;0.01;15000000
+46165;C3-FTM Acid Reaction Formula;1889;0.01;15000000
+46166;Caesarium Cadmide Reaction Formula;1888;0.01;10000000
+46167;Carbon Polymers Reaction Formula;1888;0.01;10000000
+46168;Ceramic Powder Reaction Formula;1888;0.01;10000000
+46169;Crystallite Alloy Reaction Formula;1888;0.01;10000000
+46170;Dysporite Reaction Formula;1888;0.01;10000000
+46171;Fernite Alloy Reaction Formula;1888;0.01;10000000
+46172;Ferrofluid Reaction Formula;1888;0.01;10000000
+46173;Fluxed Condensates Reaction Formula;1888;0.01;10000000
+46174;Hexite Reaction Formula;1888;0.01;10000000
+46175;Hyperflurite Reaction Formula;1888;0.01;10000000
+46176;Neo Mercurite Reaction Formula;1888;0.01;10000000
+46177;Platinum Technite Reaction Formula;1888;0.01;10000000
+46178;Rolled Tungsten Alloy Reaction Formula;1888;0.01;10000000
+46179;Silicon Diborite Reaction Formula;1888;0.01;10000000
+46180;Solerium Reaction Formula;1888;0.01;10000000
+46181;Sulfuric Acid Reaction Formula;1888;0.01;10000000
+46182;Titanium Chromide Reaction Formula;1888;0.01;10000000
+46183;Vanadium Hafnite Reaction Formula;1888;0.01;10000000
+46184;Prometium Reaction Formula;1888;0.01;10000000
+46185;Thulium Hafnite Reaction Formula;1888;0.01;10000000
+46186;Promethium Mercurite Reaction Formula;1888;0.01;10000000
+46187;Unrefined Vanadium Hafnite Reaction Formula;1888;0.01;10000000
+46188;Unrefined Platinum Technite Reaction Formula;1888;0.01;10000000
+46189;Unrefined Solerium Reaction Formula;1888;0.01;10000000
+46190;Unrefined Caesarium Cadmide Reaction Formula;1888;0.01;10000000
+46191;Unrefined Hexite Reaction Formula;1888;0.01;10000000
+46192;Unrefined Rolled Tungsten Alloy Reaction Formula;1888;0.01;10000000
+46193;Unrefined Titanium Chromide Reaction Formula;1888;0.01;10000000
+46194;Unrefined Fernite Alloy Reaction Formula;1888;0.01;10000000
+46195;Unrefined Crystallite Alloy Reaction Formula;1888;0.01;10000000
+46196;Unrefined Hyperflurite Reaction Formula;1888;0.01;10000000
+46197;Unrefined Ferrofluid Reaction Formula;1888;0.01;10000000
+46198;Unrefined Prometium Reaction Formula;1888;0.01;10000000
+46199;Unrefined Neo Mercurite Reaction Formula;1888;0.01;10000000
+46200;Unrefined Dysporite Reaction Formula;1888;0.01;10000000
+46201;Unrefined Fluxed Condensates Reaction Formula;1888;0.01;10000000
+46202;Unrefined Thulium Hafnite Reaction Formula;1888;0.01;10000000
+46203;Unrefined Promethium Mercurite Reaction Formula;1888;0.01;10000000
+46204;Titanium Carbide Reaction Formula;1888;0.01;20000000
+46205;Crystalline Carbonide Reaction Formula;1888;0.01;20000000
+46206;Fernite Carbide Reaction Formula;1888;0.01;20000000
+46207;Tungsten Carbide Reaction Formula;1888;0.01;20000000
+46208;Sylramic Fibers Reaction Formula;1888;0.01;20000000
+46209;Fulleride Reaction Formula;1888;0.01;20000000
+46210;Phenolic Composites Reaction Formula;1888;0.01;20000000
+46211;Nanotransistors Reaction Formula;1888;0.01;20000000
+46212;Hypersynaptic Fibers Reaction Formula;1888;0.01;20000000
+46213;Ferrogel Reaction Formula;1888;0.01;20000000
+46214;Fermionic Condensates Reaction Formula;1888;0.01;20000000
+46215;Plasmonic Metamaterials Reaction Formula;1888;0.01;20000000
+46216;Terahertz Metamaterials Reaction Formula;1888;0.01;20000000
+46217;Photonic Metamaterials Reaction Formula;1888;0.01;20000000
+46218;Nonlinear Metamaterials Reaction Formula;1888;0.01;20000000
+46219;Synth Drop Booster Reaction Formula;1890;0.01;10000000
+46220;Synth Exile Booster Reaction Formula;1890;0.01;10000000
+46221;Synth Frentix Booster Reaction Formula;1890;0.01;10000000
+46222;Standard Frentix Booster Reaction Formula;1890;0.01;10000000
+46223;Standard Drop Booster Reaction Formula;1890;0.01;10000000
+46224;Standard Exile Booster Reaction Formula;1890;0.01;10000000
+46225;Standard Mindflood Booster Reaction Formula;1890;0.01;10000000
+46226;Standard X-Instinct Booster Reaction Formula;1890;0.01;10000000
+46227;Standard Sooth Sayer Booster Reaction Formula;1890;0.01;10000000
+46228;Synth Mindflood Booster Reaction Formula;1890;0.01;10000000
+46229;Synth Sooth Sayer Booster Reaction Formula;1890;0.01;10000000
+46230;Standard Blue Pill Booster Reaction Formula;1890;0.01;10000000
+46231;Standard Crash Booster Reaction Formula;1890;0.01;10000000
+46232;Synth X-Instinct Booster Reaction Formula;1890;0.01;10000000
+46233;Synth Blue Pill Booster Reaction Formula;1890;0.01;10000000
+46234;Synth Crash Booster Reaction Formula;1890;0.01;10000000
+46235;Strong Blue Pill Booster Reaction Formula;1890;0.01;10000000
+46236;Improved Crash Booster Reaction Formula;1890;0.01;10000000
+46237;Improved Drop Booster Reaction Formula;1890;0.01;10000000
+46238;Improved Exile Booster Reaction Formula;1890;0.01;10000000
+46240;Improved Mindflood Booster Reaction Formula;1890;0.01;10000000
+46241;Improved Frentix Booster Reaction Formula;1890;0.01;10000000
+46242;Improved X-Instinct Booster Reaction Formula;1890;0.01;10000000
+46243;Improved Sooth Sayer Booster Reaction Formula;1890;0.01;10000000
+46244;Strong Crash Booster Reaction Formula;1890;0.01;10000000
+46245;Strong Drop Booster Reaction Formula;1890;0.01;10000000
+46246;Strong Exile Booster Reaction Formula;1890;0.01;10000000
+46247;Strong Mindflood Booster Reaction Formula;1890;0.01;10000000
+46248;Strong Frentix Booster Reaction Formula;1890;0.01;10000000
+46249;Strong X-Instinct Booster Reaction Formula;1890;0.01;10000000
+46250;Strong Sooth Sayer Booster Reaction Formula;1890;0.01;10000000
+46251;Improved Blue Pill Booster Reaction Formula;1890;0.01;10000000
+46266;A3 Destroyer Package;1194;50000;0
+46267;A3 Industrial Package;1194;50000;0
+46268;A3 Industrial Gear;1194;0.1;0
+46269;A3 Combat Gear;1194;0.1;0
+46270;Kaatara's Custom Ballistic Control System;367;5;0
+46273;Women's 'Valkyrie' Flight Jacket;1088;0.1;0
+46274;Men's 'Valkyrie' Flight Jacket;1088;0.1;0
+46276;Minokawa Steel Cardinal SKIN (Permanent);1311;0.01;0
+46277;Chimera Kairiola's Sacrifice SKIN (Permanent);1311;0.01;0
+46278;Corrupted Trinary Relics;314;0.1;0
+46280;Brimful Zeolites;1884;10;1500
+46281;Glistening Zeolites;1884;10;3000
+46282;Brimful Sylvite;1884;10;1500
+46283;Glistening Sylvite;1884;10;3000
+46284;Brimful Bitumens;1884;10;1500
+46285;Glistening Bitumens;1884;10;1500
+46286;Brimful Coesite;1884;10;1500
+46287;Glistening Coesite;1884;10;1500
+46288;Copious Cobaltite;1920;10;2000
+46289;Twinkling Cobaltite;1920;10;4000
+46290;Copious Euxenite;1920;10;2000
+46291;Twinkling Euxenite;1920;10;4000
+46292;Copious Titanite;1920;10;2000
+46293;Twinkling Titanite;1920;10;4000
+46294;Copious Scheelite;1920;10;2000
+46295;Twinkling Scheelite;1920;10;4000
+46296;Lavish Otavite;1921;10;3500
+46297;Shimmering Otavite;1921;10;7000
+46298;Lavish Sperrylite;1921;10;3500
+46299;Shimmering Sperrylite;1921;10;7000
+46300;Lavish Vanadinite;1921;10;3500
+46301;Shimmering Vanadinite;1921;10;7000
+46302;Lavish Chromite;1921;10;3500
+46303;Shimmering Chromite;1921;10;7000
+46304;Replete Carnotite;1922;10;6000
+46305;Glowing Carnotite;1922;10;6000
+46306;Replete Zircon;1922;10;6000
+46307;Glowing Zircon;1922;10;12000
+46308;Replete Pollucite;1922;10;6000
+46309;Glowing Pollucite;1922;10;12000
+46310;Replete Cinnabar;1922;10;6000
+46311;Glowing Cinnabar;1922;10;12000
+46312;Bountiful Xenotime;1923;10;10000
+46313;Shining Xenotime;1923;10;20000
+46314;Bountiful Monazite;1923;10;10000
+46315;Shining Monazite;1923;10;20000
+46316;Bountiful Loparite;1923;10;10000
+46317;Shining Loparite;1923;10;10000
+46318;Bountiful Ytterbite;1923;10;10000
+46319;Shining Ytterbite;1923;10;20000
+46323;Standup M-Set Moon Drilling Efficiency I;1912;10;0
+46324;Standup M-Set Moon Drilling Efficiency II;1912;10;0
+46325;Standup M-Set Moon Drilling Stability I;1913;10;0
+46326;Standup M-Set Moon Drilling Stability II;1913;10;0
+46327;Standup L-Set Moon Drilling Proficiency I;1914;20;0
+46328;Standup L-Set Moon Drilling Proficiency II;1914;20;0
+46350;Ubiquitous Moon Ore Mining Crystal I Blueprint;727;0.01;10000000
+46351;Ubiquitous Moon Ore Mining Crystal II Blueprint;727;0.01;0
+46352;Common Moon Ore Mining Crystal I Blueprint;727;0.01;10000000
+46353;Common Moon Ore Mining Crystal II Blueprint;727;0.01;0
+46355;Ubiquitous Moon Ore Mining Crystal I;482;6;0
+46356;Ubiquitous Moon Ore Mining Crystal II;482;10;0
+46357;Uncommon Moon Ore Mining Crystal I Blueprint;727;0.01;10000000
+46358;Uncommon Moon Ore Mining Crystal II Blueprint;727;0.01;0
+46359;Rare Moon Ore Mining Crystal I Blueprint;727;0.01;10000000
+46360;Rare Moon Ore Mining Crystal II Blueprint;727;0.01;0
+46361;Exceptional Moon Ore Mining Crystal I Blueprint;727;0.01;10000000
+46362;Exceptional Moon Ore Mining Crystal II Blueprint;727;0.01;0
+46365;Common Moon Ore Mining Crystal I;482;6;0
+46366;Common Moon Ore Mining Crystal II;482;10;0
+46367;Uncommon Moon Ore Mining Crystal I;482;6;0
+46368;Uncommon Moon Ore Mining Crystal II;482;10;0
+46369;Rare Moon Ore Mining Crystal I;482;6;0
+46370;Rare Moon Ore Mining Crystal II;482;10;0
+46371;Exceptional Moon Ore Mining Crystal I;482;6;0
+46372;Exceptional Moon Ore Mining Crystal II;482;10;0
+46376;Raven Valkyrie SKIN (Permanent);1311;0.01;0
+46377;Naga Valkyrie SKIN (Permanent);1311;0.01;0
+46378;Abaddon Valkyrie SKIN (Permanent);1311;0.01;0
+46379;Dominix Valkyrie SKIN (Permanent);1311;0.01;0
+46380;Typhoon Valkyrie SKIN (Permanent);1311;0.01;0
+46381;Agency Support Kit;1194;1;0
+46383;Atron Kopis Edge SKIN (Permanent);1311;0.01;0
+46384;Imicus Kopis Edge SKIN (Permanent);1311;0.01;0
+46385;Incursus Kopis Edge SKIN (Permanent);1311;0.01;0
+46386;Maulus Kopis Edge SKIN (Permanent);1311;0.01;0
+46387;Navitas Kopis Edge SKIN (Permanent);1311;0.01;0
+46388;Tristan Kopis Edge SKIN (Permanent);1311;0.01;0
+46389;Enyo Kopis Edge SKIN (Permanent);1311;0.01;0
+46390;Ishkur Kopis Edge SKIN (Permanent);1311;0.01;0
+46391;Helios Kopis Edge SKIN (Permanent);1311;0.01;0
+46392;Nemesis Kopis Edge SKIN (Permanent);1311;0.01;0
+46393;Keres Kopis Edge SKIN (Permanent);1311;0.01;0
+46394;Ares Kopis Edge SKIN (Permanent);1311;0.01;0
+46395;Taranis Kopis Edge SKIN (Permanent);1311;0.01;0
+46396;Thalia Kopis Edge SKIN (Permanent);1311;0.01;0
+46397;Federation Navy Comet Kopis Edge SKIN (Permanent);1311;0.01;0
+46398;Maulus Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46399;Algos Kopis Edge SKIN (Permanent);1311;0.01;0
+46400;Catalyst Kopis Edge SKIN (Permanent);1311;0.01;0
+46401;Magus Kopis Edge SKIN (Permanent);1311;0.01;0
+46402;Eris Kopis Edge SKIN (Permanent);1311;0.01;0
+46403;Hecate Kopis Edge SKIN (Permanent);1311;0.01;0
+46404;Celestis Kopis Edge SKIN (Permanent);1311;0.01;0
+46405;Exequror Kopis Edge SKIN (Permanent);1311;0.01;0
+46406;Thorax Kopis Edge SKIN (Permanent);1311;0.01;0
+46407;Vexor Kopis Edge SKIN (Permanent);1311;0.01;0
+46408;Deimos Kopis Edge SKIN (Permanent);1311;0.01;0
+46409;Ishtar Kopis Edge SKIN (Permanent);1311;0.01;0
+46410;Phobos Kopis Edge SKIN (Permanent);1311;0.01;0
+46411;Oneiros Kopis Edge SKIN (Permanent);1311;0.01;0
+46412;Arazu Kopis Edge SKIN (Permanent);1311;0.01;0
+46413;Lachesis Kopis Edge SKIN (Permanent);1311;0.01;0
+46414;Proteus Kopis Edge SKIN (Permanent);1311;0.01;0
+46415;Exequror Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46416;Vexor Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46417;Brutix Kopis Edge SKIN (Permanent);1311;0.01;0
+46418;Myrmidon Kopis Edge SKIN (Permanent);1311;0.01;0
+46419;Talos Kopis Edge SKIN (Permanent);1311;0.01;0
+46420;Astarte Kopis Edge SKIN (Permanent);1311;0.01;0
+46421;Eos Kopis Edge SKIN (Permanent);1311;0.01;0
+46422;Brutix Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46423;Dominix Kopis Edge SKIN (Permanent);1311;0.01;0
+46424;Hyperion Kopis Edge SKIN (Permanent);1311;0.01;0
+46425;Megathron Kopis Edge SKIN (Permanent);1311;0.01;0
+46426;Sin Kopis Edge SKIN (Permanent);1311;0.01;0
+46427;Kronos Kopis Edge SKIN (Permanent);1311;0.01;0
+46428;Dominix Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46429;Megathron Navy Issue Kopis Edge SKIN (Permanent);1311;0.01;0
+46430;Moros Kopis Edge SKIN (Permanent);1311;0.01;0
+46431;Thanatos Kopis Edge SKIN (Permanent);1311;0.01;0
+46432;Nyx Kopis Edge SKIN (Permanent);1311;0.01;0
+46433;Erebus Kopis Edge SKIN (Permanent);1311;0.01;0
+46434;Epithal Kopis Edge SKIN (Permanent);1311;0.01;0
+46435;Iteron Mark V Kopis Edge SKIN (Permanent);1311;0.01;0
+46436;Kryos Kopis Edge SKIN (Permanent);1311;0.01;0
+46437;Miasmos Kopis Edge SKIN (Permanent);1311;0.01;0
+46438;Nereus Kopis Edge SKIN (Permanent);1311;0.01;0
+46439;Viator Kopis Edge SKIN (Permanent);1311;0.01;0
+46440;Occator Kopis Edge SKIN (Permanent);1311;0.01;0
+46441;Obelisk Kopis Edge SKIN (Permanent);1311;0.01;0
+46442;Anshar Kopis Edge SKIN (Permanent);1311;0.01;0
+46443;Ninazu Kopis Edge SKIN (Permanent);1311;0.01;0
+46484;Standup M-Set Composite Reactor Time Efficiency I;1933;10;0
+46485;Standup M-Set Composite Reactor Time Efficiency II;1933;10;0
+46486;Standup M-Set Composite Reactor Material Efficiency I;1934;10;0
+46487;Standup M-Set Composite Reactor Material Efficiency II;1934;10;0
+46488;Standup M-Set Hybrid Reactor Time Efficiency I;1935;10;0
+46489;Standup M-Set Hybrid Reactor Time Efficiency II;1935;10;0
+46490;Standup M-Set Hybrid Reactor Material Efficiency I;1936;10;0
+46491;Standup M-Set Hybrid Reactor Material Efficiency II;1936;10;0
+46492;Standup M-Set Biochemical Reactor Time Efficiency I;1937;10;0
+46493;Standup M-Set Biochemical Reactor Time Efficiency II;1937;10;0
+46494;Standup M-Set Biochemical Reactor Material Efficiency I;1938;10;0
+46495;Standup M-Set Biochemical Reactor Material Efficiency II;1938;10;0
+46496;Standup L-Set Reactor Efficiency I;1939;20;0
+46497;Standup L-Set Reactor Efficiency II;1939;20;0
+46500;Standup L-Set Moon Drilling Proficiency II Blueprint;1708;0.01;500000000
+46501;Standup L-Set Moon Drilling Proficiency I Blueprint;1708;0.01;500000000
+46502;Standup M-Set Moon Drilling Stability II Blueprint;1708;0.01;100000000
+46503;Standup M-Set Moon Drilling Stability I Blueprint;1708;0.01;100000000
+46504;Standup M-Set Moon Drilling Efficiency II Blueprint;1708;0.01;100000000
+46505;Standup M-Set Moon Drilling Efficiency I Blueprint;1708;0.01;100000000
+46506;Standup M-Set Composite Reactor Time Efficiency I Blueprint;1708;0.01;100000000
+46507;Standup M-Set Composite Reactor Time Efficiency II Blueprint;1708;0.01;100000000
+46508;Standup M-Set Composite Reactor Material Efficiency I Blueprint;1708;0.01;100000000
+46509;Standup M-Set Composite Reactor Material Efficiency II Blueprint;1708;0.01;100000000
+46510;Standup M-Set Hybrid Reactor Time Efficiency I Blueprint;1708;0.01;100000000
+46511;Standup M-Set Hybrid Reactor Time Efficiency II Blueprint;1708;0.01;100000000
+46512;Standup M-Set Hybrid Reactor Material Efficiency I Blueprint;1708;0.01;100000000
+46513;Standup M-Set Hybrid Reactor Material Efficiency II Blueprint;1708;0.01;100000000
+46514;Standup M-Set Biochemical Reactor Time Efficiency I Blueprint;1708;0.01;100000000
+46515;Standup M-Set Biochemical Reactor Time Efficiency II Blueprint;1708;0.01;100000000
+46516;Standup M-Set Biochemical Reactor Material Efficiency I Blueprint;1708;0.01;100000000
+46517;Standup M-Set Biochemical Reactor Material Efficiency II Blueprint;1708;0.01;100000000
+46518;Standup L-Set Reactor Efficiency I Blueprint;1708;0.01;500000000
+46519;Standup L-Set Reactor Efficiency II Blueprint;1708;0.01;500000000
+46520;Astero Spectral Shift SKIN (Permanent);1311;0.01;0
+46521;Stratios Spectral Shift SKIN (Permanent);1311;0.01;0
+46522;Nestor Spectral Shift SKIN (Permanent);1311;0.01;0
+46525;Purifier Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46526;Dragoon Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46527;Confessor Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46528;Sacrilege Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46529;Devoter Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46530;Guardian Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46531;Prophecy Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46532;Harbinger Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46533;Oracle Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46534;Armageddon Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46535;Abaddon Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46536;Paladin Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46537;Providence Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46538;Revelation Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46539;Archon Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46540;Avatar Imperial Jubilee SKIN (Permanent);1311;0.01;0
+46547;Rorqual Forgemaster SKIN (Permanent);1311;0.01;0
+46548;Algos Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46549;Catalyst Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46550;Dominix Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46551;Erebus Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46552;Hecate Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46553;Helios Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46554;Ishtar Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46555;Kronos Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46556;Megathron Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46557;Moros Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46558;Nyx Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46559;Obelisk Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46560;Sin Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46561;Thanatos Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46562;Thorax Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46563;Tristan Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46564;Vexor Sapphire Sungrazer SKIN (Permanent);1311;0.01;0
+46575;Dark Blood Standup Heavy Energy Neutralizer;1329;8000;0
+46576;Dark Blood Standup Heavy Energy Neutralizer Blueprint;1707;0.01;0
+46577;Dread Guristas Standup Variable Spectrum ECM;1332;4000;0
+46578;Dread Guristas Standup Variable Spectrum ECM Blueprint;1707;0.01;0
+46579;Blood Raider Standup Module Blueprint Armored Cache;1818;20000;0
+46580;Guristas Standup Module Blueprint Armored Cache;1818;20000;0
+46582;Serpentis Victory SKIN (Permanent);1311;0.01;0
+46584;Daredevil Serpentis Victory SKIN (Permanent);1311;0.01;0
+46601;Guristas Loggerhead Blueprint Armored Cache;1818;20000;0
+46602;Guristas Caiman Blueprint Armored Cache;1818;20000;0
+46603;Guristas Komodo Blueprint Armored Cache;1818;20000;0
+46633;Standup M-Set Asteroid Ore Grading Processor I;1941;10;0
+46634;Standup M-Set Asteroid Ore Grading Processor II;1941;10;0
+46635;Standup M-Set Ice Grading Processor I;1942;10;0
+46636;Standup M-Set Ice Grading Processor II;1942;10;0
+46637;Standup M-Set Moon Ore Grading Processor I;1943;10;0
+46638;Standup M-Set Moon Ore Grading Processor II;1943;10;0
+46639;Standup L-Set Reprocessing Monitor I;1944;20;0
+46640;Standup L-Set Reprocessing Monitor II;1944;20;0
+46641;Standup XL-Set Reprocessing Monitor I;1945;40;0
+46642;Standup XL-Set Reprocessing Monitor II;1945;40;0
+46643;Standup M-Set Asteroid Ore Grading Processor I Blueprint;1708;0.01;100000000
+46644;Standup M-Set Asteroid Ore Grading Processor II Blueprint;1708;0.01;100000000
+46645;Standup M-Set Ice Grading Processor I Blueprint;1708;0.01;100000000
+46646;Standup M-Set Ice Grading Processor II Blueprint;1708;0.01;100000000
+46647;Standup M-Set Moon Ore Grading Processor I Blueprint;1708;0.01;100000000
+46648;Standup M-Set Moon Ore Grading Processor II Blueprint;1708;0.01;100000000
+46649;Standup L-Set Reprocessing Monitor I Blueprint;1708;0.01;500000000
+46650;Standup L-Set Reprocessing Monitor II Blueprint;1708;0.01;500000000
+46651;Standup XL-Set Reprocessing Monitor I Blueprint;1708;0.01;500000000
+46652;Standup XL-Set Reprocessing Monitor II Blueprint;1708;0.01;500000000
+46675;Jet Ochre;453;8;1350
+46676;Cubic Bistot;451;16;4700
+46677;Pellucid Crokite;452;16;3500
+46678;Flawless Arkonor;450;16;5100
+46679;Brilliant Gneiss;467;5;1400
+46680;Lustrous Hedbergite;454;3;510
+46681;Scintillating Hemorphite;455;3;1100
+46682;Immaculate Jaspet;456;2;440
+46683;Resplendant Kernite;457;1.2;310
+46684;Platinoid Omber;469;0.6;100
+46685;Sparkling Plagioclase;458;0.35;70
+46686;Opulent Pyroxeres;459;0.3;55
+46687;Glossy Scordite;460;0.15;23
+46688;Dazzling Spodumain;461;16;4200
+46689;Stable Veldspar;462;0.1;17
+46691;Compressed Flawless Arkonor;450;8.8;564000
+46692;Compressed Cubic Bistot;451;4.4;520000
+46693;Compressed Pellucid Crokite;452;7.81;384500
+46694;Compressed Jet Ochre;453;4.2;147000
+46695;Compressed Brilliant Gneiss;467;1.8;157500
+46696;Compressed Lustrous Hedbergite;454;0.47;56000
+46697;Compressed Scintillating Hemorphite;455;0.86;122000
+46698;Compressed Immaculate Jaspet;456;0.15;48300
+46699;Compressed Resplendant Kernite;457;0.19;34200
+46700;Compressed Platinoid Omber;469;0.3;11000
+46701;Compressed Sparkling Plagioclase;458;0.15;7750
+46702;Compressed Opulent Pyroxeres;459;0.16;6100
+46703;Compressed Glossy Scordite;460;0.19;2500
+46704;Compressed Dazzling Spodumain;461;28;463000
+46705;Compressed Stable Veldspar;462;0.15;1860
+46707;Magnate Headhunter SKIN (Permanent);1311;0.01;0
+46708;Omen Headhunter SKIN (Permanent);1311;0.01;0
+46709;Oracle Headhunter SKIN (Permanent);1311;0.01;0
+46710;Abaddon Headhunter SKIN (Permanent);1311;0.01;0
+46711;Avatar Headhunter SKIN (Permanent);1311;0.01;0
+46712;Merlin Headhunter SKIN (Permanent);1311;0.01;0
+46713;Caracal Headhunter SKIN (Permanent);1311;0.01;0
+46714;Drake Headhunter SKIN (Permanent);1311;0.01;0
+46715;Raven Headhunter SKIN (Permanent);1311;0.01;0
+46716;Phoenix Headhunter SKIN (Permanent);1311;0.01;0
+46717;Tristan Headhunter SKIN (Permanent);1311;0.01;0
+46718;Vexor Headhunter SKIN (Permanent);1311;0.01;0
+46719;Talos Headhunter SKIN (Permanent);1311;0.01;0
+46720;Dominix Headhunter SKIN (Permanent);1311;0.01;0
+46721;Nyx Headhunter SKIN (Permanent);1311;0.01;0
+46722;Slasher Headhunter SKIN (Permanent);1311;0.01;0
+46723;Rupture Headhunter SKIN (Permanent);1311;0.01;0
+46724;Hurricane Headhunter SKIN (Permanent);1311;0.01;0
+46725;Typhoon Headhunter SKIN (Permanent);1311;0.01;0
+46726;Hel Headhunter SKIN (Permanent);1311;0.01;0
+46727;Cormorant Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46728;Jackdaw Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46729;Caracal Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46730;Cerberus Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46731;Drake Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46732;Raven Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46733;Golem Octopus Red Flight SKIN (Permanent);1311;0.01;0
+46734;Venture Lodestrike SKIN (Permanent);1311;0.01;0
+46735;Procurer Lodestrike SKIN (Permanent);1311;0.01;0
+46736;Retriever Lodestrike SKIN (Permanent);1311;0.01;0
+46737;Covetor Lodestrike SKIN (Permanent);1311;0.01;0
+46738;Skiff Lodestrike SKIN (Permanent);1311;0.01;0
+46739;Mackinaw Lodestrike SKIN (Permanent);1311;0.01;0
+46740;Hulk Lodestrike SKIN (Permanent);1311;0.01;0
+46741;Orca Lodestrike SKIN (Permanent);1311;0.01;0
+46742;Rorqual Lodestrike SKIN (Permanent);1311;0.01;0
+46743;Noctis Lodestrike SKIN (Permanent);1311;0.01;0
+46744;Bestower Lodestrike SKIN (Permanent);1311;0.01;0
+46745;Prorator Lodestrike SKIN (Permanent);1311;0.01;0
+46746;Impel Lodestrike SKIN (Permanent);1311;0.01;0
+46747;Mammoth Lodestrike SKIN (Permanent);1311;0.01;0
+46748;Prowler Lodestrike SKIN (Permanent);1311;0.01;0
+46749;Mastodon Lodestrike SKIN (Permanent);1311;0.01;0
+46750;Iteron Mark V Lodestrike SKIN (Permanent);1311;0.01;0
+46751;Viator Lodestrike SKIN (Permanent);1311;0.01;0
+46752;Occator Lodestrike SKIN (Permanent);1311;0.01;0
+46753;Tayra Lodestrike SKIN (Permanent);1311;0.01;0
+46754;Crane Lodestrike SKIN (Permanent);1311;0.01;0
+46755;Bustard Lodestrike SKIN (Permanent);1311;0.01;0
+46756;Headhunter Crate;1194;0.1;0
